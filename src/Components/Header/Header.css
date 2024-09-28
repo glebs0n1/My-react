@@ -1,133 +1,86 @@
 @media (max-width: 768px) {
     .header {
-      flex-direction: column;
-      align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
-  
     .header__menu ul {
-      flex-direction: column;
-      width: 100%;
+        flex-direction: column;
+        width: 100%;
     }
-  
     .header__menu li {
-      margin: 10px 0;
+        margin: 10px 0;
     }
-  
-    .header__actions {
-      margin-top: 15px;
-      width: 100%;
-      justify-content: space-between;
-    }
-  }
-  .header {
-    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
-  }
-  
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff; 
-    padding: 15px 30px;
-    box-shadow: 0 4px 8px rgba(238, 238, 238, 0.2); 
-    transition: background-color 0.3s ease;
-  }
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(7, 7, 7) 100%);
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.header__logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.header__logo img:hover {
+    transform: scale(1.1);
+}
 
 
-  .header__logo img {
-    height: 60px; 
-    transition: transform 0.3s ease;
-  }
-  
-  .header__logo img:hover {
-    transform: scale(1.1); 
-  }
-  
-  /* Navigation Menu */
-  .header__menu ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header__menu li {
-    margin: 0 20px;
-    position: relative;
-  }
-  
-  .header__menu a {
-    text-decoration: none;
-    color: #ffffff; 
-    font-size: 16px;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.3s ease;
-  }
+/* Header actions container */
 
-
-  .header__menu a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background: #ffffff; /* Accent color for underline effect */
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 0;
-    transition: width 0.3s ease;
-  }
-  
-  .header__menu a:hover::after {
-    width: 100%;
-  }
-  
-  /* Header Actions */
-  .header__actions {
+.header__actions {
     display: flex;
     align-items: center;
-  }
-  
-  /* Button Styling */
-  .header__button {
-    border-radius: 5px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+/* Button styles */
+
+.button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .header__button:hover {
-    transform: translateY(-3px); /* Lift button on hover */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
-  }
-  
-  .header__button--login {
-    background-color: transparent; 
-    color: #ffffff; 
-    border: 2px solid #ffffff; 
-    border-radius: 5px; 
-    padding: 10px 20px; /* Add some padding for better appearance */
-    font-size: 16px; /* Font size for the button text */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
-  }
-  
-  /* Hover Effect */
-  .header__button--login:hover {
-    background-color: #ffffff; /* White background on hover */
-    color: #333333; /* Darker text color on hover for better contrast */
-  }
-  
-  .header__button--signup {
-    background-color: transparent;
-    color: #00bcd4;
-    border: 2px solid #00bcd4;
-  }
-  
-  .header__button--signup:hover {
-    background-color: #00bcd4;
-    color: #ffffff;
-  }
-  
+    transition: background-color 0.3s ease;
+}
+
+.button--secondary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button--secondary:hover {
+    background-color: #0056b3;
+}
+
+.button--medium {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+.like-button {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.like-icon {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease;
+}
+
+.like-button:hover .like-icon {
+    filter: invert(30%) sepia(70%) saturate(5000%) hue-rotate(-15deg);
+}
