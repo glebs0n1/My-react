@@ -1,15 +1,8 @@
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .header__menu ul {
-        flex-direction: column;
-        width: 100%;
-    }
-    .header__menu li {
-        margin: 10px 0;
-    }
+/* Base Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .header {
@@ -17,32 +10,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(7, 7, 7) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(7, 7, 7, 1) 100%);
     max-height: 100px;
-    overflow: hidden;
+    position: relative;
 }
 
 .header__logo img {
     max-width: 100px;
     max-height: 100px;
+    transition: transform 0.3s ease;
 }
-
-.header__logo img:hover {
-    transform: scale(1.1);
-}
-
-
-/* Header actions container */
 
 .header__actions {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 10px;
 }
-
-
-/* Button styles */
 
 .button {
     padding: 10px 20px;
@@ -54,17 +37,12 @@
 }
 
 .button--secondary {
-    background-color: #007bff;
+    background-color: #b500d6;
     color: white;
 }
 
 .button--secondary:hover {
-    background-color: #0056b3;
-}
-
-.button--medium {
-    font-size: 1rem;
-    padding: 10px 15px;
+    background-color: #b500d6;
 }
 
 .like-button {
@@ -72,6 +50,15 @@
     align-items: center;
     font-size: 1rem;
     cursor: pointer;
+    transition: transform 0.2s ease;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(222, 222, 222, 0.1);
+    color: white;
+}
+
+.like-button:hover {
+    transform: scale(1.05);
 }
 
 .like-icon {
@@ -82,5 +69,93 @@
 }
 
 .like-button:hover .like-icon {
-    filter: invert(30%) sepia(70%) saturate(5000%) hue-rotate(-15deg);
+    filter: brightness(0) invert(1);
+}
+
+.like-count {
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+/* Navigation Menu Styles */
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: max-height 0.3s ease;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #b500d6;
+}
+
+
+/* Hamburger Menu Styles */
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    .header__menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        padding: 20px 0;
+        transition: transform 0.3s ease;
+        z-index: 10;
+    }
+    .header__menu.active {
+        display: flex;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__menu {
+        display: flex;
+    }
 }
