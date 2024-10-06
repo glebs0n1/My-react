@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './Components/Header/Header';
 import Body from './Components/Body/Body';
+import Footer from './Components/Footer/Footer';
+
 
 const App = () => {
     const [totalLikes, setTotalLikes] = useState(0);
@@ -14,6 +16,7 @@ const App = () => {
         <div className="app">
             <Header totalLikes={totalLikes} />
             <Body onLike={incrementTotalLikes} />
+            <Footer / >
         </div>
     );
 };

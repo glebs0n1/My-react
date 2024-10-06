@@ -12,6 +12,7 @@ import pet1 from '../../assets/dog1.jpg';
 import pet2 from '../../assets/dog2.jpeg';
 import pet3 from '../../assets/dog3.jpeg';
 import pet4 from '../../assets/animals.png';
+import shelterImage from '../../assets/shelter.png';
 
 const Body = ({ onLike }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -120,12 +121,17 @@ const Body = ({ onLike }) => {
                 </div>
             </div>
 
-            {/* Planning to Adopt Section */}
+          {/* Planning to Adopt Section */}
             <div className="planning-section">
                 <h2>Planning to Adopt a Pet?</h2>
-                <div className="story-touts-container">
-                    {/* Place story boxes or relevant content here */}
-                </div>
+                <div className="shelter-banner">
+                    <img src={shelterImage} alt="shelter" className="shelter-image" />
+                    <div className="donation-text">
+                            <h2>Our Shelter is Overcrowded!</h2>
+                        <p>Be a Hero – Help a Pet Find a Loving Home Today!</p>
+                        <button className="shelter-button">Donate Now</button>
+                    </div>
+                </div>            
             </div>
         </main>
     );

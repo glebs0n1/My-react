@@ -507,74 +507,41 @@
 /* Planning to Adopt Section */
 
 .planning-section {
-    text-align: center;
-    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.planning-section h2 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 50px;
+.shelter-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    max-width: 1200px;
 }
 
-.story-touts-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+.shelter-image {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.story-tout-link {
-    text-decoration: none;
+.donation-text {
+    width: 100%;
+    color: white;
 }
 
-.story-tout-box {
-    background-color: #f7f7f7;
-    padding: 30px;
-    text-align: center;
-    border-radius: 12px;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.story-tout-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
-}
-
-.story-tout-image {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
-}
-
-.story-tout-title,
-.story-tout-description {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.story-tout-title {
-    font-size: 20px;
-}
-
-.story-tout-description {
-    font-size: 16px;
-}
-
-.story-tout-cta {
-    margin-top: 20px;
-}
-
-.story-tout-button {
-    background-color: #e208ff;
-    color: #fff;
-    padding: 12px 24px;
+.shelter-button {
+    padding: 10px 10px;
+    font-size: 1rem;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
     cursor: pointer;
+    background-color: #b500d6;
+    color: white;
     transition: background-color 0.3s ease;
 }
 
-.story-tout-button:hover {
-    background-color: #d507e0;
+.shelter-button:hover {
+    background-color: #d617ff;
 }

@@ -4,12 +4,16 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import './Header.css';
 import logo from '../../assets/logo.png';
 import likeIcon from '../../assets/like.png';
+import shelterImage from '../../assets/shelter.png';
+import medicationsImage from '../../assets/medications.png';
+import trainingImage from '../../assets/training.png';
+import vetImage from '../../assets/vet.png';
 
-const Header = ({ onCreateAccount, onLoginAccount, totalLikes }) => {
+const Header = ({ onCreateAccount, totalLikes }) => {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
-    setOpenNavigation(prev => {
+    setOpenNavigation((prev) => {
       const newState = !prev;
       newState ? disablePageScroll() : enablePageScroll();
       return newState;
@@ -24,12 +28,21 @@ const Header = ({ onCreateAccount, onLoginAccount, totalLikes }) => {
   };
 
   const NavigationMenu = () => (
-    <ul className="nav-list">
-      {['Home', 'Services', 'About Us', 'Contact'].map((item) => (
-        <li key={item}>
-          <a href={`#${item.toLowerCase().replace(/\s/g, '')}`} onClick={handleNavigationClick}>
-            {item}
+    <ul className={`nav-list ${openNavigation ? 'open' : ''}`}>
+      {[
+        { name: 'Shelter', image: shelterImage },
+        { name: 'Medications', image: medicationsImage },
+        { name: 'Training', image: trainingImage },
+        { name: 'Veterinarian', image: vetImage },
+      ].map((item) => (
+        <li key={item.name} className="nav-item">
+          <a href={`#${item.name.toLowerCase().replace(/\s/g, '')}`} onClick={handleNavigationClick}>
+            {item.name}
           </a>
+          <div className="dropdown">
+            <img src={item.image} alt={item.name} />
+            <span>{item.name}</span>
+          </div>
         </li>
       ))}
     </ul>
@@ -43,18 +56,7 @@ const Header = ({ onCreateAccount, onLoginAccount, totalLikes }) => {
         </a>
       </div>
 
-      <button
-        className={`hamburger ${openNavigation ? 'active' : ''}`}
-        onClick={toggleNavigation}
-        aria-label="Toggle navigation menu"
-        aria-expanded={openNavigation}
-      >
-        {Array.from({ length: 3 }, (_, index) => (
-          <div key={index} className="line"></div>
-        ))}
-      </button>
-
-      <nav className={`header__menu ${openNavigation ? 'active' : ''}`}>
+      <nav className={`header__menu ${openNavigation ? 'active' : ''}`} aria-hidden={!openNavigation}>
         <NavigationMenu />
       </nav>
 
@@ -62,14 +64,21 @@ const Header = ({ onCreateAccount, onLoginAccount, totalLikes }) => {
         <button className="button button--secondary" onClick={onCreateAccount}>
           Sign Up
         </button>
-        <button className="button button--secondary" onClick={onLoginAccount}>
-          Login
+        <div className="like-button">
+          <img src={likeIcon} alt="Total Likes" className="like-icon" />
+          <span className="like-count">{totalLikes}</span>
+        </div>
+        <button
+          className={`hamburger ${openNavigation ? 'active' : ''}`}
+          onClick={toggleNavigation}
+          aria-label="Toggle navigation menu"
+          aria-expanded={openNavigation}
+        >
+          <span className="sr-only"></span>
+          {Array.from({ length: 3 }, (_, index) => (
+            <div key={index} className="line"></div>
+          ))}
         </button>
-      </div>
-
-      <div className="like-button">
-        <img src={likeIcon} alt="Total Likes" className="like-icon" />
-        <span className="like-count">{totalLikes}</span>
       </div>
     </header>
   );
@@ -77,7 +86,6 @@ const Header = ({ onCreateAccount, onLoginAccount, totalLikes }) => {
 
 Header.propTypes = {
   onCreateAccount: PropTypes.func.isRequired,
-  onLoginAccount: PropTypes.func.isRequired,
   totalLikes: PropTypes.number.isRequired,
 };
 
