@@ -4,13 +4,19 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import './Header.css';
 import logo from '../../assets/logo.png';
 import likeIcon from '../../assets/like.png';
+import loginIcon from '../../assets/login.png';  
 import shelterImage from '../../assets/shelter.png';
 import medicationsImage from '../../assets/medications.png';
 import trainingImage from '../../assets/training.png';
 import vetImage from '../../assets/vet.png';
+import Modal from '../Modal/Modal';
+import LoginForm from '../Forms/LoginForm';
+import RegistrationForm from '../Forms/RegistrationForm';
 
 const Header = ({ onCreateAccount, totalLikes }) => {
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLogin, setIsLogin] = useState(true); // Toggle between login and registration forms
 
   const toggleNavigation = () => {
     setOpenNavigation((prev) => {
@@ -27,26 +33,21 @@ const Header = ({ onCreateAccount, totalLikes }) => {
     }
   };
 
-  const NavigationMenu = () => (
-    <ul className={`nav-list ${openNavigation ? 'open' : ''}`}>
-      {[
-        { name: 'Shelter', image: shelterImage },
-        { name: 'Medications', image: medicationsImage },
-        { name: 'Training', image: trainingImage },
-        { name: 'Veterinarian', image: vetImage },
-      ].map((item) => (
-        <li key={item.name} className="nav-item">
-          <a href={`#${item.name.toLowerCase().replace(/\s/g, '')}`} onClick={handleNavigationClick}>
-            {item.name}
-          </a>
-          <div className="dropdown">
-            <img src={item.image} alt={item.name} />
-            <span>{item.name}</span>
-          </div>
-        </li>
-      ))}
-    </ul>
-  );
+  const navItems = [
+    { name: 'Shelter', image: shelterImage },
+    { name: 'Medications', image: medicationsImage },
+    { name: 'Training', image: trainingImage },
+    { name: 'Veterinarian', image: vetImage },
+  ];
+
+  const openModal = (isLoginMode) => {
+    setIsModalOpen(true);
+    setIsLogin(isLoginMode);
+  };
+
+  const toggleForm = () => {
+    setIsLogin((prev) => !prev);
+  };
 
   return (
     <header className="header">
@@ -57,17 +58,31 @@ const Header = ({ onCreateAccount, totalLikes }) => {
       </div>
 
       <nav className={`header__menu ${openNavigation ? 'active' : ''}`} aria-hidden={!openNavigation}>
-        <NavigationMenu />
+        <ul className={`nav-list ${openNavigation ? 'open' : ''}`}>
+          {navItems.map((item) => (
+            <li key={item.name} className="nav-item">
+              <a href={`#${item.name.toLowerCase().replace(/\s/g, '')}`} onClick={handleNavigationClick}>
+                {item.name}
+              </a>
+              <div className="dropdown">
+                <img src={item.image} alt={item.name} />
+                <span>{item.name}</span>
+              </div>
+            </li>
+          ))}
+        </ul>
       </nav>
 
       <div className="header__actions">
-        <button className="button button--secondary" onClick={onCreateAccount}>
-          Sign Up
+        <button className="button button--secondary" onClick={() => openModal(true)} aria-label="Log In">
+          <img src={loginIcon} alt="Login" className="login-icon" /> Log In
         </button>
+
         <div className="like-button">
           <img src={likeIcon} alt="Total Likes" className="like-icon" />
           <span className="like-count">{totalLikes}</span>
         </div>
+
         <button
           className={`hamburger ${openNavigation ? 'active' : ''}`}
           onClick={toggleNavigation}
@@ -80,6 +95,30 @@ const Header = ({ onCreateAccount, totalLikes }) => {
           ))}
         </button>
       </div>
+
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+        {isLogin ? (
+          <>
+            <LoginForm onClose={() => setIsModalOpen(false)} />
+            <p>
+              Don't have an account? 
+              <button onClick={toggleForm} style={{ marginLeft: '5px', background: 'transparent', color: '#e208ff', border: 'none', cursor: 'pointer' }}>
+                Register
+              </button>
+            </p>
+          </>
+        ) : (
+          <>
+            <RegistrationForm onClose={() => setIsModalOpen(false)} />
+            <p>
+              Already have an account? 
+              <button onClick={toggleForm} style={{ marginLeft: '5px', background: 'transparent', color: '#e208ff', border: 'none', cursor: 'pointer' }}>
+                Login
+              </button>
+            </p>
+          </>
+        )}
+      </Modal>
     </header>
   );
 };

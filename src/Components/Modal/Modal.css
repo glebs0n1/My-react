@@ -1,0 +1,177 @@
+/* Modal Overlay */
+
+.modal-overlay {
+    position: fixed;
+    /* Ensure it covers the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    margin-top: 0;
+    /* Ensure it's aligned properly */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+/* Close Button */
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+/* Form Container */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Heading Styles */
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Label Styles */
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+
+/* Input Styles */
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+/* Pet search field effect */
+
+.pet-search-input {
+    flex: 1;
+    height: 50px;
+    font-size: 1.2rem;
+    color: #333;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+}
+
+.pet-search-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.pet-search-input:not(.registration-input, .login-input) {
+    margin-bottom: 3px;
+    padding: 12px 40px;
+}
+
+
+/* Button Styles */
+
+.button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: var(--button-shadow);
+    max-width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--highlight-color);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Toggle Form Button Styles */
+
+.toggle-form-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.toggle-form-button:hover {
+    color: #0056b3;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+    .modal-content {
+        width: 90%;
+        padding: 15px;
+        margin-top: 80px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        font-size: 14px;
+    }
+    .button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
