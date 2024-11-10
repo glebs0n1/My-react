@@ -1,0 +1,50 @@
+/* Ensure the .content-container takes full height */
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    min-height: 100vh;
+    /* Ensure the content container takes at least the full viewport height */
+}
+
+.pets-results {
+    flex-grow: 1;
+    /* Allow this section to take up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the pet cards horizontally */
+}
+
+.donation-section {
+    margin-top: 20px;
+    /* Add space above the donation section */
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* You can customize this */
+}
+
+
+/* Ensure other sections are styled accordingly */
+
+.shelter-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.pets-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet-image-box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

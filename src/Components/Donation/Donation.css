@@ -1,0 +1,53 @@
+.donation-banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.donation-image {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.donation-text {
+    flex: 1;
+    margin-left: 31%;
+    z-index: 2;
+}
+
+.donation-text h2 {
+    color: #8b01a7;
+    font-size: 32px;
+    margin: 0;
+}
+
+.donation-text p {
+    font-size: 18px;
+    margin: 5px 0px 10px;
+    color: #000;
+}
+
+.donate-button {
+    background-color: #009653;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.donate-button:hover {
+    background-color: #ff5100;
+}

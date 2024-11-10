@@ -1,0 +1,116 @@
+/* Pets Available for Adoption */
+
+.adoption-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+}
+
+.adoption-title {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.pet-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.pet-image-box,
+.last-pet-box {
+    position: relative;
+    width: 22%;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-image-box:hover,
+.last-pet-box:hover {
+    border-color: #e208ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pet-image {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 0 0 15px 15px;
+}
+
+.pet-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    padding: 10px;
+    background-color: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.like-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #e208ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+    background-color: #e208ff;
+}
+
+.like-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.last-pet-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+}
+
+.animals-icon {
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.pet-count {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.last-pet-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e208ff;
+    text-align: center;
+}

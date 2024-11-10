@@ -2,11 +2,9 @@ import React from 'react';
 import './Modal.css';
 
 const Modal = ({ children, isOpen, onClose }) => {
-  // If the modal is not open, return null to avoid rendering it
   if (!isOpen) return null;
 
   const handleOverlayClick = (e) => {
-    // Close the modal when clicking outside the content
     if (e.target.classList.contains('modal-overlay')) {
       onClose();
     }
