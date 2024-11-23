@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import './Like.css'; 
-import likeIcon from '../../../assets/like.png';
+import likeIcon from '../../assets/like.png';
 
 const Like = ({ initialLikes = 0 }) => {
   const [totalLikes, setTotalLikes] = useState(initialLikes);
-
   const handleLikeClick = () => {
     setTotalLikes(totalLikes + 1);
   };

@@ -7,7 +7,6 @@ import Shelter from "./Components/Pages/Shelter/Shelter";
 import PetSection from './Components/PetCard/PetCard';  // Ensure PetCard is imported
 
 const App = () => {
-  // Set up state for filteredPets
   const [filteredPets, setFilteredPets] = useState([
     {
       id: 1,

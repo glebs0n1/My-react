@@ -73,30 +73,20 @@
 
 .button {
     background-color: #007BFF;
-    /* Adjust the button background color as needed */
     color: white;
-    /* Set text color to white */
     display: flex;
-    /* Use flexbox for alignment */
     align-items: center;
-    /* Center items vertically */
     padding: 10px 15px;
-    /* Adjust padding for better button size */
     border: none;
-    /* Remove border if any */
     border-radius: 5px;
-    /* Rounded corners for the button */
     cursor: pointer;
-    /* Change cursor to pointer on hover */
 }
 
 .button img {
     width: 16px;
-    /* Adjust icon size */
     height: 16px;
     /* Adjust icon size */
     margin-right: 5px;
-    /* Space between icon and text */
 }
 
 .hamburger {

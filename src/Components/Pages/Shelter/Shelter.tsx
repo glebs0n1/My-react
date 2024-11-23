@@ -4,7 +4,7 @@ import bannerImage from '../../../assets/pets-banner.jpg';
 import Donation from '../../Donation/Donation';
 import Filters from '../../Filters/Filters';
 import PetCard from '../../PetCard/PetCard';
-import Like from '../../Like/Like'; // Import the Like component
+import Like from '../../Like/Like';
 
 const ShelterPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -99,8 +99,8 @@ const ShelterPage = () => {
             {filteredPets.map((pet) => (
               <div key={pet.id} className="pet-card-container">
                 {/* Render Like Component for Each Pet */}
-                <Like onClick={() => handleLike(pet.id)} />
-                <PetCard pet={pet} />
+                {/* <Like onClick={() => handleLike(pet.id)} />
+                <PetCard pet={pet} /> */}
               </div>
             ))}
           </div>

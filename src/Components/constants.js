@@ -7,7 +7,7 @@
 
 // export const USER_ROLE = {
 //     PUBLIC: 'PUBLIC',
-//     STUDENT: 'STUDENT',
+//      SHELTER: 'SHELTER',
 //     ADMIN: 'ADMIN',
 // };
 
@@ -42,45 +42,5 @@
 //     {
 //         label: 'Vilnius',
 //         value: 'Vilnius',
-//     },
-// ];
-
-// export const ACADEMY_STATUS_ITEMS = [{
-//         label: 'Draft',
-//         value: '1',
-//     },
-//     {
-//         label: 'Published',
-//         value: '2',
-//     },
-//     {
-//         label: 'Active',
-//         value: '3',
-//     },
-//     {
-//         label: 'Finished',
-//         value: '4',
-//     },
-//     {
-//         label: 'Cancelled',
-//         value: '5',
-//     },
-// ];
-
-// export const FORM_STATUS_ITEMS = [{
-//         label: 'Draft',
-//         value: '1',
-//     },
-//     {
-//         label: 'Published',
-//         value: '2',
-//     },
-//     {
-//         label: 'Active',
-//         value: '3',
-//     },
-//     {
-//         label: 'Finished',
-//         value: '4',
 //     },
 // ];
