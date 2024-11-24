@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import FormValidator from './FormValidator';
 import './LoginForm.css';
 import   '../Input/Input.css';
+import   './Form.css';
+
 
 const LoginForm = ({ onClose }) => {
     const [email, setEmail] = useState('');

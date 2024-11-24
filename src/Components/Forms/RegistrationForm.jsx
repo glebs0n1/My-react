@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import FormValidator from './FormValidator';
 import './RegistrationForm.css';
+import   '../Input/Input.css';
+import   './Form.css';
+
 
 const RegistrationForm = ({ onClose }) => {
     const [username, setUsername] = useState('');

@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import { USER_ROLE, RESPONSE_STATUS, API_URL } from '../constants';
 import { useDispatch } from 'react-redux';
 import { storeUserInfo } from '../../state/actions/user';
-import { validationSchema } from './validationSchema';
+import { validationSchema } from '../LoginForm/validationSchema';
 import { MESSAGES_ERROR } from '../messages';
 
 FormLogin.propTypes = {

@@ -6,6 +6,8 @@ import Filters from '../../Filters/Filters';
 import PetCard from '../../PetCard/PetCard';
 import Like from '../../Like/Like';
 
+
+
 const ShelterPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState({
@@ -93,18 +95,15 @@ const ShelterPage = () => {
 
         {/* Vertical Line */}
         <div className="vertical-line"></div>
-
         <div className="pets-results">
-          <div className="pets-grid">
-            {filteredPets.map((pet) => (
-              <div key={pet.id} className="pet-card-container">
-                {/* Render Like Component for Each Pet */}
-                {/* <Like onClick={() => handleLike(pet.id)} />
-                <PetCard pet={pet} /> */}
-              </div>
-            ))}
-          </div>
+        <div className="pets-grid">
+          {filteredPets.map((pet) => (
+            <div key={pet.id} className="pet-card-container">
+              <Like onClick={() => handleLike(pet.id)} />
+            </div>
+          ))}
         </div>
+      </div>
 
         <div className="donation-section">
           <Donation />

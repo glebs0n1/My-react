@@ -1,0 +1,44 @@
+.close-button {
+    position: absolute;
+    top: 15px;
+    padding-left: 20px;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+button[type="submit"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    background-color: #e208ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #d207e3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    padding-right: 20px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    text-align: center;
+}
