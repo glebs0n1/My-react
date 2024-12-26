@@ -1,11 +1,11 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { Link } from 'react-router-dom';  
+import { Link } from 'react-router-dom';
 import './Header.css';
 import { logoSizes } from '../../assets/logoConfig';
 import logo from '../../assets/logo.png';
-import loginIcon from '../../assets/login.png';  
+import loginIcon from '../../assets/login.png';
 import shelterImage from '../../assets/shelter.png';
 import medicationsImage from '../../assets/medications.png';
 import trainingImage from '../../assets/training.png';
@@ -17,12 +17,16 @@ import RegistrationForm from '../Forms/RegistrationForm';
 const Header = ({ onCreateAccount, totalLikes }) => {
   const [openNavigation, setOpenNavigation] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isLogin, setIsLogin] = useState(true); 
+  const [isLogin, setIsLogin] = useState(true);
 
   const toggleNavigation = () => {
     setOpenNavigation((prev) => {
       const newState = !prev;
-      newState ? disablePageScroll() : enablePageScroll();
+      if (newState) {
+        disablePageScroll();
+      } else {
+        enablePageScroll();
+      }
       return newState;
     });
   };
@@ -35,7 +39,7 @@ const Header = ({ onCreateAccount, totalLikes }) => {
   };
 
   const navItems = [
-    { name: 'Shelter', image: shelterImage, path: '/shelter' }, 
+    { name: 'Shelter', image: shelterImage, path: '/shelter' },
     { name: 'Medications', image: medicationsImage, path: '/medications' },
     { name: 'Training', image: trainingImage, path: '/training' },
     { name: 'Veterinarian', image: vetImage, path: '/veterinarian' },
@@ -52,16 +56,16 @@ const Header = ({ onCreateAccount, totalLikes }) => {
 
   return (
     <header className="header">
-            <div className="header__logo">
-                <a href="#home" onClick={handleNavigationClick} aria-label="Go to home">
-                <img 
-                        src={logo} 
-                        alt="Foothills Logo" 
-                        className="header__logo-img" 
-                        style={{ width: logoSizes.footer.width, height: logoSizes.footer.height }}  
-                    />
-                </a>
-            </div>
+      <div className="header__logo">
+        <a href="#home" onClick={handleNavigationClick} aria-label="Go to home">
+          <img 
+            src={logo} 
+            alt="Foothills Logo" 
+            className="header__logo-img" 
+            style={{ width: logoSizes.footer.width, height: logoSizes.footer.height }}  
+          />
+        </a>
+      </div>
 
       <nav className={`header__menu ${openNavigation ? 'active' : ''}`} aria-hidden={!openNavigation}>
         <ul className={`nav-list ${openNavigation ? 'open' : ''}`}>

@@ -112,14 +112,14 @@ const Home = ({ onLike }) => {
           </div>
         </div>
     
-                <div className="planning-section">
-                    <h2>Planning to Adopt a Pet?</h2>
+                <div className="shelter-section">
+                    <h1>Planning to Adopt a Pet?</h1>
                     <div className="shelter-banner">
-                        <img src={shelterImage} alt="Shelter" className="shelter-image" />
-                        <div className="donation-text">
-                            <h3>Our Shelter is Overcrowded!</h3>
+                    <img src={shelterImage} alt="Donate" className="shelter-image" />
+                        <div className="shelter-text">
+                            <h2>Our Shelter is Overcrowded!</h2>
                             <p>Be a Hero – Help a Pet Find a Loving Home Today!</p>
-                            <button className="shelter-button">Donate Now</button>
+                            <button className="donate-button">Donate Now</button>
                         </div>
                     </div>
                 </div>

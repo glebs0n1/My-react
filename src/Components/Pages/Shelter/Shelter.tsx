@@ -6,8 +6,6 @@ import Filters from '../../Filters/Filters';
 import PetCard from '../../PetCard/PetCard';
 import Like from '../../Like/Like';
 
-
-
 const ShelterPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState({
@@ -17,56 +15,27 @@ const ShelterPage = () => {
     coatLength: "",
     color: "",
   });
-  
+
   const [filteredPets, setFilteredPets] = useState([
-    {
-      id: 1,
-      name: 'Buddy',
-      image: 'https://via.placeholder.com/200',
-    },
-    {
-      id: 2,
-      name: 'Bella',
-      image: 'https://via.placeholder.com/200',
-    },
-    {
-      id: 3,
-      name: 'Charlie',
-      image: 'https://via.placeholder.com/200',
-    },
-    {
-      id: 4,
-      name: 'Max',
-      image: 'https://via.placeholder.com/200',
-    },
-    {
-      id: 5,
-      name: 'Lucy',
-      image: 'https://via.placeholder.com/200',
-    },
+    { id: 1, name: 'Buddy', image: 'https://via.placeholder.com/200' },
+    { id: 2, name: 'Bella', image: 'https://via.placeholder.com/200' },
+    { id: 3, name: 'Charlie', image: 'https://via.placeholder.com/200' },
+    { id: 4, name: 'Max', image: 'https://via.placeholder.com/200' },
+    { id: 5, name: 'Lucy', image: 'https://via.placeholder.com/200' },
   ]);
 
-  // Handle search input change
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
+  const handleSearchChange = (event) => setSearchQuery(event.target.value);
 
-  // Handle filter changes
-  const handleFilterChange = (e) => {
+  const handleFilterChange = (e) =>
     setFilters({ ...filters, [e.target.name]: e.target.value });
-  };
 
-  // Handle search submission
   const handleSearchSubmit = (event) => {
     event.preventDefault();
     console.log('Searching for pet name:', searchQuery);
     console.log('Filters applied:', filters);
   };
 
-  // Handle liking a pet
-  const handleLike = (id) => {
-    console.log('Liked pet with ID:', id);
-  };
+  const handleLike = (id) => console.log('Liked pet with ID:', id);
 
   return (
     <div className="shelter-page">
@@ -84,7 +53,7 @@ const ShelterPage = () => {
 
       <div className="content-container">
         <div className="filters-sidebar">
-          <Filters 
+          <Filters
             searchQuery={searchQuery}
             filters={filters}
             handleSearchChange={handleSearchChange}
@@ -93,17 +62,29 @@ const ShelterPage = () => {
           />
         </div>
 
-        {/* Vertical Line */}
         <div className="vertical-line"></div>
-        <div className="pets-results">
-        <div className="pets-grid">
-          {filteredPets.map((pet) => (
-            <div key={pet.id} className="pet-card-container">
-              <Like onClick={() => handleLike(pet.id)} />
-            </div>
-          ))}
+
+        <div className="search-bar">
+          <div className="pet-search-input-container">
+            <input
+              type="text"
+              placeholder="Search for pets..."
+              className="pet-search-input"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
+            <button className="search-icon" onClick={handleSearchSubmit}>
+            </button>
+          </div>
         </div>
-      </div>
+
+        <div className="pets-results">
+          <div className="pets-grid">
+            {filteredPets.map((pet) => (
+              <PetCard key={pet.id} pet={pet} handleLike={handleLike} />
+            ))}
+          </div>
+        </div>
 
         <div className="donation-section">
           <Donation />

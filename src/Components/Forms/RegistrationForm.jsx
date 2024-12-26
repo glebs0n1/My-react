@@ -1,21 +1,29 @@
 import React, { useState } from 'react';
 import FormValidator from './FormValidator';
 import './RegistrationForm.css';
-import   '../Input/Input.css';
-import   './Form.css';
-
+import '../Input/Input.css';
+import './Form.css';
+import { RegistrationForm as registerUser } from '../../api'; // Import your API function
 
 const RegistrationForm = ({ onClose }) => {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [errors, setErrors] = useState({});
+    const [serverMessage, setServerMessage] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const validationErrors = FormValidator.validateRegistration(username, email, password);
+
         if (Object.keys(validationErrors).length === 0) {
-            onClose();
+            try {
+                const response = await registerUser(username, password); // Call the backend
+                setServerMessage(`Registration successful: ${response.message}`);
+                setTimeout(() => onClose(), 2000); // Close the form after success
+            } catch (error) {
+                setServerMessage(`Registration failed: ${error.message}`);
+            }
         } else {
             setErrors(validationErrors);
         }
@@ -52,6 +60,7 @@ const RegistrationForm = ({ onClose }) => {
             {Object.values(errors).map((error, index) => (
                 <p key={index} className="error-message">{error}</p>
             ))}
+            {serverMessage && <p className="server-message">{serverMessage}</p>}
         </div>
     );
 };

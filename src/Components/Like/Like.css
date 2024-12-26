@@ -1,17 +1,21 @@
 .like-button {
-    display: flex;
-    align-items: center;
-    background-color: rgba(222, 222, 222, 0.1);
-    color: white;
-    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
     border: none;
     cursor: pointer;
-    transition: transform 0.1s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    max-width: 25px;
 }
 
 .like-button:hover {
-    transform: scale(1.1);
-    filter: brightness(0) saturate(100%) invert(47%) sepia(71%) saturate(2750%) hue-rotate(340deg) brightness(99%) contrast(104%);
+    transform: scale(1);
+    background-color: #e208ff;
 }
 
 .like-button:active {

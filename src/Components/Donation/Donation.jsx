@@ -10,7 +10,7 @@ const Donation = () => {
         <h2>Help Us Make a Difference</h2>
         <p>Your donation helps us care for pets in need.</p>
         <button className="donate-button">Donate Now</button>
-      </div>
+        </div>
     </div>
   );
 };

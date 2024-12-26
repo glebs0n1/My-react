@@ -1,37 +1,51 @@
-           .content-container {
-               display: flex;
-               flex-direction: column;
-               min-height: 100vh;
-           }
-           
-           .pets-results {
-               flex: 1;
-               display: flex;
-               flex-direction: column;
-               align-items: center;
-           }
-           
-           .donation-section {
-               margin-top: 20px;
-               padding: 20px;
-               background-color: #f0f0f0;
-               .shelter-page {
-                   display: flex;
-                   flex-direction: column;
-               }
-               .pets-grid {
-                   .pets-grid {
-                       display: grid;
-                       grid-template-columns: repeat(3, 1fr);
-                       gap: 20px;
-                   }
-               }
-               .pet-image-box {
-                   width: 200px;
-                   height: 250px;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: center;
-                   justify-content: center;
-               }
-           }
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pets-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: 50px;
+}
+
+.pets-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.pet-image-box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.pet-image-box img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.pet-name {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f9f9f9;
+}
