@@ -4,7 +4,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";    
 import Home from "./Components/Pages/Home/Home";   
 import Shelter from "./Components/Pages/Shelter/Shelter";  
-import PetSection from './Components/PetCard/PetCard';  // Ensure PetCard is imported
+import Medications from "./Components/Pages/Medications/Medications";  
 
 const App = () => {
   const [filteredPets, setFilteredPets] = useState([
@@ -51,6 +51,10 @@ const App = () => {
         <Route 
           path="/shelter" 
           element={<Shelter filteredPets={filteredPets} handleLike={handleLike} />} 
+        />
+        <Route 
+          path="/medications" 
+          element={<Medications handleLike={handleLike} />} 
         />
       </Routes>   
       <Footer />

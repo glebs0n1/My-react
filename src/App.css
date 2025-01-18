@@ -1,34 +1,37 @@
 :root {
-  --font-primary: 'Arial, sans-serif';
-  --font-secondary: 'Georgia, serif';
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
-  --button-background: #007bff;
-  --button-color: #fff;
-  --button-hover-background: #0056b3;
+    --font-primary: 'Arial, sans-serif';
+    --font-secondary: 'Georgia, serif';
+    --color-primary: #6504b5;
+    --color-secondary: #6c757d;
+    --button-background: #b500d6;
+    --bg-gradient-start: #6504b5;
+    --bg-gradient-end: #6504b5;
+    --highlight-color: #b500d6;
+    --button-color: #fff;
+    --button-hover-background: #b500d6;
 }
 
 body {
-  font-family: var(--font-primary);
-  margin: 0;
-  padding: 0;
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 button {
-  background-color: var(--button-background);
-  color: var(--button-color);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: var(--font-primary);
-  transition: background-color 0.3s;
+    background-color: var(--button-background);
+    color: var(--button-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-primary);
+    transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: var(--button-hover-background);
+    background-color: var(--button-hover-background);
 }

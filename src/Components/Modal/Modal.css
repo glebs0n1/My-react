@@ -26,7 +26,6 @@
     width: 400px;
     max-width: 90%;
     margin-top: 0;
-    /* Ensure it's aligned properly */
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -87,7 +86,7 @@ input[type="email"] {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus {
-    border-color: #007bff;
+    border-color: #b500d6;
     outline: none;
 }
 
@@ -143,14 +142,14 @@ input[type="email"]:focus {
 .toggle-form-button {
     background: none;
     border: none;
-    color: #007bff;
+    color: #b500d6;
     cursor: pointer;
     margin-top: 10px;
     text-decoration: underline;
 }
 
 .toggle-form-button:hover {
-    color: #0056b3;
+    color: #b500d6;
 }
 
 

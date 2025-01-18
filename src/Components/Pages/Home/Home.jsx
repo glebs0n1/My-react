@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Home.css';
 import Donation from '../../Donation/Donation';
+import SearchBar from '../../Search/SearchBar';
 import bannerImage from '../../../assets/pets-banner.jpg';
-import searchIcon from '../../../assets/search.png';
 import dogIcon from '../../../assets/dog.png';
 import catIcon from '../../../assets/cat.png';
 import donationImage from '../../../assets/donationImage.png';
@@ -17,38 +17,26 @@ import shelterImage from '../../../assets/shelter.png';
 import { Link } from 'react-router-dom';
 
 const Home = ({ onLike }) => {
-    const [searchTerm, setSearchTerm] = useState('');
+    const [ setSearchQuery] = useState('');
 
-        const pets = [
-            { name: 'Buddy', image: pet1, id: 'buddy' },
-            { name: 'Luna', image: pet2, id: 'luna' },
-            { name: 'Max', image: pet3, id: 'max' },
-            { name: 'Meet them', image: pet4, id: 'special' },
-        ];
-    
-        const [likes, setLikes] = useState({
-            buddy: 0,
-            luna: 0,
-            max: 0,
-            special: 0,
-        });
-    
-        const handleLike = (petId) => {
-            setLikes((prevLikes) => ({
-                ...prevLikes,
-                [petId]: prevLikes[petId] + 1,
-            }));
-            onLike();
+    //handle search bar component
+        const handleSearchChange = (event) => {
+            setSearchQuery(event.target.value.toLowerCase());
         };
-    
-        const handleInputChange = (event) => {
-            setSearchTerm(event.target.value.toLowerCase());
-        };
-    
-        const filteredPets = pets.filter(pet =>
-            pet.name.toLowerCase().includes(searchTerm)
-        );
-    
+        const handleLike = (id) => console.log('Liked pet with ID:', id);
+
+        const [filteredPets, setFilteredPets] = useState([
+            { id: 1, name: 'Buddy', image: 'https://via.placeholder.com/200' },
+            { id: 2, name: 'Bella', image: 'https://via.placeholder.com/200' },
+            { id: 3, name: 'Charlie', image: 'https://via.placeholder.com/200' },
+            { id: 4, name: 'Max', image: 'https://via.placeholder.com/200' },
+            { id: 5, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 6, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 7, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 8, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+
+          ]);
+
         return (
             <main className="body">
               <section className="banner">
@@ -59,21 +47,21 @@ const Home = ({ onLike }) => {
                 <p>Browse pets from our network of over 14,500 shelters and rescues</p>
             </div>
             <div className="search-bar">
-                <div className="pet-search-input-container">
-                    <input
-                        type="text"
-                        placeholder="Search for pets..."
-                        className="pet-search-input"
-                        value={searchTerm}
-                        onChange={handleInputChange}
-                    />
-                    <button className="search-icon">
-                        <img src={searchIcon} alt="Search" />
-                    </button>
+                    <div className="pet-search-input-container">
+                        <input
+                            type="text"
+                            placeholder="Search for pets..."
+                            className="pet-search-input"
+                            value={setSearchQuery}
+                            onChange={handleSearchChange}
+                        />
+                        <button className="search-icon">
+                            🔍
+                        </button>
+                    </div>
                 </div>
-            </div>
-                    <div className="banner-line"></div>
-                </section>
+                <div className="banner-line"></div>
+            </section>
     
             <div className="pet-types">
                 <div className="pet-type-box">
@@ -100,16 +88,17 @@ const Home = ({ onLike }) => {
           <Donation />
         </div>
 
-        <div className="pets-results">
-          <div className="pets-grid">
-            {filteredPets.map((pet) => (
-              <PetCard 
-                key={pet.id} 
-                pet={pet}  
-                handleLike={handleLike} 
-              />
-            ))}
-          </div>
+        <div className="pets-results center">
+        <h1>Pets Available for Adoption</h1>
+            <div className="pets-grid">
+               {filteredPets.map((pet) => (
+                <PetCard 
+                    key={pet.id} 
+                    pet={pet}  
+                    handleLike={handleLike} 
+                />
+                ))}
+            </div>
         </div>
     
                 <div className="shelter-section">
@@ -128,8 +117,10 @@ const Home = ({ onLike }) => {
     };
     
 
+
 Home.propTypes = {
     onLike: PropTypes.func.isRequired,
+    pets: PropTypes.array.isRequired,  
 };
 
 export default Home;

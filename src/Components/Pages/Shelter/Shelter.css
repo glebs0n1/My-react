@@ -1,22 +1,18 @@
 .content-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .pets-results {
+    flex-grow: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    bottom: 50px;
-}
-
-.pets-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    width: 80%;
-    max-width: 1200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0 20px;
 }
 
 .pet-image-box {
@@ -46,6 +42,54 @@
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #ddd;
+    background-color: #6504b5;
+}
+
+.pets-results {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.pets-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 15px;
+    width: 45%;
+}
+
+
+/* For Home page: center the grid */
+
+.pets-results.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pets-results.center .pets-grid {
+    padding-top: 20px;
+    width: 80%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .pets-grid {
+        grid-template-columns: repeat(auto-fill, minmax(360px, 2fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .pets-grid {
+        grid-template-columns: 1fr;
+    }
 }

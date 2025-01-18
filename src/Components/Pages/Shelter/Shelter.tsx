@@ -16,14 +16,17 @@ const ShelterPage = () => {
     color: "",
   });
 
-  const [filteredPets, setFilteredPets] = useState([
-    { id: 1, name: 'Buddy', image: 'https://via.placeholder.com/200' },
-    { id: 2, name: 'Bella', image: 'https://via.placeholder.com/200' },
-    { id: 3, name: 'Charlie', image: 'https://via.placeholder.com/200' },
-    { id: 4, name: 'Max', image: 'https://via.placeholder.com/200' },
-    { id: 5, name: 'Lucy', image: 'https://via.placeholder.com/200' },
-  ]);
+      const [filteredPets, setFilteredPets] = useState([
+            { id: 1, name: 'Buddy', image: 'https://via.placeholder.com/200' },
+            { id: 2, name: 'Bella', image: 'https://via.placeholder.com/200' },
+            { id: 3, name: 'Charlie', image: 'https://via.placeholder.com/200' },
+            { id: 4, name: 'Max', image: 'https://via.placeholder.com/200' },
+            { id: 5, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 6, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 7, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+            { id: 8, name: 'Lucy', image: 'https://via.placeholder.com/200' },
 
+          ]);
   const handleSearchChange = (event) => setSearchQuery(event.target.value);
 
   const handleFilterChange = (e) =>
@@ -50,20 +53,8 @@ const ShelterPage = () => {
           <div className="banner-line"></div>
         </section>
       </main>
-
-      <div className="content-container">
-        <div className="filters-sidebar">
-          <Filters
-            searchQuery={searchQuery}
-            filters={filters}
-            handleSearchChange={handleSearchChange}
-            handleFilterChange={handleFilterChange}
-            handleSearchSubmit={handleSearchSubmit}
-          />
-        </div>
-
-        <div className="vertical-line"></div>
-
+      
+      <div className="vertical-line"></div>
         <div className="search-bar">
           <div className="pet-search-input-container">
             <input
@@ -78,6 +69,19 @@ const ShelterPage = () => {
           </div>
         </div>
 
+      <div className="content-container">
+        <div className="filters-sidebar">
+          <Filters
+            searchQuery={searchQuery}
+            filters={filters}
+            handleSearchChange={handleSearchChange}
+            handleFilterChange={handleFilterChange}
+            handleSearchSubmit={handleSearchSubmit}
+          />
+        </div>
+
+        
+
         <div className="pets-results">
           <div className="pets-grid">
             {filteredPets.map((pet) => (
@@ -85,11 +89,11 @@ const ShelterPage = () => {
             ))}
           </div>
         </div>
+     </div>
 
         <div className="donation-section">
           <Donation />
         </div>
-      </div>
     </div>
   );
 };

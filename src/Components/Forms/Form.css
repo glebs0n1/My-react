@@ -1,11 +1,12 @@
 .close-button {
     position: absolute;
     top: 15px;
-    padding-left: 20px;
+    right: 15px;
     border: none;
     font-size: 20px;
     color: #000000;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .close-button:hover {

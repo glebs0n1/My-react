@@ -69,7 +69,7 @@ const Filters = ({ searchQuery, filters, handleSearchChange, handleFilterChange,
           </select>
         </div>
 
-        <button type="submit" className="search-button">Search</button>
+        <button type="search-button" className="search-button">Search</button>
       </form>
     </div>
   );
