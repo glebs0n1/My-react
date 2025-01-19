@@ -80,8 +80,6 @@ const ShelterPage = () => {
           />
         </div>
 
-        
-
         <div className="pets-results">
           <div className="pets-grid">
             {filteredPets.map((pet) => (

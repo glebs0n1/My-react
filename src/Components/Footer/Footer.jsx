@@ -65,18 +65,18 @@ const Footer = () => {
                 </div>
 
                 {/* Newsletter Column */}
-                <div className="footer-column newsletter-column">
-                    <h4>Get the Latest Updates on Pet Adoption</h4>
-                    <p>Sign up for the Petfinder newsletter and receive the latest news on pet adoption and care.</p>
-                    <form className="newsletter-form">
+                <div className="newsletter">
+                       <h4>Stay Updated on Pet Adoption</h4>
+                        <p>Sign up to receive the latest news on pet adoption and care.</p>
+                        <form className="newsletter-form">
                         <input 
-                            type="email" 
+                            type="newsletter-input" 
                             placeholder="Enter your email" 
-                            required
+                            required 
                             className="newsletter-input"
                         />
-                        <button type="submit" className="newsletter-button">Subscribe</button>
-                    </form>
+                        <button type="newsletter-button" className="newsletter-button">Subscribe</button>
+                        </form>
                 </div>
             </div>
 

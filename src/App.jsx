@@ -3,39 +3,19 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header/Header";  
 import Footer from "./Components/Footer/Footer";    
 import Home from "./Components/Pages/Home/Home";   
+import PetShelterForm from "./Components/Pages/LoginedUser/LoginedUser";   
 import Shelter from "./Components/Pages/Shelter/Shelter";  
 import Medications from "./Components/Pages/Medications/Medications";  
-
+import PetDetail from "./Components/PetDetail/PetDetail";
 const App = () => {
   const [filteredPets, setFilteredPets] = useState([
-    {
-      id: 1,
-      name: 'Buddy',
-      image: '/path/to/buddy.jpg'
-    },
-    {
-      id: 2,
-      name: 'Bella',
-      image: '/path/to/bella.jpg'
-    },
-    {
-      id: 3,
-      name: 'Charlie',
-      image: '/path/to/charlie.jpg'
-    },
-    {
-      id: 4,
-      name: 'Max',
-      image: '/path/to/max.jpg'
-    },
-    {
-      id: 5,
-      name: 'Lucy',
-      image: '/path/to/lucy.jpg'
-    }
+    { id: 1, name: 'Buddy', image: '/path/to/buddy.jpg' },
+    { id: 2, name: 'Bella', image: '/path/to/bella.jpg' },
+    { id: 3, name: 'Charlie', image: '/path/to/charlie.jpg' },
+    { id: 4, name: 'Max', image: '/path/to/max.jpg' },
+    { id: 5, name: 'Lucy', image: '/path/to/lucy.jpg' }
   ]);
 
-  // Handle the like button click
   const handleLike = (id) => {
     console.log('Liked pet with ID:', id);
   };
@@ -55,6 +35,14 @@ const App = () => {
         <Route 
           path="/medications" 
           element={<Medications handleLike={handleLike} />} 
+        />
+        <Route 
+          path="/PetShelterForm" 
+          element={<PetShelterForm />} 
+        />
+        <Route 
+          path="/pet/:id" 
+          element={<PetDetail pets={filteredPets} />}
         />
       </Routes>   
       <Footer />

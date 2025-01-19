@@ -1,0 +1,96 @@
+.pet-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pet-detail {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.pet-image {
+    width: 50%;
+    padding-right: 20px;
+    position: relative;
+}
+
+.pet-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pet-description {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.pet-description h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.pet-description p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.pet-description .about {
+    margin-top: 20px;
+}
+
+.pet-description .about p {
+    margin: 5px 0;
+}
+
+.Button-form {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 12px;
+}
+
+.web_ui__Button__button {
+    width: calc(100% - 24px);
+    padding: 12px 18px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.web_ui__Button__filled {
+    background-color: #6504b5;
+    color: white;
+}
+
+.web_ui__Button__outlined {
+    background-color: transparent;
+    border: 2px solid #6504b5;
+    color: #6504b5;
+}
+
+.web_ui__Button__primary {
+    background-color: #6504b5;
+    color: white;
+}
+
+.web_ui__Button__filled:hover,
+.web_ui__Button__primary:hover {
+    background-color: #e208ff;
+}
+
+.web_ui__Button__outlined:hover {
+    background-color: #6504b5;
+    color: white;
+}

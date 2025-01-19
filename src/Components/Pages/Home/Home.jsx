@@ -89,14 +89,12 @@ const Home = ({ onLike }) => {
         </div>
 
         <div className="pets-results center">
-        <h1>Pets Available for Adoption</h1>
+            <h1>Pets Available for Adoption</h1>
             <div className="pets-grid">
-               {filteredPets.map((pet) => (
-                <PetCard 
-                    key={pet.id} 
-                    pet={pet}  
-                    handleLike={handleLike} 
-                />
+                {filteredPets.map((pet) => (
+                <Link to={`/pet/${pet.id}`} key={pet.id} className="pet-link">
+                    <PetCard pet={pet} handleLike={handleLike} />
+                </Link>
                 ))}
             </div>
         </div>

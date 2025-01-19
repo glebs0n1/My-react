@@ -1,5 +1,4 @@
 import React from 'react';
-import './PetSection.css';  
 import PetCard from '../PetCard/PetCard';
 
 const PetSection = ({ filteredPets, handleLike }) => {
