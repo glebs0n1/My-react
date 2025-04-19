@@ -58,7 +58,7 @@
 //             .then((response) => {
 //                 if (
 //                     response.status === RESPONSE_STATUS.OK &&
-//                     (response.data.role === USER_ROLE.STUDENT || response.data.role === USER_ROLE.ADMIN)
+//                     (response.data.role === USER_ROLE.PETOWNER || response.data.role === USER_ROLE.ADMIN)
 //                 ) {
 //                     //set logged in users data into global state
 //                     loggedInUser.credentials = btoa(data.email + ':' + data.password);

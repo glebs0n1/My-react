@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';  // useNavigate для перенаправления
 import './Header.css';
 import { logoSizes } from '../../assets/logoConfig';
 import logo from '../../assets/logo.png';
@@ -11,13 +11,24 @@ import medicationsImage from '../../assets/medications.png';
 import trainingImage from '../../assets/training.png';
 import vetImage from '../../assets/vet.png';
 import Modal from '../Modal/Modal';
-import LoginForm from '../Forms/LoginForm';
-import RegistrationForm from '../Forms/RegistrationForm';
+import LoginForm from '../Login/LoginForm';
+import RegistrationForm from '../Login/RegistrationForm';
 
 const Header = ({ onCreateAccount, totalLikes }) => {
   const [openNavigation, setOpenNavigation] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [userEmail, setUserEmail] = useState(null);
+  const navigate = useNavigate();  // Для перенаправления на другие страницы
+
+  useEffect(() => {
+    const email = localStorage.getItem('email');
+    if (email) {
+      setIsLoggedIn(true);
+      setUserEmail(email);
+    }
+  }, []);
 
   const toggleNavigation = () => {
     setOpenNavigation((prev) => {
@@ -38,6 +49,13 @@ const Header = ({ onCreateAccount, totalLikes }) => {
     }
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('email');  
+    setIsLoggedIn(false);
+    setUserEmail(null);
+    navigate('/login'); 
+  };
+
   const navItems = [
     { name: 'Shelter', image: shelterImage, path: '/shelter' },
     { name: 'Medications', image: medicationsImage, path: '/medications' },
@@ -52,6 +70,20 @@ const Header = ({ onCreateAccount, totalLikes }) => {
 
   const toggleForm = () => {
     setIsLogin((prev) => !prev);
+  };
+
+  const renderUserAvatar = () => {
+    const firstLetter = userEmail ? userEmail[0].toUpperCase() : ''; 
+    return (
+      <div className="user-avatar">
+        {firstLetter}
+        <div className="dropdown-menu">
+          <Link to="/profile">Profile</Link>
+          <Link to="/settings">Settings</Link>
+          <button onClick={handleLogout}>Logout</button>
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -84,9 +116,13 @@ const Header = ({ onCreateAccount, totalLikes }) => {
       </nav>
 
       <div className="header__actions">
-        <button className="button button--secondary" onClick={() => openModal(true)} aria-label="Log In">
-          <img src={loginIcon} alt="Login" className="login-icon" /> Log In
-        </button>
+        {isLoggedIn ? (
+          renderUserAvatar()
+        ) : (
+          <button className="button button--secondary" onClick={() => openModal(true)} aria-label="Log In">
+            <img src={loginIcon} alt="Login" className="login-icon" /> Log In
+          </button>
+        )}
 
         <button
           className={`hamburger ${openNavigation ? 'active' : ''}`}

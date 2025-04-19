@@ -36,6 +36,14 @@ button[type="submit"]:hover {
     text-align: center;
 }
 
+input.error {
+    border: 1px solid red; 
+}
+
+input:disabled {
+    background-color: #f1f1f1; 
+}
+
 p {
     position: relative;
     padding-right: 20px;
