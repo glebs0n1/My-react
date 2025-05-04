@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom'; 
 import './Shelter.css';
 import bannerImage from '../../../assets/pets-banner.jpg';
 import Donation from '../../Donation/Donation';
 import Filters from '../../Filters/Filters';
-import PetCard from '../../PetCard/PetCard';
-import Like from '../../Like/Like';
+import PetCard from '../../PetCard/PetCard';  
+import { Pet } from '../../../types'; 
+import rawPets from '../../../data/pets';
+const initialPets = rawPets as Pet[];
 
-const ShelterPage = () => {
+const ShelterPage: React.FC = () => {
+  const location = useLocation();
+  const newPet = location.state?.newPet;
+
+  const [pets, setPets] = useState<Pet[]>(
+    newPet ? [...initialPets, newPet] : initialPets
+  );
+
   const [searchQuery, setSearchQuery] = useState("");
+
   const [filters, setFilters] = useState({
     age: "",
     size: "",
@@ -16,29 +27,31 @@ const ShelterPage = () => {
     color: "",
   });
 
-      const [filteredPets, setFilteredPets] = useState([
-            { id: 1, name: 'Buddy', image: 'https://via.placeholder.com/200' },
-            { id: 2, name: 'Bella', image: 'https://via.placeholder.com/200' },
-            { id: 3, name: 'Charlie', image: 'https://via.placeholder.com/200' },
-            { id: 4, name: 'Max', image: 'https://via.placeholder.com/200' },
-            { id: 5, name: 'Lucy', image: 'https://via.placeholder.com/200' },
-            { id: 6, name: 'Lucy', image: 'https://via.placeholder.com/200' },
-            { id: 7, name: 'Lucy', image: 'https://via.placeholder.com/200' },
-            { id: 8, name: 'Lucy', image: 'https://via.placeholder.com/200' },
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value);
 
-          ]);
-  const handleSearchChange = (event) => setSearchQuery(event.target.value);
+  const handleFilterChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFilters((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const handleFilterChange = (e) =>
-    setFilters({ ...filters, [e.target.name]: e.target.value });
-
-  const handleSearchSubmit = (event) => {
+  const handleSearchSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     console.log('Searching for pet name:', searchQuery);
     console.log('Filters applied:', filters);
   };
 
-  const handleLike = (id) => console.log('Liked pet with ID:', id);
+  // Real-time filtered pets
+  const filteredPets = pets.filter((pet) => {
+    const matchesQuery = pet.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesFilters = Object.entries(filters).every(([key, value]) =>
+      value ? pet[key as keyof typeof pet] === value : true
+    );
+    return matchesQuery && matchesFilters;
+  });
+
+  const handleLike = (id: number) => {
+    console.log('Liked pet with ID:', id);
+  };
 
   return (
     <div className="shelter-page">
@@ -69,25 +82,25 @@ const ShelterPage = () => {
           </div>
         </div>
 
-      <div className="content-container">
-        <div className="filters-sidebar">
-          <Filters
-            searchQuery={searchQuery}
-            filters={filters}
-            handleSearchChange={handleSearchChange}
-            handleFilterChange={handleFilterChange}
-            handleSearchSubmit={handleSearchSubmit}
-          />
-        </div>
+        <div className="content-container">
+          <aside className="filters-sidebar">
+            <Filters
+              searchQuery={searchQuery}
+              filters={filters}
+              handleSearchChange={handleSearchChange}
+              handleFilterChange={handleFilterChange}
+              handleSearchSubmit={handleSearchSubmit}
+            />
+          </aside>
 
-        <div className="pets-results">
-          <div className="pets-grid">
-            {filteredPets.map((pet) => (
-              <PetCard key={pet.id} pet={pet} handleLike={handleLike} />
-            ))}
-          </div>
-        </div>
-     </div>
+         <main className="pets-results">
+            <div className="pet-cards">
+              {filteredPets.map((pet) => (
+                <PetCard key={pet.id} pet={pet} handleLike={handleLike} />
+              ))}
+            </div>
+         </main>
+       </div>
 
         <div className="donation-section">
           <Donation />

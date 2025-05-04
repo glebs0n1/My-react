@@ -19,12 +19,12 @@
     width: 200px;
     height: 250px;
     display: flex;
+    margin-top: 40px;
     flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    overflow: hidden;
 }
 
 .pet-image-box img {

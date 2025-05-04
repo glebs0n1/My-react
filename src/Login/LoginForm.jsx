@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import FormValidator from '../Components/Forms/FormValidator';
+import { AuthContext } from '../Login/AuthContext';
 import './LoginForm.css';
-import '../Input/Input.css';
-import './Form.css';
+import '../Components/Input/Input.css';
 
 const LoginForm = ({ onClose }) => {
+    const { setIsLoggedIn } = useContext(AuthContext);
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -16,33 +17,32 @@ const LoginForm = ({ onClose }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Validate the inputs
         const validationErrors = FormValidator.validateLogin(email, password);
 
         if (Object.keys(validationErrors).length === 0) {
             try {
+                localStorage.setItem('authToken', 'yourTokenHere'); // Simulated login
+                setIsLoggedIn(true);
                 setServerMessage(`Login successful with email: ${email}`);
                 setTimeout(() => {
                     onClose();
-                    navigate('/home'); 
+                    navigate('/home');
                 }, 2000);
             } catch (error) {
                 setServerMessage(`Login failed: ${error.message}`);
             }
         } else {
             setErrors(validationErrors);
-            setFormDisabled(true); // Disable form fields if validation fails
+            setFormDisabled(true);
         }
     };
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
 
-        // Update the state for the corresponding field
         if (name === 'email') setEmail(value);
         if (name === 'password') setPassword(value);
 
-        // Validate the specific field as the user types
         const fieldError = FormValidator.handleFieldValidation(name, value);
         if (fieldError) {
             setErrors((prevErrors) => ({
@@ -50,10 +50,9 @@ const LoginForm = ({ onClose }) => {
                 [name]: fieldError
             }));
         } else {
-            // Remove the error for the specific field if no error
             setErrors((prevErrors) => {
                 const updatedErrors = { ...prevErrors };
-                delete updatedErrors[name]; // Remove the error for the specific field
+                delete updatedErrors[name];
                 return updatedErrors;
             });
         }
@@ -69,7 +68,7 @@ const LoginForm = ({ onClose }) => {
                     name="email"
                     value={email}
                     onChange={handleInputChange}
-                    className={errors.email ? 'error' : ''} // Apply error class if there's an error
+                    className={errors.email ? 'error' : ''}
                     placeholder="Email"
                     disabled={formDisabled}
                 />
@@ -78,7 +77,7 @@ const LoginForm = ({ onClose }) => {
                     name="password"
                     value={password}
                     onChange={handleInputChange}
-                    className={errors.password ? 'error' : ''} // Apply error class if there's an error
+                    className={errors.password ? 'error' : ''}
                     placeholder="Password (min 8 characters)"
                     disabled={formDisabled}
                 />

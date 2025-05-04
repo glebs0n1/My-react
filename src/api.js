@@ -1,28 +1,34 @@
-// import axios from "axios";
+export const registerUser = async(username, email, password) => {
+    const response = await fetch('/api/register', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, email, password }),
+    });
 
-// const API_URL = "http://localhost:8081/auth";
+    if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Registration failed');
+    }
 
-// export const RegistrationForm = async(username, password) => {
-//     try {
-//         const response = await axios.post(`${API_URL}auth/register`, {
-//             username,
-//             password,
-//         });
-//         return response.data;
-//     } catch (error) {
-//         throw error.response.data;
-//     }
-// };
+    return await response.json();
+};
 
-// // Login an existing user
-// export const LoginForm = async(username, password) => {
-//     try {
-//         const response = await axios.post(`${API_URL}auth/login`, {
-//             username,
-//             password,
-//         });
-//         return response.data;
-//     } catch (error) {
-//         throw error.response.data;
-//     }
-// };
+// ✅ Add this function
+export const loginUser = async(email, password) => {
+    const response = await fetch('/api/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+    });
+
+    if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Login failed');
+    }
+
+    return await response.json();
+};

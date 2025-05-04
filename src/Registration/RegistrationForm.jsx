@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Импортируем useNavigate для редиректа
+import { useNavigate } from 'react-router-dom';
 import FormValidator from '../Components/Forms/FormValidator';
 import './RegistrationForm.css';
-import '../Input/Input.css';
-import './Form.css';
+import '../Components/Input/Input.css';
 
 const RegistrationForm = ({ onClose }) => {
-    const navigate = useNavigate(); // Инициализация useNavigate
+    const navigate = useNavigate(); 
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

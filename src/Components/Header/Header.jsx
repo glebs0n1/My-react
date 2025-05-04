@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { Link, useNavigate } from 'react-router-dom';  // useNavigate для перенаправления
+import { Link, useNavigate } from 'react-router-dom';
 import './Header.css';
 import { logoSizes } from '../../assets/logoConfig';
 import logo from '../../assets/logo.png';
@@ -11,25 +11,28 @@ import medicationsImage from '../../assets/medications.png';
 import trainingImage from '../../assets/training.png';
 import vetImage from '../../assets/vet.png';
 import Modal from '../Modal/Modal';
-import LoginForm from '../Login/LoginForm';
-import RegistrationForm from '../Login/RegistrationForm';
+import LoginForm from '../../Login/LoginForm';
+import RegistrationForm from '../../Registration/RegistrationForm';
+import { AuthContext } from '../../Login/AuthContext';
 
 const Header = ({ onCreateAccount, totalLikes }) => {
   const [openNavigation, setOpenNavigation] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isLogin, setIsLogin] = useState(true);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [userEmail, setUserEmail] = useState(null);
-  const navigate = useNavigate();  // Для перенаправления на другие страницы
+  const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext); // Using AuthContext
+  const [userEmail, setUserEmail] = useState(null); // Correctly defined state without type annotation
+  const [isLogin, setIsLogin] = useState(true); // Added state to manage login/registration toggle
+  const navigate = useNavigate();
 
+  // UseEffect to load email and login status from localStorage
   useEffect(() => {
     const email = localStorage.getItem('email');
     if (email) {
       setIsLoggedIn(true);
       setUserEmail(email);
     }
-  }, []);
+  }, [setIsLoggedIn, setUserEmail]); // Added setUserEmail to dependencies to avoid ESLint warnings
 
+  // Function to toggle navigation menu
   const toggleNavigation = () => {
     setOpenNavigation((prev) => {
       const newState = !prev;
@@ -42,6 +45,7 @@ const Header = ({ onCreateAccount, totalLikes }) => {
     });
   };
 
+  // Close navigation when an item is clicked
   const handleNavigationClick = () => {
     if (openNavigation) {
       enablePageScroll();
@@ -49,13 +53,16 @@ const Header = ({ onCreateAccount, totalLikes }) => {
     }
   };
 
+  // Function to log out
   const handleLogout = () => {
-    localStorage.removeItem('email');  
+    localStorage.removeItem('email');
+    localStorage.removeItem('authToken');
     setIsLoggedIn(false);
     setUserEmail(null);
-    navigate('/login'); 
+    navigate('/');
   };
 
+  // List of navigation items
   const navItems = [
     { name: 'Shelter', image: shelterImage, path: '/shelter' },
     { name: 'Medications', image: medicationsImage, path: '/medications' },
@@ -63,17 +70,20 @@ const Header = ({ onCreateAccount, totalLikes }) => {
     { name: 'Veterinarian', image: vetImage, path: '/veterinarian' },
   ];
 
+  // Function to open the login modal
   const openModal = (isLoginMode) => {
     setIsModalOpen(true);
-    setIsLogin(isLoginMode);
+    setIsLogin(isLoginMode); // Correctly setting login state
   };
 
+  // Toggle between login and registration forms
   const toggleForm = () => {
     setIsLogin((prev) => !prev);
   };
 
+  // Function to render the user avatar and dropdown menu
   const renderUserAvatar = () => {
-    const firstLetter = userEmail ? userEmail[0].toUpperCase() : ''; 
+    const firstLetter = userEmail ? userEmail[0].toUpperCase() : '';
     return (
       <div className="user-avatar">
         {firstLetter}
@@ -89,7 +99,7 @@ const Header = ({ onCreateAccount, totalLikes }) => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="#home" onClick={handleNavigationClick} aria-label="Go to home">
+        <a href="/" onClick={handleNavigationClick} aria-label="Go to home">
           <img 
             src={logo} 
             alt="Foothills Logo" 
@@ -119,8 +129,13 @@ const Header = ({ onCreateAccount, totalLikes }) => {
         {isLoggedIn ? (
           renderUserAvatar()
         ) : (
-          <button className="button button--secondary" onClick={() => openModal(true)} aria-label="Log In">
-            <img src={loginIcon} alt="Login" className="login-icon" /> Log In
+          <button
+            className="button button--secondary"
+            onClick={() => openModal(true)}
+            aria-label="Log In"
+          >
+            <img src={loginIcon} alt="Login" className="login-icon" /> 
+            Log In
           </button>
         )}
 
@@ -129,10 +144,11 @@ const Header = ({ onCreateAccount, totalLikes }) => {
           onClick={toggleNavigation}
           aria-label="Toggle navigation menu"
           aria-expanded={openNavigation}
+          aria-controls="mobile-menu"
         >
           <span className="sr-only">Toggle menu</span>
-          {Array.from({ length: 3 }, (_, index) => (
-            <div key={index} className="line"></div>
+          {[...Array(3)].map((_, index) => (
+            <div key={index} className="line" />
           ))}
         </button>
       </div>

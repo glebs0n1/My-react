@@ -1,180 +1,316 @@
-        .banner {
-            position: relative;
-            width: 100%;
-            height: 440px;
-            max-height: 440px;
-            overflow: hidden;
-            margin: 0 auto;
-        }
-        
-        .banner-image {
-            width: 70%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            position: relative;
-            object-fit: cover;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        
-        .banner-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-            z-index: 1;
-            padding: 0 1.5rem;
-            width: 100%;
-        }
-        
-        .banner-text h1 {
-            font-size: 2.5rem;
-            margin: 0 0 10px;
-            font-weight: bold;
-            line-height: 1.2;
-        }
-        
-        .banner-text p {
-            margin: 0;
-            font-size: 1.2rem;
-            line-height: 1.5;
-        }
-        /* Banner line */
-        
-        .banner-line {
-            width: 100%;
-            height: 5px;
-            background-color: #e208ff;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-        /* Pet Types */
-        
-        .pet-types {
-            display: flex;
-            justify-content: center;
-            position: relative;
-            margin-top: -50px;
-            text-decoration: none;
-            color: inherit;
-        }
-        
-        .pet-type-box {
-            text-align: center;
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 30px;
-            margin: 0 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            flex: 0 0 160px;
-            height: 120px;
-            border: 4px solid transparent;
-            position: relative;
-            transition: border-color 0.15s ease;
-        }
-        
-        .pet-type-box::before {
-            content: '';
-            position: absolute;
-            top: -10px;
-            left: 50%;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        .pet-type-icon {
-            width: 60px;
-            height: 60px;
-            object-fit: contain;
-        }
-        
-        .pet-type-box h2 {
-            font-size: 1.1rem;
-            margin-top: 10px;
-            color: #000000;
-        }
-        
-        .pet-type-box:hover {
-            border-color: #e208ff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        
-        .pet-type-link {
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .pet-images {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-        }
-        
-        .pet-image-box {
-            position: relative;
-            overflow: hidden;
-            border-radius: 12px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-        
-        .pet-image-box:hover {
-            transform: translateY(-10px);
-            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        .like-body-button:active {
-            transform: scale(0.9);
-        }
-        
-        .pet-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            border-radius: 12px;
-        }
-        
-        .pet-details {
-            padding: 15px;
-            text-align: center;
-        }
-        
-        .pet-name {
-            margin: 0;
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        
-        .pet-breed {
-            margin: 10px 0 0;
-            font-size: 16px;
-            color: #777;
-        }
-        
-        .special-pet-box {
-            grid-column: span 2;
-            background-color: #f7f7f7;
-            border-radius: 12px;
-        }
-        
-        .special-pet-details {
-            text-align: center;
-            padding: 20px 0;
-        }
+:root {
+    --bg-gradient-start: #6504b5;
+    --bg-gradient-end: #6504b5;
+    --highlight-color: #b500d6;
+    --dropdown-bg: rgba(0, 0, 0, 0.9);
+    --button-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Banner */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    max-height: 440px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.banner-image {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.banner-text h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.banner-text p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+/* Banner line */
+
+.banner-line {
+    width: 100%;
+    height: 5px;
+    background-color: #e208ff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Pet Types */
+
+.pet-types {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -50px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.pet-type-box {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 160px;
+    height: 120px;
+    border: 4px solid transparent;
+    position: relative;
+    transition: border-color 0.15s ease;
+}
+
+.pet-type-box::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pet-type-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pet-type-box h2 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.pet-type-box:hover {
+    border-color: #e208ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pet-type-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Pet Images */
+
+.pet-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.pet-image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.pet-image-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.like-body-button:active {
+    transform: scale(0.9);
+}
+
+.pet-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.pet-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.pet-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.pet-breed {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.special-pet-box {
+    grid-column: span 2;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+}
+
+.special-pet-details {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Media Queries for Mobile Responsiveness */
+
+@media (max-width: 1024px) {
+    .banner-image {
+        width: 100%;
+    }
+    .pet-types {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+    }
+    .pet-type-box {
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .pet-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .special-pet-box {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 300px;
+        max-height: 300px;
+    }
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+    .banner-text p {
+        font-size: 1rem;
+    }
+    .pet-types {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+    }
+    .pet-type-box {
+        margin: 10px 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .pet-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .special-pet-box {
+        grid-column: span 1;
+    }
+    .pet-image-box {
+        margin-bottom: 20px;
+    }
+    .pet-name {
+        font-size: 18px;
+    }
+    .pet-breed {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 300px;
+        max-height: 350px;
+    }
+    .banner-text h1 {
+        font-size: 1.8rem;
+    }
+    .banner-text p {
+        font-size: 0.9rem;
+    }
+    .search-bar {
+        width: 80%;
+        max-width: 400px;
+        padding: 10px;
+    }
+    .search-bar input {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .pet-type-box {
+        padding: 15px;
+    }
+    .pet-images {
+        gap: 20px;
+    }
+    .pet-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .pet-name {
+        font-size: 16px;
+    }
+    .pet-breed {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-bar {
+        width: 90%;
+        max-width: 300px;
+        padding: 6px;
+        padding-bottom: 30px;
+    }
+    .search-bar input {
+        padding: 6px;
+        font-size: 0.8rem;
+    }
+    .pet-images {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}

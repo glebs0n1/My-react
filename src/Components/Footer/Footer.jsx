@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__logo">
-                <a href="#home" onClick={handleNavigationClick} aria-label="Go to home">
+                <a href="/" onClick={handleNavigationClick} aria-label="Go to home">
                 <img 
                         src={logoFooter} 
                         alt="Foothills Logo" 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PetCard from '../PetCard/PetCard';
+import { Link } from 'react-router-dom';  // Import Link for routing
 
 const PetSection = ({ filteredPets, handleLike }) => {
   return (
@@ -10,14 +11,16 @@ const PetSection = ({ filteredPets, handleLike }) => {
           <PetCard key={pet.id} pet={pet} handleLike={handleLike} />
         ))}
 
-        <div className="last-pet-box">
-          <img
-            src={filteredPets[filteredPets.length - 1].image}
-            alt="Meet them"
-            className="animals-icon"
-          />
-          <p className="last-pet-name">Meet them</p>
-        </div>
+        <Link to={`/pet-details/${filteredPets[filteredPets.length - 1].id}`}>
+          <div className="last-pet-box">
+            <img
+              src={filteredPets[filteredPets.length - 1].image}
+              alt="Meet them"
+              className="animals-icon"
+            />
+            <p className="last-pet-name">Meet them</p>
+          </div>
+        </Link>
       </div>
     </div>
   );

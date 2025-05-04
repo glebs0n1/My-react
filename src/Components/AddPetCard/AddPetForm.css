@@ -1,0 +1,112 @@
+.add-pet-form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.add-pet-form h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-group.checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.image-upload-section {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.image-upload-box {
+    display: inline-block;
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    padding: 40px 20px;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 180px;
+    background-color: #fafafa;
+    transition: border-color 0.3s;
+}
+
+.image-upload-box:hover {
+    border-color: #777;
+}
+
+.image-upload-box input[type="file"] {
+    display: none;
+}
+
+.plus-symbol {
+    font-size: 2.5rem;
+    color: #777;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.upload-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.image-preview {
+    margin-top: 1rem;
+}
+
+.image-preview img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
