@@ -1,0 +1,186 @@
+{
+  "school": "Memelhund",
+  "website": "https://memelhund.lt/",
+  "contact": {
+    "name": "Memelhund",
+    "phone": "+37063834172",
+    "email": "info@memelhund.lt",
+    "address": "Sodžiaus g., Dauparai, Klaipėdos r."
+  },
+  "about": {
+    "description": "Profesionalus šunų dresuotojas, kuris specializuojasi šunų dresūroje ir dalyvavimu varžybose. Mano tikslas - padėti klientams pasiekti aukščiausius rezultatus ir norimus tikslus. Mano aukšti standartai, patirtis ir dedikacija užtikrina, kad kiekvienas klientas ir jų šuo gaus aukščiausią rūpestį ir efektyvias dresūros paslaugas."
+  },
+  "achievements": [
+    {
+      "title": "Pasaulio čempionatas",
+      "description": "Turime A lygio įvertinimą ir patekimą į pasaulio čempionatą"
+    },
+    {
+      "title": "Pirmi Lietuvoje",
+      "description": "2023 CACIT Germany Braunsbedroje apsaugos dalis 90 balų!"
+    }
+  ],
+  "blog": [
+    {
+      "date": "2023-08-20",
+      "title": "Individuali šunų dresūra",
+      "summary": "Mokyti šuniuką ne tik konkrečių komandų, kurios palengvina šeimininko kasdienybę, tačiau taip pat ir suartina juos abu – tikrai verta. Tai galimybė surasti kontaktą, geriau pažinti vienam kitą – tiek šuniui šeimininką, tiek šeimininkui šunį.",
+      "url": "./blog/individuali-sunu-dresura"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Jaunų šunų dresūra",
+      "summary": "Naujas šeimos narys – tikras džiaugsmas. Tiesa, tuo pačiu ir rūpestis, tad reikia iškart imtis priemonių, kurios gali padėti sukurti tinkamą, saugią aplinką augintiniui, taip pat užsirašyti dresūros pamokoms.",
+      "url": "./blog/jaunu-sunu-dresura"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Mažų šunų dresavimas",
+      "summary": "Nepriklausomai nuo šuns dydžio – jį dresuoti yra būtina. Iki šiol klaidingai priimta galvoti, kad tik didelių ir agresyvių veislių šunys turėtų būti dresuojami. Toks požiūris yra klaidingas.",
+      "url": "./blog/mazu-sunu-dresavimas"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šuns dresavimas",
+      "summary": "Netinkamas šuns elgesys gali labai apsunkinti žmogaus gyvenimą. Nereikia su tuo taikstytis, kadangi tinkama dresūra gali išspręsti daugelį net ir labai probleminių šuns dresūros klausimų.",
+      "url": "./blog/suns-dresavimas"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šuns mokymas",
+      "summary": "Galime drąsiai sakyti, kad šuo yra tas gyvūnas, kuris iš prigimties nori mokytis. O tai jeigu procesas yra atliekamas su mylimu šeimininku, šis darbas tampa žaidimu, kuris abiem pusėms kelia tik geriausias emocijas.",
+      "url": "./blog/suns-mokymas"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šunų dresavimas",
+      "summary": "Laimingas šuo yra tas, kuriuo rūpinamasi visapusiškai. Viena geriausių šuns lavinimo priemonių yra dresūra. Ja užsiimti galima bet kuriame šuns gyvenimo etape.",
+      "url": "./blog/sunu-dresavimas"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šunų dresavimo komandos",
+      "summary": "Šuns dresavimas yra arba bent jau turėtų būti smagus, pasitenkinimą keliantis procesas, tiek Jums, tiek augintiniui. Su treneriu net ir pačios šunų dresavimo komandos yra gana lengvai įkandamos.",
+      "url": "./blog/sunu-dresavimo-komandos"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šunų dresavimo mokykla",
+      "summary": "Šuns dresavimas yra smagus, pasitenkinimą keliantis procesas. Džiaugsmo bus kur kas daugiau, jeigu rezultatas bus pasiektas, tai yra, šuo išmoks tam tikras komandas.",
+      "url": "./blog/sunu-dresavimo-mokykla"
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Šunų treniravimas",
+      "summary": "Šuniuko įsigijimas – didelis pokytis šeimai. Reikia pasirūpinti ne tik naujo šeimos nario higienos priemonėmis, maistu, žaisliukais, bet ir pradėti domėtis disciplinos skiepijimo taisyklėmis.",
+      "url": "./blog/sunu-treniravimas"
+    }
+  ],
+  "services": [
+    "Paklusnumas",
+    "Socializacija",
+    "Komandos ir triukai",
+    "Varžybų ruoša",
+    "Apsaugos treniruotė",
+    "Agility",
+    "Dresūros inventoriaus pardavimas"
+  ],
+  "prices": {
+    "obedience": {
+      "description": "Socialinio paklusnumo pamoka",
+      "price": 120,
+      "duration": "45 min."
+    },
+    "protection": {
+      "description": "Apsaugos treniruotė",
+      "price": 25,
+      "duration": "45 min."
+    },
+    "agility": {
+      "description": "Agility",
+      "price": 0,
+      "duration": "45 min.",
+      "note": "Susisiekite dėl kainos"
+    }
+  },
+  "location": {
+    "city": "Klaipėda",
+    "district": "Dauparai",
+    "region": "Klaipėdos apskritis"
+  },
+  "whyUs": "Dažnai sulaukiame klientų, kurie pasakoja, kad jau yra bandę dresuoti savo šunį, tačiau nesulaukė norimų rezultatų. Tai yra labai dažna problema, kurią sprendžiame su didžiausiu dėmesiu ir atsakingumu. Mūsų vizija - padėti šeimininkams ir jų šunims gyventi harmonijoje. Išmanant dresūrą įprastai rezultatai pasiekiami per 5-10 pamokų, tačiau pirmi rezultatai matomi jau po pirmų pamokų.",
+  "history": "Mano kelias šunų dresūroje prasidėjo nuo didelio susidomėjimo šunų elgesiu ir gebėjimu juos ugdyti. Jau nuo mažens šunys mane stebino savo išskirtiniu išmanumu ir emocine sąveika su žmonėmis. Mano noras geriau suprasti šių nuostabių gyvūnų elgesį ir padėti jiems gyventi harmonijoje su žmonėmis bei kitais šunimis nuolat didėjo. Kadangi turėjau šunį savo šeimoje, pradėjau domėtis šunų dresūra ir elgesio mokymu. Pradėjau skaityti knygas, žiūrėti vaizdo įrašus ir stengiausi suprasti, kaip veikia šunų mokymas. Pradėjau domėtis varžybomis! Šiai dienai esu profesionalus šunų dresuotojas, kuris specializuojasi šunų dresūroje ir dalyvavimu varžybose.",
+  "registrationLink": "https://www.picktime.com/0254d647-8bce-48b7-bf70-6f6aeba84161",
+  "serviceDetails": {
+    "main": {
+      "title": "Šūnų dresūros paslaugos",
+      "description": "Mūsų šūnų dresūros paslaugos yra skirtos padėti jums auklėti ir lavinti savo šunį. Ne tik padedame mokyti elementarius paklusnumo įgūdžius, bet ir sprendžiame specifinius elgesio problemas. Nepriklausomai nuo jūsų šuns amžiaus ar veislės, mūsų dresūros paslaugos padės sukurti gerai auklėtą ir draugišką šeimos narį."
+    },
+    "obedience": {
+      "title": "Dresūra šuns paklusnumui",
+      "description": "Dresūra šuns paklusnumui moko šunį atpažinti ir suprasti žodžių ar gestų komandas. Tai yra esminis dalykas, kuris užtikrina šuns saugumą ir gerovę. Pasikliaudamas šeimininku ir paklusta jam, šuo gali būti kontroliuojamas ir apsaugotas pavojingose situacijose ar viešose vietose.",
+      "benefits": [
+        "Išmoks pagrindinių komandų",
+        "Klausysis šeimininko",
+        "Bus paklusnus ir drausmingas",
+        "Saugus viešose vietose"
+      ]
+    },
+    "socialization": {
+      "title": "Socializacijos šuns dresūra",
+      "description": "Socializacijos šuns dresūra yra svarbi veikla, kurios tikslas yra mokyti šunį elgtis draugiškai ir priimtinai su kitais gyvūnais ir žmonėmis bei skirtingomis aplinkomis. Tai padeda sumažinti arba išvengti baimės ir agresyvumo reakcijų bei užtikrinti, kad šuo elgsis draugiškai ir ramiai bet kokiose situacijose.",
+      "benefits": [
+        "Elgsis draugiškai su kitais gyvūnais",
+        "Priimtinas elgesys su žmonėmis",
+        "Sumažės baimės reakcijos",
+        "Prisitaikys įvairiose situacijose"
+      ]
+    },
+    "tricks": {
+      "title": "Šuns komandų ir triukų dresūra",
+      "description": "Komandų ir triukų mokymas suteikia šuniui iššūkį, skatina jo protinį bei fizinį aktyvumą ir stiprina ryšį tarp šuns ir šeimininko. Tai ne tik padeda šuniui augti ir tobulėti, bet ir suteikia malonumo ir pasitenkinimo tiek šuniui, tiek ir šeimininkui.",
+      "benefits": [
+        "Lavina šuns protą",
+        "Stiprina fizinę ištvermę",
+        "Sustiprina ryšį su šeimininku",
+        "Smagi veikla abiems"
+      ]
+    },
+    "competitions": {
+      "title": "Pasiruošimas varžyboms",
+      "description": "Šūnų dresūra varžyboms yra intensyvi ir specializuota veikla, skirta paruošti šunis dalyvauti įvairių disciplinų varžybose ar egzaminuose. Aš pats asmeniškai ruošiuosi ir dalyvauju įvairiuose varžybose, kas man padeda tobulėti, augti, semtis patirties iš geriausių dresuotojų pasaulyje.",
+      "benefits": [
+        "Profesionalus pasiruošimas",
+        "Patirtis iš varžybų",
+        "Specializuotas mokymas",
+        "Aukšti standartai"
+      ]
+    },
+    "equipment": {
+      "title": "Dresūros inventorius",
+      "description": "Dažnai sulaukiu pastabų, jog klientams sunku rasti kokybišką antkaklį, pavadėlį ar kitą dresūrai skirtą inventorių. Turėdami tinkamą dresūrai skirtą inventorių, galite sukurti tinkamą ir efektyvią aplinką šuns mokymui ir lavinimui. Susitikimo metu išsirinksime, tai kas geriausia ir kokybiška."
+    }
+  },
+  "features": [
+    "Greiti rezultatai (5-10 pamokų)",
+    "Pirmi rezultatai po pirmų pamokų",
+    "Profesionali patirtis varžybose",
+    "A lygio įvertinimas",
+    "Patekimas į pasaulio čempionatą",
+    "2023 CACIT Germany - 90 balų apsaugos dalyje",
+    "Specializuotas mokymas",
+    "Aukšti standartai",
+    "Dresūros inventoriaus pardavimas",
+    "Online registracija",
+    "Individuali programa",
+    "Blogai su naudinga informacija"
+  ],
+  "specialization": [
+    "Paklusnumas",
+    "Socializacija",
+    "Varžybų ruoša",
+    "Apsaugos dresūra",
+    "Agility",
+    "Komandos ir triukai"
+  ]
+}

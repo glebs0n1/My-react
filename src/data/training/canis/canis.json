@@ -1,0 +1,155 @@
+{
+  "school": "Canis.lt",
+  "website": "https://www.canis.lt/",
+  "contact": {
+    "name": "Karina Ščuckytė",
+    "phone": "+37061649048",
+    "email": "info@canis.lt",
+    "address": "Vingio parkas, Vilnius / Visorių g. 8, Vilnius"
+  },
+  "about": {
+    "since": 2010,
+    "description": "Profesionali šunų dresūra su 13 metų patirtimi. Dresuotoja Karina Ščuckytė – Lietuvos Kinologų Draugijos sertifikuota specialistė, IPO varžybų nugalėtoja. Nuo 2020m. studijuoja Klinikinės gyvūnų elgsenos magistro programą Edinburgo universitete."
+  },
+  "team": [
+    {
+      "name": "Karina Ščuckytė",
+      "role": "Canis.lt savininkė ir LKD dresuotoja",
+      "specialties": [
+        "IPO sportas",
+        "Paklusnumo varžybos",
+        "Elgesio problemos",
+        "Klinikinė gyvūnų elgsena"
+      ]
+    }
+  ],
+  "services": [
+    "Dresūra grupėje",
+    "Asmeninės treniruotės",
+    "Elgesenos korekcija",
+    "Dresūra su apgyvendinimu",
+    "Mokykla namie",
+    "Pažengusių grupė",
+    "Laikina priežiūra"
+  ],
+  "prices": {
+    "groupTraining": {
+      "beginners": {
+        "description": "Pradedančiųjų kursas",
+        "duration": "Teorija + 6 treniruotės, 1k. per savaitę",
+        "price": 100
+      },
+      "advanced4": {
+        "description": "Pažengusių grupė",
+        "duration": "4 treniruotės",
+        "price": 50
+      },
+      "advanced12": {
+        "description": "Pažengusių grupė",
+        "duration": "12 treniruočių",
+        "price": 120
+      },
+      "programSocialus": {
+        "description": "Programa Socialus",
+        "duration": "Pradedančiųjų kursas + metai pažengusių grupėje + 3 asmeninės",
+        "price": 325
+      }
+    },
+    "individualTraining": {
+      "minimal": {
+        "description": "Minimali - pora blogų įpročių",
+        "park": 130,
+        "custom": 160,
+        "duration": "3 treniruotės + konsultacijos 1 mėn."
+      },
+      "standard": {
+        "description": "Standartinė - pilnas paklusnumo mokymas",
+        "park": 325,
+        "custom": 400,
+        "duration": "8 treniruotės + konsultacijos"
+      },
+      "unlimited": {
+        "description": "Neribota - pagalba visam gyvenimui",
+        "park": 925,
+        "custom": 1125,
+        "duration": "Neribota + pažengusių grupė visam gyvenimui"
+      }
+    },
+    "behaviorCorrection": {
+      "single": {
+        "description": "1 konsultacija",
+        "price": 80,
+        "duration": "60-90 min."
+      },
+      "package3": {
+        "description": "3 konsultacijos",
+        "price": 200,
+        "duration": "60-90 min. kiekviena"
+      }
+    },
+    "boardAndTrain": {
+      "basic": {
+        "description": "Bazinis paklusnumas",
+        "price": 800,
+        "duration": "3 savaitės"
+      },
+      "offLeash": {
+        "description": "Paklusnumas be pavadėlio",
+        "price": 600,
+        "duration": "2 savaitės"
+      },
+      "combined": {
+        "description": "Bazinis + be pavadėlio",
+        "price": 1300,
+        "duration": "5 savaitės"
+      }
+    },
+    "homeTraining": {
+      "basic": {
+        "description": "Bazinis paklusnumas į namus",
+        "price": 1200,
+        "duration": "4 savaitės"
+      },
+      "offLeash": {
+        "description": "Paklusnumas be pavadėlio į namus",
+        "price": 900,
+        "duration": "3 savaitės"
+      },
+      "combined": {
+        "description": "Pilna programa į namus",
+        "price": 1900,
+        "duration": "7 savaitės"
+      }
+    }
+  },
+  "location": {
+    "city": "Vilnius",
+    "district": "Vingio parkas / Visorių g. 8",
+    "indoorSpace": "Šilta salė Visorių g. 8 (Viktorijos šunų kirpykla)",
+    "outdoorSpace": "Vingio parkas",
+    "parking": true
+  },
+  "schedule": {
+    "beginnersCourses": [
+      "Pirmadieniais 19:00 Vingio parke",
+      "Trečiadieniais 19:00 Visorių g. 8",
+      "Ketvirtadieniais 19:00 Vingio parke",
+      "Šeštadieniais 11:00-12:00 Vingio parke"
+    ],
+    "advancedGroup": [
+      "Trečiadieniais 20:00 Vingio parke",
+      "Šeštadieniais 11:00 Vingio parke"
+    ]
+  },
+  "whyUs": "Dresuodama renkuosi efektyvius metodus, kurie leidžia pasiekti pakankamai greitą rezultatą liekant sąžiningu šuns atžvilgiu. Mokome šunį naudojant motyvaciją ir žaidimą, daug pozityvaus paskatinimo. Būtinos tam tikros ribos ir taisyklės. Visada aktyviai dalyvauju seminaruose Lietuvoje ir užsienyje, pagrinde pas pasaulio dresūros čempionus.",
+  "history": "Su malinua Daria tapau daugelio IPO1 B paklusnumo varžybų nugalėtoja Lietuvoje bei Latvijoje 2011–2013 metais. 2014 metais laimėjome IPO3 varžybas. Nuo 2020m. studijuoju Klinikinės gyvūnų elgsenos magistro programą Edinburgo universitete.",
+  "features": [
+    "Mažos 4-6 šunų grupės",
+    "Video pratimų įrašai",
+    "Teorinė paskaita online",
+    "Nemokama konsultacija",
+    "Sumanaus šuns diplomas",
+    "Elektroninio antkaklio mokymas",
+    "Dresūra Trakų nacionalinio parko aplinkoje"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "school": "Šunų dresūros ir sporto centras „Nasrai“",
+    "city": "Kaunas",
+    "address": "Vydūno alėja 4, Kaunas",
+    "website": "https://nasrai.com",
+    "contact": {
+      "phone": "+37068619815"
+    },
+    "services": [
+      "Paklusnumo treniruotės",
+      "Individualios treniruotės",
+      "Konsultacijos",
+      "Agility",
+      "Obedience",
+      "Online treniruotės",
+      "Ruošimas parodoms"
+    ],
+    "groups": [
+      "Pradinukai",
+      "Pažengusieji",
+      "Rytinė grupė"
+    ]
+  }

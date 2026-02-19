@@ -1,0 +1,13 @@
+{
+    "school": "Kinologė konsultuoja",
+    "city": "Panevėžys",
+    "experienceYears": 24,
+    "services": [
+      {
+        "name": "Šuniuko įsigijimo konsultacija",
+        "priceFrom": 25,
+        "duration": "1 val."
+      }
+    ],
+    "notes": "VETERINARINIAIS GYDYMO KLAUSIMAIS NEKONSULTUOJA"
+  }

@@ -1,0 +1,424 @@
+{
+  "school": "Mokyk Šunį (DogPunk)",
+  "website": "https://mokyksuni.lt/",
+  "contact": {
+    "phone": "+370 640 07280",
+    "email": "info@mokyksuni.lt",
+    "address": "Kalvarijų g. 143, Vilnius",
+    "instagram": "dogpunk_dog_school",
+    "facebook": "dogpunk.lt"
+  },
+  "about": {
+    "since": 2020,
+    "description": "Esame šunų elgesio specialistų komanda Vilniuje ir Panevėžyje. Padedame šunų šeimininkams suprasti savo augintinius, spręsti elgsenos problemas ir kurti stiprų tarpusavio ryšį. Reabilituojame jautrius ir traumuotus šunis."
+  },
+  "team": [
+    {
+      "name": "Žana Penkauskienė",
+      "role": "Vyr. trenerė ir DogPunk įkūrėja",
+      "specialties": [
+        "Obedience instruktorė",
+        "LKD Dresuotojų kolegijos tarybos narė",
+        "Elgesio architektūra",
+        "Reabilitacija"
+      ]
+    },
+    {
+      "name": "Ilijanka",
+      "role": "Trenerė",
+      "specialties": [
+        "Grupiniai kursai",
+        "Individualios pamokos"
+      ]
+    },
+    {
+      "name": "Karolina",
+      "role": "Trenerė",
+      "specialties": [
+        "Grupiniai kursai",
+        "Individualios pamokos"
+      ]
+    },
+    {
+      "name": "Ivona",
+      "role": "Trenerė",
+      "specialties": [
+        "Grupiniai kursai",
+        "Individualios pamokos"
+      ]
+    },
+    {
+      "name": "Dovilė Žalienė",
+      "role": "Trenerė Panevėžyje",
+      "specialties": [
+        "Grupiniai kursai",
+        "Individualios pamokos"
+      ]
+    }
+  ],
+  "services": [
+    "Šuns elgsenos architektūra",
+    "Grupinė socializacijos pamoka",
+    "Puppy club",
+    "1 klasė - Pirmokai",
+    "2 klasė - Studentai",
+    "3 klasė - Profesoriai",
+    "Individualios pamokos",
+    "Reabilitacijos kursai",
+    "Paaugliai",
+    "Pilno paklusnumo kursas",
+    "Pavadėlio netempimo kursai",
+    "Smagiai ir mandagiai mieste",
+    "Triukų kursas",
+    "Ringo (ŠOU)",
+    "Obedience sporto kursas",
+    "Kursai vaikams",
+    "Šunų meditacija",
+    "Online Puppy club"
+  ],
+  "prices": {
+    "vilnius": {
+      "specialCourses": {
+        "behaviorArchitecture": {
+          "description": "Šuns elgsenos architektūra - 3 mėn. kursas",
+          "priceEarly": 450,
+          "priceRegular": 500,
+          "duration": "3 mėnesiai",
+          "earlyBirdDeadline": "2026-04-30"
+        },
+        "socialization": {
+          "description": "Grupinė socializacijos pamoka šuniukams",
+          "price": 15,
+          "duration": "1 pamoka"
+        }
+      },
+      "groupCourses": {
+        "puppyClub": {
+          "description": "Puppy club (2-4 mėn. šuniukams)",
+          "price": 80,
+          "duration": "4 pamokos"
+        },
+        "class1": {
+          "description": "1 klasė - Pirmokai",
+          "price": 140,
+          "duration": "8 savaitės",
+          "discount": "Iš prieglaudos -10%"
+        },
+        "class2": {
+          "description": "2 klasė - Studentai",
+          "price": 140,
+          "duration": "8 savaitės",
+          "discount": "DogPunk mokiniams -10%"
+        },
+        "class3": {
+          "description": "3 klasė - Profesoriai",
+          "price": 140,
+          "duration": "8 savaitės"
+        },
+        "teenagers": {
+          "description": "Kursas Paaugliai (6-24 mėn.)",
+          "price": 140,
+          "duration": "8 savaitės"
+        },
+        "fullObedience": {
+          "description": "Pilno paklusnumo kursas",
+          "price": 170,
+          "duration": "10 pamokų"
+        },
+        "leashPulling": {
+          "description": "Pavadėlio netempimo kursai",
+          "price": 120,
+          "duration": "8 pamokos"
+        },
+        "cityManners": {
+          "description": "Smagiai ir mandagiai mieste",
+          "price": 115,
+          "duration": "6 savaitės"
+        },
+        "tricks": {
+          "description": "Triukų kursas",
+          "price": 95,
+          "duration": "8 pamokos"
+        },
+        "ringo": {
+          "description": "Ringo (ŠOU)",
+          "price": 140,
+          "duration": "8 pamokos"
+        },
+        "forKids": {
+          "description": "Kursai vaikams",
+          "price": 140,
+          "duration": "8 savaitės"
+        },
+        "singleGroup": {
+          "description": "1 pamoka grupėje",
+          "price": 25,
+          "duration": "1 pamoka"
+        }
+      },
+      "individualLessons": {
+        "trainers": {
+          "school1h": {
+            "description": "Individuali pamoka mokykloje (Treneriai)",
+            "price": 40,
+            "duration": "1 val."
+          },
+          "school1_5h": {
+            "description": "Individuali pamoka mokykloje (Treneriai)",
+            "price": 60,
+            "duration": "1,5 val."
+          },
+          "home1h": {
+            "description": "Individuali pamoka namuose Vilniuje (Treneriai)",
+            "price": 60,
+            "duration": "1 val."
+          },
+          "home1_5h": {
+            "description": "Individuali pamoka namuose Vilniuje (Treneriai)",
+            "price": 75,
+            "duration": "1,5 val."
+          },
+          "course4x1h": {
+            "description": "Individualių pamokų kursas mokykloje (Treneriai)",
+            "price": 145,
+            "duration": "4 pamokos po 1 val."
+          },
+          "course4x1_5h": {
+            "description": "Individualių pamokų kursas mokykloje (Treneriai)",
+            "price": 210,
+            "duration": "4 pamokos po 1,5 val."
+          },
+          "homeCourse4x1h": {
+            "description": "Individualių pamokų kursas namuose (Treneriai)",
+            "price": 216,
+            "duration": "4 pamokos po 1 val."
+          },
+          "homeCourse4x1_5h": {
+            "description": "Individualių pamokų kursas namuose (Treneriai)",
+            "price": 270,
+            "duration": "4 pamokos po 1,5 val."
+          },
+          "video": {
+            "description": "Skype/Viber/Messenger video pamoka (Treneriai)",
+            "priceMin": 40,
+            "priceMax": 60,
+            "duration": "Online"
+          },
+          "reactiveShySpecial": {
+            "description": "Individuali pamoka (reaktyvumas, bailumas) mokykloje",
+            "price": 60,
+            "duration": "1 val."
+          },
+          "reactiveShyHome": {
+            "description": "Individuali pamoka (reaktyvumas, bailumas) namuose",
+            "price": 80,
+            "duration": "1 val."
+          }
+        },
+        "headTrainer": {
+          "school": {
+            "description": "Individuali pamoka mokykloje (Vyr. trenerė Žana)",
+            "price": 60,
+            "duration": "1 val."
+          },
+          "home": {
+            "description": "Individuali pamoka namuose (Vyr. trenerė Žana)",
+            "price": 80,
+            "duration": "1 val."
+          },
+          "course4School": {
+            "description": "Individualių pamokų kursas mokykloje (Žana)",
+            "price": 220,
+            "duration": "4 pamokos"
+          },
+          "course4Home": {
+            "description": "Individualių pamokų kursas namuose (Žana)",
+            "price": 290,
+            "duration": "4 pamokos"
+          },
+          "video1h": {
+            "description": "Video pamoka (Žana)",
+            "price": 50,
+            "duration": "1 val."
+          },
+          "video1_5h": {
+            "description": "Video pamoka (Žana)",
+            "price": 80,
+            "duration": "1,5 val."
+          }
+        }
+      },
+      "rehabilitation": {
+        "courseSchool1h": {
+          "description": "Reabilitacijos kursas bailiems ir jautriems (mokykloje)",
+          "price": 220,
+          "duration": "Vid. 7 savaitės, 4 pamokos po 1 val."
+        },
+        "courseSchool1_5h": {
+          "description": "Reabilitacijos kursas bailiems ir jautriems (mokykloje)",
+          "price": 290,
+          "duration": "Vid. 7 savaitės, 4 pamokos po 1,5 val."
+        },
+        "courseHome": {
+          "description": "Reabilitacijos kursas bailiems ir jautriems (namuose)",
+          "priceMin": 290,
+          "priceMax": 360,
+          "duration": "Vid. 7 savaitės, 4 pamokos"
+        },
+        "singleSchool1h": {
+          "description": "1 reabilitacijos pamoka mokykloje",
+          "price": 60,
+          "duration": "1 val."
+        },
+        "singleSchool1_5h": {
+          "description": "1 reabilitacijos pamoka mokykloje",
+          "price": 80,
+          "duration": "1,5 val."
+        },
+        "singleHome1h": {
+          "description": "1 reabilitacijos pamoka namuose",
+          "price": 80,
+          "duration": "1 val."
+        },
+        "singleHome1_5h": {
+          "description": "1 reabilitacijos pamoka namuose",
+          "price": 100,
+          "duration": "1,5 val."
+        }
+      },
+      "otherServices": {
+        "boardAndTrain": {
+          "description": "Auklėjimas su apgyvendinimu trenerio namuose",
+          "pricePerDay": 45,
+          "priceHoliday": 50,
+          "priceHeadTrainer": 50,
+          "duration": "3 savaitės, €/para"
+        },
+        "boarding": {
+          "description": "Apgyvendinimas atostogų metų",
+          "pricePerDay": 40,
+          "priceHoliday": 45,
+          "priceHeadTrainer": 50,
+          "duration": "€/para"
+        }
+      }
+    },
+    "panevezys": {
+      "individual": {
+        "single": {
+          "description": "Individuali pamoka (Panevėžys)",
+          "price": 30,
+          "duration": "1 pamoka"
+        },
+        "course4": {
+          "description": "Individualių pamokų kursas (Panevėžys)",
+          "price": 110,
+          "duration": "4 pamokos"
+        }
+      },
+      "group": {
+        "class1": {
+          "description": "1 klasė (Panevėžys)",
+          "price": 130,
+          "duration": "8 savaitės"
+        },
+        "cityManners": {
+          "description": "Smagiai ir mandagiai mieste (Panevėžys)",
+          "price": 95,
+          "duration": "6 savaitės"
+        },
+        "single": {
+          "description": "1 pamoka grupėje (Panevėžys)",
+          "price": 18,
+          "duration": "1 pamoka"
+        }
+      },
+      "otherServices": {
+        "boardAndTrain": {
+          "description": "Auklėjimas su apgyvendinimu (Panevėžys)",
+          "priceMin": 40,
+          "priceMax": 45,
+          "duration": "3 savaitės, €/para"
+        },
+        "boarding": {
+          "description": "Apgyvendinimas atostogų metų (Panevėžys)",
+          "price": 30,
+          "duration": "€/para"
+        }
+      }
+    }
+  },
+  "webinars": [
+    "ŠUNYS – PAAUGLIAI",
+    "Kaip šunys jaučia ir tai pasako",
+    "Baimės šuns akimis",
+    "Pagarba ir meilė šuniui senjorui",
+    "Apie šunų ir šuniukų kūno kalbą",
+    "Resursų saugojimas",
+    "Šuo bijo likti vienas namuose",
+    "Kaip apraminti šunį"
+  ],
+  "location": {
+    "city": "Vilnius",
+    "district": "Kalvarijų g. 143",
+    "additionalLocations": [
+      {
+        "city": "Panevėžys",
+        "trainerName": "Dovilė Žalienė"
+      }
+    ],
+    "indoorSpace": "Šilta salė",
+    "parking": true
+  },
+  "schedule": {
+    "vilnius": {
+      "class1": [
+        "Ketvirtadieniais 19:00",
+        "Trečiadieniais 19:00",
+        "Sekmadieniais 12:00",
+        "Pirmadieniais 19:00",
+        "Šeštadieniais 12:40",
+        "Antradieniais 19:00"
+      ],
+      "puppyClub": [
+        "Šeštadieniais 14:00"
+      ],
+      "class2": [
+        "Sekmadieniais 14:20",
+        "Ketvirtadieniais 19:00"
+      ],
+      "teenagers": [
+        "Ketvirtadieniais 19:00"
+      ]
+    },
+    "panevezys": {
+      "class1": [
+        "Sekmadieniais 10:00-12:30",
+        "Šeštadieniais 12:00",
+        "Antradieniais 18:30",
+        "Pirmadieniais 18:00-19:10"
+      ]
+    }
+  },
+  "whyUs": "Kiekvienas mūsų mokyklos treneris svajojo turėti mylimą darbą. Nuo 2020 metų esame komanda ir kartu tobulėjame: dalyvaujame Lietuvos ir užsienio šalių seminaruose. Meilė ir ryšys — du pagrindiniai komponentai, nulemiantys, ar šuo jus girdės.",
+  "history": "Veikia nuo 2020 metų. DogPunk šunų mokykla specializuojasi šunų elgesio problemų sprendime ir reabilitacijoje. Vyr. trenerė Žana Penkauskienė yra Obedience instruktorė ir LKD Dresuotojų kolegijos tarybos narė.",
+  "features": [
+    "Mažos grupės (iki 5-6 šunų)",
+    "Online teorijos pamokos",
+    "Diplomai po egzaminų",
+    "Reabilitacija bailiems šunims",
+    "Video pamokos",
+    "Darbas su paaugliais šunimis",
+    "Individualios programos",
+    "Lietuvių, rusų, lenkų, anglų kalbomis"
+  ],
+  "specialization": [
+    "Elgesio problemos",
+    "Reaktyvumas",
+    "Bailumas ir jautrumas",
+    "Išsiskyrimo nerimas",
+    "Reabilitacija",
+    "Resursų saugojimas",
+    "Paauglių šunys"
+  ]
+}

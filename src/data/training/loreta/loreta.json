@@ -1,0 +1,145 @@
+{
+    "school": "Loreta Puskunigė - LKD Dresuotoja",
+    "website": "https://fracco.lt/",
+    "contact": {
+      "name": "Loreta Puskunigė",
+      "phone": "+370 669 03586",
+      "email": "info@fracco.lt",
+      "address": "Vilnius"
+    },
+    "about": {
+      "since": 2015,
+      "experience": "8 metai",
+      "description": "LKD dresuotoja su 8 metų patirtimi. Knygos 'SOS: namuose mažas šuniukas' autorė. Teikiu profesionalias šunų dresūros ir priežiūros paslaugas visoje Lietuvoje. Specializuojuosi jaunų šuniukų auklėjime ir problemų sprendime."
+    },
+    "achievements": [
+      {
+        "title": "LKD dresuotoja",
+        "description": "Licencijuota Lietuvos kinologų draugijos dresuotoja"
+      },
+      {
+        "title": "Knygos autorė",
+        "description": "Parašė knygą 'SOS: namuose mažas šuniukas' (leidykla Briedis)"
+      },
+      {
+        "title": "8 metų patirtis",
+        "description": "Profesionaliai dirba su šunimis nuo 2015 metų"
+      }
+    ],
+    "services": [
+      "Šunų dresavimas",
+      "Šunų priežiūros konsultacijos",
+      "Nuotoliniai seminarai",
+      "Online kursai",
+      "Nuotolinės konsultacijos",
+      "Mankšta ant bėgimo takelio",
+      "Uostymo kilimėliai",
+      "Individualios pamokos",
+      "Grupinės pamokos",
+      "Seminarų įrašai"
+    ],
+    "prices": {
+      "individualLesson": {
+        "description": "Individuali dresūros pamoka",
+        "priceMin": 30,
+        "priceMax": 35,
+        "duration": "60 min.",
+        "note": "Lauke arba patalpose"
+      },
+      "consultation": {
+        "description": "Šunų priežiūros ir dresūros konsultacija",
+        "price": 35,
+        "duration": "60 min.",
+        "note": "Lauke arba patalpose"
+      },
+      "onlineConsultation": {
+        "description": "Nuotolinė konsultacija",
+        "price": 25,
+        "duration": "40 min."
+      },
+      "beginnersCourse": {
+        "description": "Pradedančiųjų kursas online",
+        "price": 50,
+        "note": "Su namų darbais ir pasitikrinimu"
+      },
+      "treadmill": {
+        "description": "Mankšta ant bėgimo takelio",
+        "price": 35,
+        "duration": "1 pamoka",
+        "note": "Pratinimas ir mokymasis bėgti"
+      },
+      "seminarPuppy": {
+        "description": "Nuotolinis seminaras: 'SOS: namuose mažas šuniukas'",
+        "price": 15,
+        "duration": "60 min.",
+        "note": "Įrašas, galima žiūrėti bet kada"
+      },
+      "seminarLeash": {
+        "description": "Nuotolinis seminaras: 'SOS: šuo tempia pavadėlį'",
+        "price": 15,
+        "duration": "40 min.",
+        "note": "Įrašas, galima žiūrėti bet kada"
+      },
+      "seminarPeeing": {
+        "description": "Seminaro įrašas: 'SOS: šuo šlapinasi namuose'",
+        "price": 15,
+        "duration": "48 min.",
+        "note": "Priežastys ir sprendimai"
+      },
+      "scentMat": {
+        "description": "Uostymo kilimėliai šunims",
+        "price": 15,
+        "note": "Siuntimas per Omniva, Vilniuje - atsiėmimas Ožkiniuose"
+      }
+    },
+    "location": {
+      "city": "Vilnius",
+      "district": "Ožkiniai",
+      "coverage": "Visa Lietuva"
+    },
+    "features": [
+      "8 metų profesionali patirtis",
+      "LKD sertifikuota dresuotoja",
+      "Knygos 'SOS: namuose mažas šuniukas' autorė",
+      "10% nuolaida naujams klientams",
+      "Nuotoliniai seminarai ir kursai",
+      "Trumpos nemokamos konsultacijos telefonu",
+      "Pamokos lauke ir patalpose",
+      "Bėgimo takelio treniruotės",
+      "Uostymo kilimėlių gamyba",
+      "Veikla visoje Lietuvoje"
+    ],
+    "specialization": [
+      "Jaunų šuniukų auklėjimas",
+      "Elgesio problemų sprendimas",
+      "Šuniuko šlapinimosi namuose sprendimas",
+      "Pavadėlio tempimo korekcija",
+      "Nuotolinės konsultacijos",
+      "Online mokymai",
+      "Fitnesas šunims"
+    ],
+    "products": [
+      {
+        "name": "Knyga 'SOS: namuose mažas šuniukas'",
+        "url": "https://briedis.lt/mk/sos-namuose-mazas-suniukas.html",
+        "description": "Praktinis vadovas jaunų šuniukų auginimui"
+      },
+      {
+        "name": "Seminarų įrašai",
+        "url": "https://fracco.lt/",
+        "description": "Įvairių temų seminarai: šuniukas namuose, pavadėlio tempimas, šlapinimasis"
+      },
+      {
+        "name": "Nuotoliniai kursai",
+        "url": "https://fracco.lt/",
+        "description": "4 pusvalandžio trukmės konsultacijos online + seminaro įrašas"
+      }
+    ],
+    "registrationLink": "https://forms.gle/5P2RAmM3iWQBrR8A7",
+    "discount": "10% nuolaida naujams klientams",
+    "additionalInfo": {
+      "freeConsultations": "Trumpos (iki kelių minučių) nemokamos konsultacijos telefonu",
+      "equipment": "Yra bėgimo takelis ir kita sporto įranga",
+      "delivery": "Uostymo kilimėlių siuntimas per Omniva arba atsiėmimas Vilniuje (Ožkiniuose)"
+    }
+  }

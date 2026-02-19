@@ -1,0 +1,1864 @@
+[
+  {
+    "name": "AMSIS",
+    "link": "https://penktakoja.lt/beglobis/5932/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2022/09/amsis-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2022/09/amsis-4-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PIPER",
+    "link": "https://penktakoja.lt/beglobis/piper/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/10/piper-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/10/piper-3-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PANKAS",
+    "link": "https://penktakoja.lt/beglobis/pankas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/pankas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/pankas-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "MARTA",
+    "link": "https://penktakoja.lt/beglobis/marta-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/10/marta-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/10/marta-2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "GIZMO",
+    "link": "https://penktakoja.lt/beglobis/gizmo-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2022/11/gizmo-2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2022/11/gizmo-3-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LUBINAS",
+    "link": "https://penktakoja.lt/beglobis/lubinas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/lubinas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/lubinas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAKAS",
+    "link": "https://penktakoja.lt/beglobis/bakas-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/bakas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/bakas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MONTIS",
+    "link": "https://penktakoja.lt/beglobis/montis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/01/motis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/01/motis-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ČIDIS",
+    "link": "https://penktakoja.lt/beglobis/cidis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/cidis-1_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/cidis-4_2-1-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "HUNTER",
+    "link": "https://penktakoja.lt/beglobis/hunter/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/hunter-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/hunter-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "KLECKAS",
+    "link": "https://penktakoja.lt/beglobis/kleckas-3/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/01/kleckas-2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/01/kleckas-3-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SHY",
+    "link": "https://penktakoja.lt/beglobis/shy/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/shy-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/shy-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "AZIJA",
+    "link": "https://penktakoja.lt/beglobis/azija/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/nikodema-1914-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/nikodema-1901-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ŽVIRBLIS",
+    "link": "https://penktakoja.lt/beglobis/zvirblis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/08/zvirblis-6-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/08/zvirblis-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BRUKNIUS",
+    "link": "https://penktakoja.lt/beglobis/bruknius/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/02/bruknius-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/02/bruknius-4-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "JONELIS",
+    "link": "https://penktakoja.lt/beglobis/jonelis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/01/jonelis-680x920.jpg",
+    "hoverImage": null,
+    "price": "€5.00"
+  },
+  {
+    "name": "KURMIS",
+    "link": "https://penktakoja.lt/beglobis/kurmis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/11/kurmis-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/11/kurmis-1-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "GOJA",
+    "link": "https://penktakoja.lt/beglobis/goja/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/goja-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/goja-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TORNADAS",
+    "link": "https://penktakoja.lt/beglobis/tornadas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/tornadas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/tornadas-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ČIRVIRVIR",
+    "link": "https://penktakoja.lt/beglobis/cirvirvir/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/06/cirvirvir-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/06/cirvirvir-2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PURIS",
+    "link": "https://penktakoja.lt/beglobis/puris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/02/puris-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/02/puris-4-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PIRATAS",
+    "link": "https://penktakoja.lt/beglobis/piratas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/piratas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/piratas-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BRIDŽAS",
+    "link": "https://penktakoja.lt/beglobis/kingas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/kingas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/kingas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BALALAIKA",
+    "link": "https://penktakoja.lt/beglobis/balalaika/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/balalaika-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/balalaika-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VERNAS",
+    "link": "https://penktakoja.lt/beglobis/vernas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/08/vernas-4-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/08/vernas-5-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "REKSAS",
+    "link": "https://penktakoja.lt/beglobis/reksas-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/reksas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/reksas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SMALSUTIS",
+    "link": "https://penktakoja.lt/beglobis/smalsutis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/smalsutis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/smalsutis-5_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LEVIS",
+    "link": "https://penktakoja.lt/beglobis/levis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/levis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/levis-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LANDO",
+    "link": "https://penktakoja.lt/beglobis/lando/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/lando-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/lando-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "METAS",
+    "link": "https://penktakoja.lt/beglobis/metas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/06/metas-11_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/06/metas-12_2-680x683.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "LEVANDA",
+    "link": "https://penktakoja.lt/beglobis/levanda-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/04/levanda-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/04/levanda-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ŽYDRŪNAS",
+    "link": "https://penktakoja.lt/beglobis/zydrunas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/01/zydrunas-680x920.jpg",
+    "hoverImage": null,
+    "price": "€5.00"
+  },
+  {
+    "name": "KAPUČINAS",
+    "link": "https://penktakoja.lt/beglobis/kapucinas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/11/kapucinas-4-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/11/kapucinas-5-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "REKSAS",
+    "link": "https://penktakoja.lt/beglobis/reksas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/reksas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/reksas-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SAPNAS",
+    "link": "https://penktakoja.lt/beglobis/sapnas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/SAPNAS-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/SAPNAS-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ALBINUKAS",
+    "link": "https://penktakoja.lt/beglobis/albinukas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/albinukas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/albinukas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PUMA",
+    "link": "https://penktakoja.lt/beglobis/puma/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/puma-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/puma-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "DROVUTIS",
+    "link": "https://penktakoja.lt/beglobis/drovutis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/drovutis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/drovutis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TOPAZAS",
+    "link": "https://penktakoja.lt/beglobis/topazas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/11/topazas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/11/topazas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "ROKO",
+    "link": "https://penktakoja.lt/beglobis/roko/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/01/roko-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/01/roko-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "KORA",
+    "link": "https://penktakoja.lt/beglobis/kora-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/12/kora-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/12/kora-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PARKA",
+    "link": "https://penktakoja.lt/beglobis/parka/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/parka-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/parka-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "MAIKLAS",
+    "link": "https://penktakoja.lt/beglobis/maiklas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/maiklas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/maiklas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MEGA",
+    "link": "https://penktakoja.lt/beglobis/mega/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/mega-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/mega-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "DŽEFRIS",
+    "link": "https://penktakoja.lt/beglobis/dzefris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/dzefris-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/dzefris-6_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BĖJUS",
+    "link": "https://penktakoja.lt/beglobis/bejus/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/10/bejus-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/10/bejus-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DAGIS",
+    "link": "https://penktakoja.lt/beglobis/dagis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/dagis-2_2-680x683.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/dagis-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "VĖJAS",
+    "link": "https://penktakoja.lt/beglobis/vejas-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/12/vejas-6-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/12/vejas-7-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PREILA",
+    "link": "https://penktakoja.lt/beglobis/preila/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/preila-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/preila-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "LABUBU",
+    "link": "https://penktakoja.lt/beglobis/labubu/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/labubu-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/labubu-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ARA",
+    "link": "https://penktakoja.lt/beglobis/ara/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/ara-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/ara-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "ŽIBUTĖ",
+    "link": "https://penktakoja.lt/beglobis/zibute/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/zibute-2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/zibute-3-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ŽAKAS",
+    "link": "https://penktakoja.lt/beglobis/zakas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/zakas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/zakas-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "BARDAKAS",
+    "link": "https://penktakoja.lt/beglobis/bardakas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/bardakas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/bardakas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BUČKIS",
+    "link": "https://penktakoja.lt/beglobis/buckis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/buckis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/buckis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LALUNA",
+    "link": "https://penktakoja.lt/beglobis/laluna/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/laluna-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/laluna-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LAPĖ",
+    "link": "https://penktakoja.lt/beglobis/lape-3/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/12/lape-7-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/12/lape-6-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "FANTA",
+    "link": "https://penktakoja.lt/beglobis/fanta/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/fanta-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/fanta-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PUPĖ",
+    "link": "https://penktakoja.lt/beglobis/pupe/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/pupe-6_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/pupe-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "SMĖLIUS",
+    "link": "https://penktakoja.lt/beglobis/smelius/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/smelius-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/smelius-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "DŽINA",
+    "link": "https://penktakoja.lt/beglobis/dzina/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/dzina-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/dzina-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ERNIS",
+    "link": "https://penktakoja.lt/beglobis/ernis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/ernis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/ernis-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TERAS",
+    "link": "https://penktakoja.lt/beglobis/tera/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/tera-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/tera-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BRAUNIS",
+    "link": "https://penktakoja.lt/beglobis/braunis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/braunis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/braunis-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BRITA",
+    "link": "https://penktakoja.lt/beglobis/brita/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/05/brita-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/05/brita-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ČIOKO",
+    "link": "https://penktakoja.lt/beglobis/cioko/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/01/cioko-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/01/cioko-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KUTAS",
+    "link": "https://penktakoja.lt/beglobis/kutas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/kutas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/kutas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "RINKA",
+    "link": "https://penktakoja.lt/beglobis/rinka/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/rinka-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/rinka-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "SEMI",
+    "link": "https://penktakoja.lt/beglobis/semi/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/semi-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/semi-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ZETA",
+    "link": "https://penktakoja.lt/beglobis/zeta/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/zeta-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/zeta-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "HOKUS POKUS",
+    "link": "https://penktakoja.lt/beglobis/hokus-pokus/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/hokus-pokus-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/hokus-pokus-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ČIPAS",
+    "link": "https://penktakoja.lt/beglobis/cipas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/cipas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/cipas-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "DUMBLIS",
+    "link": "https://penktakoja.lt/beglobis/dumblis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/dumblis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/dumblis-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LOLO",
+    "link": "https://penktakoja.lt/beglobis/lolo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/lolo-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/lolo-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "VOLDEMORTA",
+    "link": "https://penktakoja.lt/beglobis/voldemorta/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/VOLDEMORTA-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/VOLDEMORTA-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "AVANSAS",
+    "link": "https://penktakoja.lt/beglobis/avansas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/avansas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/avansas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PIORLAS",
+    "link": "https://penktakoja.lt/beglobis/piorlas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/piorlas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/piorlas-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "VĖTRA",
+    "link": "https://penktakoja.lt/beglobis/vetra/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/vetra-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/vetra-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "CARAS",
+    "link": "https://penktakoja.lt/beglobis/caras/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/caras-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/caras-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "JUVIJA",
+    "link": "https://penktakoja.lt/beglobis/juvija/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/juvija-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/juvija-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "RUMIS",
+    "link": "https://penktakoja.lt/beglobis/rumis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/rumis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/rumis-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ČEPSIUS",
+    "link": "https://penktakoja.lt/beglobis/cepsius/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/cepsius-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/cepsius-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "SIRIJUS",
+    "link": "https://penktakoja.lt/beglobis/sirijus/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/sirijus-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/sirijus-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MEILĖ",
+    "link": "https://penktakoja.lt/beglobis/meile/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/meile-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/meile-5_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LAVAŠAS",
+    "link": "https://penktakoja.lt/beglobis/lavasas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/lavasas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/lavasas-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PUCAS",
+    "link": "https://penktakoja.lt/beglobis/pucas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/pucas-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/pucas-1-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "MILĖ",
+    "link": "https://penktakoja.lt/beglobis/mile/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/mile-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/mile-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BORGAS",
+    "link": "https://penktakoja.lt/beglobis/borgas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/borgas-2_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/borgas-3_2-1-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "APU",
+    "link": "https://penktakoja.lt/beglobis/apu/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/apu-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/apu-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DOLĖ",
+    "link": "https://penktakoja.lt/beglobis/dole/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/dole-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/dole-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAKAS",
+    "link": "https://penktakoja.lt/beglobis/bakas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/bakas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/bakas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "GRĖJUS",
+    "link": "https://penktakoja.lt/beglobis/grejus/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/GREJUS-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/GREJUS-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LORDAS",
+    "link": "https://penktakoja.lt/beglobis/lordas-3/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/lordas-3_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/lordas-4_2-1-680x683.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "PIPIRAS",
+    "link": "https://penktakoja.lt/beglobis/pipiras/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/pipiras-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/pipiras-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "AIKO",
+    "link": "https://penktakoja.lt/beglobis/aiko/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/aiko-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/aiko-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MARKAS",
+    "link": "https://penktakoja.lt/beglobis/markas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/05/markas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/05/markas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "VAKARAS",
+    "link": "https://penktakoja.lt/beglobis/vakaras/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2023/11/vakaras-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2023/11/vakaras-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "NALA",
+    "link": "https://penktakoja.lt/beglobis/nala/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/nala-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/nala-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DŽEREMIS",
+    "link": "https://penktakoja.lt/beglobis/dzeremis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/dzeremis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/dzeremis-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MAKSIS",
+    "link": "https://penktakoja.lt/beglobis/maksis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/maksis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/maksis-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KARMA",
+    "link": "https://penktakoja.lt/beglobis/karma/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/karma-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/karma-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KLARENSAS",
+    "link": "https://penktakoja.lt/beglobis/klarensas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/klarensas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/klarensas-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "JŪROS KOPŪSTAS",
+    "link": "https://penktakoja.lt/beglobis/juros-kopustas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/juros-kopustas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/juros-kopustas-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "NIDA",
+    "link": "https://penktakoja.lt/beglobis/nida/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/nida_2-680x920.jpg",
+    "hoverImage": null,
+    "price": "€5.00"
+  },
+  {
+    "name": "VERONA",
+    "link": "https://penktakoja.lt/beglobis/verona/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/verona-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/verona-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAJUS",
+    "link": "https://penktakoja.lt/beglobis/bajus/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/bajus-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/bajus-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MUSĖ",
+    "link": "https://penktakoja.lt/beglobis/muse-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/muse-3_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/muse-2_2-1-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KENTA",
+    "link": "https://penktakoja.lt/beglobis/kenta/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/kenta-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/kenta-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TITANAS",
+    "link": "https://penktakoja.lt/beglobis/titanas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/titanas-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/titanas-2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PIJA",
+    "link": "https://penktakoja.lt/beglobis/pija/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/pija-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/pija-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PANEMUNIS",
+    "link": "https://penktakoja.lt/beglobis/panemunis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/panemunis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/panemunis-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "DOLFAS",
+    "link": "https://penktakoja.lt/beglobis/dolfas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/dolfas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/dolfas-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ŠIAUŠĖ",
+    "link": "https://penktakoja.lt/beglobis/siause/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/siause-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/siause-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "AMELIJA",
+    "link": "https://penktakoja.lt/beglobis/amelija/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/amelija-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/amelija-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PUPA",
+    "link": "https://penktakoja.lt/beglobis/pupa/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/pupa-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/pupa-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TIKIS",
+    "link": "https://penktakoja.lt/beglobis/tikis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/tikis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/tikis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SMILGA",
+    "link": "https://penktakoja.lt/beglobis/smilga/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/smilga-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/smilga-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "CINAMONAS",
+    "link": "https://penktakoja.lt/beglobis/cinamonas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/cinamonas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/cinamonas-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "ČIARLIS",
+    "link": "https://penktakoja.lt/beglobis/ciarlis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/ciarlis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/ciarlis-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "TOBIS",
+    "link": "https://penktakoja.lt/beglobis/tobis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/tobis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/tobis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "OMAS",
+    "link": "https://penktakoja.lt/beglobis/omas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/omas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/omas-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ALEKSA",
+    "link": "https://penktakoja.lt/beglobis/aleksa/",
+    "image": null,
+    "hoverImage": null,
+    "price": "€5.00"
+  },
+  {
+    "name": "FRAMAS",
+    "link": "https://penktakoja.lt/beglobis/framas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/framas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/framas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "RUBIS",
+    "link": "https://penktakoja.lt/beglobis/rubis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/rubis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/rubis-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "FEILAS",
+    "link": "https://penktakoja.lt/beglobis/feilas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/feilas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/feilas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SKEITAS",
+    "link": "https://penktakoja.lt/beglobis/skeitas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/skeitas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/skeitas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MINI",
+    "link": "https://penktakoja.lt/beglobis/mini/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/mini-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/mini-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KVASAS",
+    "link": "https://penktakoja.lt/beglobis/kvasas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/kvasas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/kvasas-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "CHUPACABRA",
+    "link": "https://penktakoja.lt/beglobis/chupacabra/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/Chupacabra-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/Chupacabra-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "RIO",
+    "link": "https://penktakoja.lt/beglobis/rio/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/rio-4_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/rio-4_2-1-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "ČILĖ",
+    "link": "https://penktakoja.lt/beglobis/cile/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/cile-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/cile-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MARTINIS",
+    "link": "https://penktakoja.lt/beglobis/martinis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/martinis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/martinis-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "TAIGA",
+    "link": "https://penktakoja.lt/beglobis/taiga/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/taiga-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/taiga-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MONTIS",
+    "link": "https://penktakoja.lt/beglobis/montis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/montis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/montis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GRAŽUOLIS",
+    "link": "https://penktakoja.lt/beglobis/grazuolis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/grazuolis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/grazuolis-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MAKALIUS",
+    "link": "https://penktakoja.lt/beglobis/makalius/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/makalius-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/makalius-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DRAKAS",
+    "link": "https://penktakoja.lt/beglobis/drakas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/12/drakas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/12/drakas-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "AIRA",
+    "link": "https://penktakoja.lt/beglobis/aira/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/aira-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/aira-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "NASKA",
+    "link": "https://penktakoja.lt/beglobis/naska/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/naska-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/naska-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "LOTA",
+    "link": "https://penktakoja.lt/beglobis/lota/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/lota-3_2-680x683.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/lota-2_2-680x683.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "SEMIS",
+    "link": "https://penktakoja.lt/beglobis/semis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/10/semis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/10/semis-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BAIRA",
+    "link": "https://penktakoja.lt/beglobis/baira/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/baira-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/baira-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LORDAS",
+    "link": "https://penktakoja.lt/beglobis/lordas-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/lordas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/lordas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MAČO",
+    "link": "https://penktakoja.lt/beglobis/maco/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/maco-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/maco-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MOKA",
+    "link": "https://penktakoja.lt/beglobis/moka/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/moka-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/moka-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "BAUDA",
+    "link": "https://penktakoja.lt/beglobis/bauda/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/bauda-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/bauda-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TURBO",
+    "link": "https://penktakoja.lt/beglobis/turbo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/turbo-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/turbo-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MONTANA",
+    "link": "https://penktakoja.lt/beglobis/montana/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/montana-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/montana-5_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "SNAIPERIS",
+    "link": "https://penktakoja.lt/beglobis/snaiperis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/06/snaiperis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/06/snaiperis-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "NILLA",
+    "link": "https://penktakoja.lt/beglobis/nilla/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/03/nilla-6_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/03/nilla-5_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "HORACIJA",
+    "link": "https://penktakoja.lt/beglobis/horacija/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/horacija-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/horacija_1-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "LENKAS",
+    "link": "https://penktakoja.lt/beglobis/lenkas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/lenkas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/lenkas-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PIŠKIS",
+    "link": "https://penktakoja.lt/beglobis/piskis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/piskis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/piskis-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "POTERIS",
+    "link": "https://penktakoja.lt/beglobis/poteris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/poteris-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/poteris-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "FAINA",
+    "link": "https://penktakoja.lt/beglobis/faina/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/faina-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/faina-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "HARIS",
+    "link": "https://penktakoja.lt/beglobis/haris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/haris-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/haris-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LEILA",
+    "link": "https://penktakoja.lt/beglobis/leila/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/leile-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/leile-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "SIELA",
+    "link": "https://penktakoja.lt/beglobis/siela/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/siela-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/siela-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "TIMIS",
+    "link": "https://penktakoja.lt/beglobis/timis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/timis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/timis-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "TINA",
+    "link": "https://penktakoja.lt/beglobis/tina/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/tina-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/tina-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "VERA",
+    "link": "https://penktakoja.lt/beglobis/vera/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/vera-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/vera-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "AIKO",
+    "link": "https://penktakoja.lt/beglobis/aiko-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/aiko-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/aiko-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAKSIS",
+    "link": "https://penktakoja.lt/beglobis/baksis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/baksis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/baksis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BRUNO",
+    "link": "https://penktakoja.lt/beglobis/bruno/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/bruno-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/bruno-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DERIS",
+    "link": "https://penktakoja.lt/beglobis/deris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/deris-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/deris-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DŽINAS",
+    "link": "https://penktakoja.lt/beglobis/dzinas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/dzinas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/dzinas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "PILNATIS",
+    "link": "https://penktakoja.lt/beglobis/pilnatis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/pilnatis-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/pilnatis-2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GRINGO",
+    "link": "https://penktakoja.lt/beglobis/gringo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/gringo-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/gringo-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KREGŽDUTĖ",
+    "link": "https://penktakoja.lt/beglobis/kregzdute/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/kregzdute-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/kregzdute-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MILKA",
+    "link": "https://penktakoja.lt/beglobis/milka/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/milka-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/milka-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ROBKĖ",
+    "link": "https://penktakoja.lt/beglobis/robke/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/robke-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/robke-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "STARKA",
+    "link": "https://penktakoja.lt/beglobis/starka/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/starka-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/starka-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "TETRA",
+    "link": "https://penktakoja.lt/beglobis/tetra/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/tetra-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/tetra-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ZYLUTĖ",
+    "link": "https://penktakoja.lt/beglobis/zylute/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2026/01/zylute-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2026/01/zylute-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TIKTOKAS",
+    "link": "https://penktakoja.lt/beglobis/tiktokas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/tiktokas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/tiktokas-1_2-680x920.jpg",
+    "price": null
+  },
+  {
+    "name": "LETTI",
+    "link": "https://penktakoja.lt/beglobis/letti/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/letti-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/letti-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MADAM",
+    "link": "https://penktakoja.lt/beglobis/madam/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/madam-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/madam-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MOLIS",
+    "link": "https://penktakoja.lt/beglobis/molis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/molis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/molis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MUKAS",
+    "link": "https://penktakoja.lt/beglobis/mukas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/mukas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/mukas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GRANOLA",
+    "link": "https://penktakoja.lt/beglobis/granola/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/granola-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/granola-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "FILAS",
+    "link": "https://penktakoja.lt/beglobis/filas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/filas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/filas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "FRĖJA",
+    "link": "https://penktakoja.lt/beglobis/freja/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/freja-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/freja-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "BARENSAS",
+    "link": "https://penktakoja.lt/beglobis/barensas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/barensas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/barensas-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BINGO",
+    "link": "https://penktakoja.lt/beglobis/bingo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/bingo-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/bingo-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BOOM",
+    "link": "https://penktakoja.lt/beglobis/boom/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/boom-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/boom-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "DOLIS",
+    "link": "https://penktakoja.lt/beglobis/dolis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/dolis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/dolis-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "TINKĖ",
+    "link": "https://penktakoja.lt/beglobis/tinke/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/tinke-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/tinke-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VARKĖ",
+    "link": "https://penktakoja.lt/beglobis/varke/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/varke-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/varke-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VIEVĖ",
+    "link": "https://penktakoja.lt/beglobis/vieve/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/vieve-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/vieve-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VINKIS",
+    "link": "https://penktakoja.lt/beglobis/vinkis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/12/vinkis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/12/vinkis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GAJA",
+    "link": "https://penktakoja.lt/beglobis/gaja/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/gaja-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/gaja-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BANGA",
+    "link": "https://penktakoja.lt/beglobis/banga/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/banga-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/banga-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "DOBIS",
+    "link": "https://penktakoja.lt/beglobis/dobis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/dobis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/dobis-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LIUTONAS",
+    "link": "https://penktakoja.lt/beglobis/liutonas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/liutonass-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/liutonass-1-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KORKAS",
+    "link": "https://penktakoja.lt/beglobis/korkas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/korkas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/korkas-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "LUNA",
+    "link": "https://penktakoja.lt/beglobis/luna/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/LUNA-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/LUNA-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "REIČEL",
+    "link": "https://penktakoja.lt/beglobis/reicel/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/reicel-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/reicel-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "MUNIS",
+    "link": "https://penktakoja.lt/beglobis/munis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/11/munis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/11/munis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VIRVIRČIR",
+    "link": "https://penktakoja.lt/beglobis/virvircir/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/virvircir-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/virvircir-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MIRTA",
+    "link": "https://penktakoja.lt/beglobis/mirta/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/mirta-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/mirta-6_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MIRTA",
+    "link": "https://penktakoja.lt/beglobis/mirta-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/mirta-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/mirta-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "AMZIS",
+    "link": "https://penktakoja.lt/beglobis/amzis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/amzis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/amzis-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DAFNĖ",
+    "link": "https://penktakoja.lt/beglobis/dafne/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/dafne-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/dafne-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "FREDIS",
+    "link": "https://penktakoja.lt/beglobis/fredis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/fredis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/fredis-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "KRAPAS",
+    "link": "https://penktakoja.lt/beglobis/krapas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/krapas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/krapas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MAMBO",
+    "link": "https://penktakoja.lt/beglobis/mambo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/mambo-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/mambo-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "RAMZIS",
+    "link": "https://penktakoja.lt/beglobis/ramzis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/ramzis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/ramzis-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BITĖ",
+    "link": "https://penktakoja.lt/beglobis/bite/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/bite-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/bite-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "DAMBO",
+    "link": "https://penktakoja.lt/beglobis/dambo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/dambo-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/dambo-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KALVADOSAS",
+    "link": "https://penktakoja.lt/beglobis/kalvadosas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/kalvadosas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/kalvadosas-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KOVAS",
+    "link": "https://penktakoja.lt/beglobis/kovas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/kovas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/kovas-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "RIKUTIS",
+    "link": "https://penktakoja.lt/beglobis/rikutis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/rikutis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/rikutis-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "SELFIS",
+    "link": "https://penktakoja.lt/beglobis/selfis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/selfis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/selfis-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "SARA",
+    "link": "https://penktakoja.lt/beglobis/sara/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/sara-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/sara-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "BESTAS",
+    "link": "https://penktakoja.lt/beglobis/bestas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/bestas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/bestas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BRONKAS",
+    "link": "https://penktakoja.lt/beglobis/bronkas-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/bronkas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/bronkas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DOBILIUKĖ",
+    "link": "https://penktakoja.lt/beglobis/dobiliuke/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/10/dobiliuke-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/10/dobiliuke-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GREISĖ",
+    "link": "https://penktakoja.lt/beglobis/greise/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/greise-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/greise-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "FLORA",
+    "link": "https://penktakoja.lt/beglobis/flora/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/flora-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/flora-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "HOPSAS",
+    "link": "https://penktakoja.lt/beglobis/hopsas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/09/hopsas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/09/hopsas-2_2-680x920.jpg",
+    "price": null
+  },
+  {
+    "name": "BRONKAS",
+    "link": "https://penktakoja.lt/beglobis/bronkas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/bronkas-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/bronkas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "SAMARA",
+    "link": "https://penktakoja.lt/beglobis/samara/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/samara-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/samara-4_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "BALTIKĖ",
+    "link": "https://penktakoja.lt/beglobis/baltike/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/08/baltike-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/08/baltike-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KUMPIS",
+    "link": "https://penktakoja.lt/beglobis/kumpis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/kumpis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/kumpis-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "KLAJŪNĖ",
+    "link": "https://penktakoja.lt/beglobis/klajune/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/klajune-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/klajune-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "HAROLDAS",
+    "link": "https://penktakoja.lt/beglobis/haroldas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/06/haroldas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/06/haroldas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MURMUR",
+    "link": "https://penktakoja.lt/beglobis/murmur/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/murmur-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/murmur-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "PIFAS",
+    "link": "https://penktakoja.lt/beglobis/pifas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/pifas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/pifas-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "LAPUTIS",
+    "link": "https://penktakoja.lt/beglobis/laputis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/laputis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/laputis-1_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "ČIAMPI",
+    "link": "https://penktakoja.lt/beglobis/ciampi/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/ciampi-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/ciampi-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ŠMIKIS",
+    "link": "https://penktakoja.lt/beglobis/smikis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/05/smikis-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/05/smikis-5_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MAILO",
+    "link": "https://penktakoja.lt/beglobis/mailo/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/mailo-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/mailo-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "TRIUFELIS",
+    "link": "https://penktakoja.lt/beglobis/triufelis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/triufelis-3-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/triufelis-2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "DEIMANTAS",
+    "link": "https://penktakoja.lt/beglobis/deimantas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/deimantas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/deimantas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BLITZ",
+    "link": "https://penktakoja.lt/beglobis/blitz/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/03/blitz-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/03/blitz-3_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "TINGINYS",
+    "link": "https://penktakoja.lt/beglobis/tinginys/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/tinginys-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/tinginys-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "POKIS",
+    "link": "https://penktakoja.lt/beglobis/pokis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/pokis-4_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/pokis-2_2-1-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "CENTAS",
+    "link": "https://penktakoja.lt/beglobis/centas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/centas-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/centas-2_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "ŠAKOTIS",
+    "link": "https://penktakoja.lt/beglobis/sakotis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/sakotis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/sakotis-4_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAKSAS",
+    "link": "https://penktakoja.lt/beglobis/baksas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/baksas-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/baksas-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "DŽERIS",
+    "link": "https://penktakoja.lt/beglobis/dzeris/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/dzeris-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/dzeris-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "KUSKUSAS",
+    "link": "https://penktakoja.lt/beglobis/kuskusas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/kuskusas-2_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/kuskusas-1_2-1-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MEDI",
+    "link": "https://penktakoja.lt/beglobis/medi/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/medi-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/medi-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "TANGO",
+    "link": "https://penktakoja.lt/beglobis/tango/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/tango-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/tango-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "FERDIS",
+    "link": "https://penktakoja.lt/beglobis/ferdis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/ferdis-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/ferdis-1_2-680x698.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KAUKAS",
+    "link": "https://penktakoja.lt/beglobis/kaukas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/kaukas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/kaukas-3_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "NUKAS",
+    "link": "https://penktakoja.lt/beglobis/nukas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/NUKAS-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/NUKAS-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "POKIS",
+    "link": "https://penktakoja.lt/beglobis/pokis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2025/02/pokis-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2025/02/pokis-4_2-680x698.jpg",
+    "price": null
+  },
+  {
+    "name": "SEMYRAS KINGAS",
+    "link": "https://penktakoja.lt/beglobis/semyras-kingas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/semyras-kingas-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/semyras-kingas-6_2-680x920.jpg",
+    "price": null
+  },
+  {
+    "name": "LAKIS",
+    "link": "https://penktakoja.lt/beglobis/lakis-2/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/lakis-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/lakis-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BAGYRA",
+    "link": "https://penktakoja.lt/beglobis/bagyra/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/bagyra-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/bagyra-2_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "PAPIS",
+    "link": "https://penktakoja.lt/beglobis/papis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/papis-2_2-1-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/papis-1_2-1-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "RIKA",
+    "link": "https://penktakoja.lt/beglobis/rika/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/rika-7_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/rika-8_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "MAŽYLIS",
+    "link": "https://penktakoja.lt/beglobis/mazylis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/mazylis-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/mazylis-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "PUPA",
+    "link": "https://penktakoja.lt/beglobis/pupa-3/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/11/pupa-3_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/11/pupa-4_2-680x920.jpg",
+    "price": null
+  },
+  {
+    "name": "KADAGYS",
+    "link": "https://penktakoja.lt/beglobis/kadagys/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/10/kadagys-5_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/10/kadagys-4_2-680x683.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "GARAS",
+    "link": "https://penktakoja.lt/beglobis/garas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/garas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/garas-1_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "PJERAS",
+    "link": "https://penktakoja.lt/beglobis/pjeras/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/09/pjeras-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/09/pjeras-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "VAKSAS",
+    "link": "https://penktakoja.lt/beglobis/vaksas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/vaksas-3_2-680x683.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/vaksas-1_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "VALIO",
+    "link": "https://penktakoja.lt/beglobis/valio/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/valio-4_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/valio-3_2-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "KIŠKIS",
+    "link": "https://penktakoja.lt/beglobis/kiskis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/07/kiskis-7_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/07/kiskis-6_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "MAROKAS",
+    "link": "https://penktakoja.lt/beglobis/marokas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/05/marokas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/05/marokas-1_2-680x683.jpg",
+    "price": "€6.00"
+  },
+  {
+    "name": "TREITAS",
+    "link": "https://penktakoja.lt/beglobis/treitas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/05/treitas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/05/treitas-4_2-680x920.jpg",
+    "price": "€3.00"
+  },
+  {
+    "name": "USHER",
+    "link": "https://penktakoja.lt/beglobis/usher/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/05/usher-1_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/05/usher-2_2-680x920.jpg",
+    "price": "€10.00"
+  },
+  {
+    "name": "GUDIS",
+    "link": "https://penktakoja.lt/beglobis/gudis/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/02/gudis-2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/02/gudis-1-680x920.jpg",
+    "price": "€5.00"
+  },
+  {
+    "name": "BOBIKAS",
+    "link": "https://penktakoja.lt/beglobis/bobikas/",
+    "image": "https://penktakoja.lt/wp-content/uploads/2024/02/bobikas-2_2-680x920.jpg",
+    "hoverImage": "https://penktakoja.lt/wp-content/uploads/2024/02/bobikas-1_2-680x920.jpg",
+    "price": "€5.00"
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "school": "Greatpet",
+  "website": "https://greatpet.net/",
+  "contact": {
+    "name": "Greatpet",
+    "email": "info@greatpet.net",
+    "phone": "+37062679909",
+    "phoneAlt": "+37065677959",
+    "address": "Buivydiškių g. 10, Šeškinė, Vilnius"
+  },
+  "about": {
+    "description": "Greatpet mokyklos kolektyvas – tai patyrę šunų treneriai kurie nuolat atnaujina savo žinias ir turi daugiametę praktiką šunų auklėjime. Esame atviri kiekvienam klientui, jo lūkesčiams ir problemoms. Mūsų tikslas – mokyti šunų šeimininkus kaip teisingai bendrauti su mylimais keturkojais.",
+    "philosophy": "Ryšio kūrimas tarp šuns ir žmogaus yra neįtikėtinai svarbus. Mokymo metodai leidžia pajausti ypatingą ryšį su savo šunimi. Mūsų tikslas yra ne tik padėti išauklėti augintinį, bet ir leisti jam suvokti kad šeimininkas jo gyvenime yra labai svarbus. Šuo išmoks gerbti savo žmogų ir pasitikėti juo."
+  },
+  "team": [
+    {
+      "name": "Ana Menčiūnienė",
+      "role": "Įkūrėja, LKD dresuotoja, etologė",
+      "specialties": [
+        "Obedience sportas",
+        "Sportinis paklusnumas",
+        "Jautrūs ir bailūs šunys"
+      ],
+      "achievements": [
+        "Nacionalinė obedience sporto šakos teisėja",
+        "FCI obedience instruktorė",
+        "FCI obedience tarptautinės komisijos narė",
+        "3x atstovavo Lietuvą pasaulio čempionatuose (2021, 2022, 2024)",
+        "Augina 3 borderkolius: Zip, Zeta, Rokis"
+      ],
+      "dogs": [
+        {
+          "name": "Zip",
+          "titles": "Lietuvos, Estijos, Vengrijos obedience čempionas",
+          "results": "2024 m. - 34 vieta pasaulio čempionate, 17 vieta Europos čempionate"
+        },
+        {
+          "name": "Zeta",
+          "titles": "2024 m. Europos čempionato nugalėtoja",
+          "results": "2023 m. - 3 vieta (1 klasė), 2024 m. - 1 vieta (2 klasė), specialus teisėjų prizas"
+        },
+        {
+          "name": "Rokis",
+          "titles": "Europos čempionato prizininkas",
+          "results": "2023 m. - 4 vieta (1 klasė), 2024 m. - 5 vieta (2 klasė)"
+        }
+      ]
+    },
+    {
+      "name": "Artūras Giedrys",
+      "role": "LKD dresuotojas, VRM pareigūnas",
+      "specialties": [
+        "Mantrailing (žmonių paieška)",
+        "Detekcija",
+        "Nosework",
+        "Agresyvūs šunys"
+      ],
+      "dog": "Belgų aviganis malinua Bruno"
+    },
+    {
+      "name": "Akvilė Norbutaitė",
+      "role": "LKD dresuotoja, etologė",
+      "specialties": [
+        "Miesto šuo",
+        "Jautrūs šunys",
+        "Bailūs šunys",
+        "Hiperaktyvūs šunys"
+      ],
+      "dogs": "Mišrūnas Rubis ir ryzenšnauceris Jiyraja"
+    },
+    {
+      "name": "Miglė Valaitienė",
+      "role": "LKD dresuotoja-asistentė, etologė",
+      "specialties": [
+        "Grupinės pamokos",
+        "Pagalbinė veikla"
+      ],
+      "dog": "Anglų kokerspaniel is Liūtis"
+    }
+  ],
+  "services": [
+    "Paklusnumo pradžiamokslis",
+    "Pamokos pažengusiems",
+    "Individualios treniruotės",
+    "Obedience sportas",
+    "Uoslės (nosework) kursai",
+    "Mantrailing",
+    "Miesto šuo"
+  ],
+  "prices": {
+    "groupTraining": {
+      "single": {
+        "description": "Viena grupinė pamoka",
+        "duration": "60 min",
+        "price": 25
+      },
+      "course8": {
+        "description": "8 pamokų kursas",
+        "lessons": 8,
+        "price": 130,
+        "discountPrice": 120,
+        "discountNote": "Baigusiems 'Pradėk' kursą"
+      }
+    },
+    "individualTraining": {
+      "school": {
+        "single": 50,
+        "abonement4": 190,
+        "abonement8": 360,
+        "abonement12": 510
+      },
+      "home": {
+        "single": 80,
+        "abonement4": 300,
+        "abonement8": 580,
+        "abonement12": 820
+      },
+      "withAna": {
+        "single": 65,
+        "abonement4": 250,
+        "abonement8": 470,
+        "abonement12": 660
+      }
+    }
+  },
+  "location": {
+    "city": "Vilnius",
+    "district": "Šeškinė",
+    "address": "Buivydiškių g. 10",
+    "indoorSpace": "240 m²",
+    "parking": true,
+    "parkingNote": "Nemokama automobilių stovėjimo aikštelė",
+    "access": "Įėjimas iš lauko, privažiavimas prie pat mokyklos"
+  },
+  "features": [
+    "240 m² uždaros erdvės patalpos",
+    "Nemokama automobilių aikštelė",
+    "Tarptautinio lygio treneriai",
+    "Europos čempionų patirtis",
+    "LKD licencijuoti dresuotojai",
+    "Sertifikuoti etologai",
+    "Obedience sporto specializacija",
+    "Mantrailing ir nosework",
+    "Pamokos lauke ir salėje",
+    "Individualūs sprendimai"
+  ],
+  "specialization": [
+    "Obedience sportas (tarptautinis lygis)",
+    "Mantrailing (žmonių paieška)",
+    "Nosework / uoslės kursai",
+    "Detekcija",
+    "Jautrūs ir bailūs šunys",
+    "Hiperaktyvūs šunys",
+    "Agresyvūs šunys",
+    "Miesto šuo",
+    "Paklusnumas pradedantiems"
+  ],
+  "achievements": {
+    "international": [
+      "3x Lietuvos atstovavimas pasaulio čempionatuose",
+      "Europos čempionato nugalėtojai",
+      "Pasaulio čempionato dalyviai",
+      "FCI obedience komisijos nariai"
+    ],
+    "dogs": [
+      "Zip - 3 šalių čempionas",
+      "Zeta - 2024 m. Europos čempionė",
+      "Rokis - Europos čempionato prizininkas"
+    ]
+  },
+  "whyUs": "Koncentruojamės į ypatingo ryšio kūrimą tarp žmogaus ir šuns ir nereikalaujame 'aklo paklusnumo'. Mokiname šunį kad yra VERTA bendradarbiauti su šeimininku. Kasmet dalyvaujame seminaruose, išvykstame į mokymus užsienyje, nuolat atnaujiname savo žinias tam kad siūlyti įdomias ir kokybiškas pamokas.",
+  "history": "Greatpet mokykla įkurta patyrių šunų trenerių, kurių aistra - šunų auklėjimas. Ne tik mokiname, bet ir mokomės patys. Turime aukščiausio tarptautinio lygio patirtį - mūsų šunys dalyvauja Europos ir pasaulio čempionatuose, užima prizines vietas ir reprezentuoja Lietuvą tarptautinėje arenoje.",
+  "courseProblems": [
+    "Stiprus pavadėlio tempimas",
+    "Neatsišaukimas",
+    "Šiukšlių valgymas",
+    "Išsiskyrimo nerimas",
+    "Daiktų niokojimas",
+    "Šokinėjimas",
+    "Perdėtas reagavimas į šunis/žmones",
+    "Lojimas",
+    "Agresija",
+    "Bailumas",
+    "Hiperaktyvumas"
+  ]
+}

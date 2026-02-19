@@ -1,0 +1,126 @@
+{
+  "name": "Šunų darželis",
+  "website": "https://sunudarzelis.lt/",
+  "contact": {
+    "phone": "+37062783234",
+    "email": "info@sunudarzelis.lt",
+    "address": "Tilto g. 13, Kaunas"
+  },
+  "location": {
+    "city": "Kaunas",
+    "district": "Panemunė",
+    "environment": "Nuosavas namas, daug žalumos, šalia Nemunas"
+  },
+  "workingHours": {
+    "days": "I–VII",
+    "dropOff": "8:00–11:00",
+    "pickUp": "17:00–19:00",
+    "quietTime": "11:00–17:00"
+  },
+  "about": {
+    "owner": "Povilas",
+    "description": "Pirmasis tokio tipo šunų darželis Lietuvoje, veikiantis jau daugiau nei 10 metų. Šunys gyvena kartu su žmogumi namų aplinkoje ir bendrauja su kitais draugiškais šunimis. Prioritetas – saugi, sociali ir dėmesinga priežiūra.",
+    "experienceSince": 2013,
+    "license": {
+      "type": "Veterinarijos tarnybos leidimas",
+      "approved": true
+    }
+  },
+  "concept": {
+    "mainIdea": "Šuns buvimas su žmogumi ir kitais draugiškais šunimis namų aplinkoje",
+    "grouping": "Šunys skirstomi pagal dydį, amžių, energijos lygį ir socialumą",
+    "separationPolicy": "Agresyvūs šunys atskiriami arba nepriimami",
+    "noCages": true,
+    "noChains": true
+  },
+  "services": {
+    "daycare": {
+      "description": "Šuns priežiūra dienai",
+      "includes": [
+        "Socializacija grupėje",
+        "Žaidimai",
+        "Pasivaikščiojimai uždaroje teritorijoje",
+        "Vaizdo reportažai šeimininkui"
+      ]
+    },
+    "overnight": {
+      "description": "Nakvynė ir ilgesnė priežiūra",
+      "note": "Galima palikti nuo vienos dienos iki kelių mėnesių"
+    },
+    "longTerm": {
+      "description": "Ilgalaikė priežiūra (1 mėn. ir daugiau)",
+      "requirement": "Prieš ilgalaikę viešnagę būtina bandomoji diena"
+    },
+    "pickupService": {
+      "description": "Paėmimas iš namų Kauno mieste",
+      "price": 10,
+      "unit": "už vieną atvykimą"
+    }
+  },
+  "prices": {
+    "under15kg": {
+      "day": 10,
+      "night": 15
+    },
+    "over15kg": {
+      "day": 15,
+      "night": 20,
+      "note": "Galimos išimtys"
+    },
+    "longStayDiscount": {
+      "description": "Individualūs susitarimai lojaliems klientams arba 14+ parų"
+    },
+    "meatPreparationFee": {
+      "price": 5,
+      "description": "Papildomas mokestis jei reikia ruošti atvežtą žalią mėsą"
+    }
+  },
+  "requirements": {
+    "vaccinated": true,
+    "friendly": true,
+    "notAccepted": [
+      "Agresyvūs šunų ar žmonių atžvilgiu",
+      "Rujojančios patelės",
+      "Neskiepyti šunys",
+      "Serga užkrečiamomis ligomis"
+    ]
+  },
+  "dailyRoutine": {
+    "morning": "8:00–8:20 – išleidimas į teritoriją, patalpų valymas ir dezinfekcija",
+    "day": "Žaidimai, socializacija, poilsis",
+    "evening": "17:00–19:00 – pasivaikščiojimai, vakarienė, ramus laikas",
+    "night": "Miega kambariuose grupėmis, šildomos grindys, be narvų"
+  },
+  "safetyPolicy": {
+    "supervision": "Nuolatinė priežiūra",
+    "injuryPolicy": "Jei dėl darželio kaltės – dengiamos gydymo išlaidos",
+    "riskDisclaimer": "Egzistuoja minimali susižalojimo ar ligos rizika"
+  },
+  "faqHighlights": [
+    "Maitinama šeimininko atvežtu maistu",
+    "Priimame tik iš anksto susitarus",
+    "Galimi video reportažai per Viber/WhatsApp",
+    "Skirstymas į 3–5 šunų grupes",
+    "Narvų ar gardų nenaudojame"
+  ],
+  "features": [
+    "Pirmasis šunų darželis Lietuvoje",
+    "10+ metų patirtis",
+    "Namų aplinka",
+    "Mažos grupės",
+    "Veterinarijos leidimas",
+    "Be narvų ir grandinių",
+    "Individualus dėmesys",
+    "Vaizdo ataskaitos šeimininkams",
+    "Ilgalaikė priežiūra",
+    "Paėmimas iš namų paslauga"
+  ],
+  "specialization": [
+    "Socialių šunų priežiūra",
+    "Grupinė priežiūra namų aplinkoje",
+    "Ilgalaikė šunų priežiūra",
+    "Mažos ir vidutinės grupės",
+    "Pozityvi aplinka"
+  ],
+  "whyUs": "Šunų darželis – tai namų aplinka, kurioje jūsų augintinis gyvena su žmogumi ir kitais draugiškais šunimis. Be narvų, be gardų, su dėmesiu kiekvienam. Prioritetas – saugumas, socializacija ir ramus šeimininko miegas."
+}

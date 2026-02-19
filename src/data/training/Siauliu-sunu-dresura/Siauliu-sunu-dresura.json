@@ -1,0 +1,25 @@
+{
+    "school": "Šiaulių šunų dresūra",
+    "city": "Šiauliai",
+    "address": "Vilniaus g. 72, Šiauliai, Lithuania, 78137",
+    "contact": {
+      "phone": "+37065768451",
+      "email": "sibirohaskis@gmail.com",
+      "facebook": "https://www.facebook.com/siauliusunudresura/"
+    },
+    "social": {
+      "followers": 1100
+    },
+    "services": [
+      "Ringo dresūra",
+      "Šunų motyvacija ir socializacija",
+      "Bendras paklusnumas",
+      "Mažų šuniukų grupė",
+      "Jaunųjų vedlių paruošimas"
+    ],
+    "specialization": [
+      "Ruošimas parodoms",
+      "Hendlingas",
+      "Socializacija"
+    ]
+  }

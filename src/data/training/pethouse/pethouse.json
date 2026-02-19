@@ -1,0 +1,208 @@
+{
+    "school": "Pet House - Šunų Dresavimas",
+    "website": "https://www.dresavimas.lt/",
+    "contact": {
+      "name": "Sandra Vališkė",
+      "phone": "+370 672 27650",
+      "email": "info@pethouse.lt",
+      "address": "Šventupės g. 28, Kaunas (Romainiai)"
+    },
+    "about": {
+      "since": 2018,
+      "description": "Gyvūnų viešbutis Pet House kartu su Rekso mokykla siūlo šunų dresavimą Kaune naudojant pozityvios motyvacijos metodiką. Modernus viešbutis su dresūros paslaugomis ramioje vietovėje šalia miško su nuostabiu vaizdu į Kauną, Lampėdžių ežerą bei Nemuną."
+    },
+    "company": {
+      "name": "Pet House",
+      "founded": 2018,
+      "founder": "Sandra Vališkė (veterinarijos gydytoja, LSMU 2013)",
+      "mission": "Kad kiekvienas gyvūnas jaustųsi saugus, mylimas ir laimingas",
+      "vision": "Teikti pačias kokybiškiausias paslaugas gyvūnų apgyvendinimo, priežiūros, grožio ir sveikatinimo srityje",
+      "values": ["Atvirumas", "Nuoširdumas", "Patikimumas", "Tobulėjimas"],
+      "strength": "Profesionalumas"
+    },
+    "partnership": {
+      "with": "Rekso mokykla",
+      "description": "Pet House organizuoja šunų dresavimą kartu su Rekso mokykla"
+    },
+    "services": [
+      "Socializacijos pagrindai",
+      "Impulsų kontrolės mokymas",
+      "Ryšio kūrimas su šunimi",
+      "Norimų elgsenų kūrimas",
+      "Triukų mokymas",
+      "Protinė iškrova",
+      "Fizinė iškrova",
+      "Elgesio korekcija",
+      "Šunų darželis",
+      "Gyvūnų viešbutis",
+      "Grožio procedūros"
+    ],
+    "prices": {
+      "dresavimas": {
+        "description": "1 valandos dresūros užsiėmimas",
+        "price": 50,
+        "duration": "60 min.",
+        "note": "Su Rekso mokyklos treneriais, pozityvios motyvacijos metodika"
+      }
+    },
+    "location": {
+      "city": "Kaunas",
+      "district": "Romainiai",
+      "address": "Šventupės g. 28, Kaunas",
+      "description": "Kauno pakraštis, rami vietovė šalia miško",
+      "parking": true,
+      "facilities": {
+        "indoor": "Modernūs gyvūnų apartamentai",
+        "outdoor": "Erdvios žaidimų aikštelės",
+        "features": [
+          "Rekuperacinė vėdinimo sistema",
+          "Natūrali šviesa",
+          "Šildymas (19-23°C)",
+          "Uždara teritorija",
+          "Vandens pramogos baseine"
+        ]
+      }
+    },
+    "team": [
+      {
+        "name": "Sandra Vališkė",
+        "role": "Įkūrėja, veterinarijos gydytoja",
+        "education": "LSMU Veterinarinės medicinos studijos (2013)",
+        "experience": "Nuo 2013 metų",
+        "specialties": [
+          "Veterinarinė medicina",
+          "Gyvūnų priežiūra",
+          "Viešbučio valdymas"
+        ]
+      }
+    ],
+    "features": [
+      "Partnerystė su Rekso mokykla",
+      "Pozityvios motyvacijos metodika",
+      "NENAUDOJA fizinių bausmių",
+      "Modernus gyvūnų viešbutis",
+      "24/7 priežiūra",
+      "Fotoreportažai kasdien",
+      "Gyvūnų taksi paslaugos",
+      "SPA procedūros",
+      "Grožio paslaugos",
+      "Aromaterapija",
+      "Erdvios žaidimų aikštelės",
+      "Saugi teritorija"
+    ],
+    "trainingServices": {
+      "socialization": {
+        "description": "Socializacijos pagrindai",
+        "details": "Šuns mokymas adekvačiai reaguoti į mieste esančius trikdžius"
+      },
+      "impulseControl": {
+        "description": "Impulsų kontrolės mokymas",
+        "details": "Nešokinėti kai prieina žmonės, rami reakcija į kitus šunis, automobilius"
+      },
+      "bonding": {
+        "description": "Ryšio kūrimas su šunimi",
+        "details": "Akių kontakto pratimai, šuns pasikvietimas, specialūs pratimai"
+      },
+      "behaviors": {
+        "description": "Norimų elgsenų kūrimas",
+        "details": [
+          "Nusiraminimo pratimai",
+          "Mokymas eiti 'į vietą'",
+          "Vedžiojimo technika",
+          "Mokymas pasilikti vienam",
+          "Komanda 'palik' - neimti maisto"
+        ]
+      },
+      "tricks": {
+        "description": "Triukų mokymas",
+        "examples": ["Labas", "Sukis", "Tarnauk"]
+      },
+      "mentalPhysical": {
+        "description": "Protinė ir fizinė iškrova",
+        "details": [
+          "Grobio instinkto lavinimas",
+          "Uoslės lavinimo pratimai",
+          "Koordinacijos lavinimas",
+          "Lindimas per tunelius",
+          "Kliūčių įveikimas"
+        ]
+      },
+      "behaviorCorrection": {
+        "description": "Šuns elgesio korekcija",
+        "note": "Reikia tęstinumo, ypač su destruktyviu elgesiu kaip agresija"
+      }
+    },
+    "methods": {
+      "approach": "Tik pozityvios motyvacijos metodika",
+      "noMethods": [
+        "Fizinės bausmės",
+        "Griežti baudimiai",
+        "Smurtas"
+      ],
+      "philosophy": "Fizinių bausmių naudojimas gali turėti neigiamos įtakos šuns ir žmogaus santykiams bei emocinei būsenai"
+    },
+    "additionalServices": {
+      "hotel": {
+        "description": "Gyvūnų viešbutis",
+        "features": [
+          "Erdvūs apartamentai",
+          "Aksomo patalukai",
+          "Atpalaiduojanti muzika",
+          "Aromaterapija",
+          "Pasivaikščiojimai 4x/dieną",
+          "24/7 priežiūra"
+        ]
+      },
+      "daycare": {
+        "description": "Šunų darželis",
+        "note": "Reguliarūs mokymai ilgesniam laikotarpiui"
+      },
+      "taxi": {
+        "description": "Gyvūnų taksi",
+        "note": "Saugus transportavimas į viešbutį ar užsiėmimus"
+      },
+      "spa": {
+        "description": "Karališkas SPA",
+        "features": [
+          "Hidromasažas",
+          "Natūralūs eteriniai aliejai",
+          "Ozono terapija"
+        ]
+      },
+      "grooming": {
+        "description": "Grožio procedūros",
+        "services": [
+          "Maudymas",
+          "Džiovinimas",
+          "Sąvėlų iššukavimas",
+          "Kirpimas",
+          "Trimingavimas",
+          "Nukailinimas",
+          "Ausų valymas",
+          "Nagų kirpimas",
+          "Papuošimas"
+        ]
+      }
+    },
+    "whyUs": "Pet House kartu su Rekso mokykla siūlo kokybišką šunų dresavimą Kaune naudojant tik pozityvios motyvacijos metodiką. Mes tikime, kad fizinių bausmių naudojimas gali pakenkti šuns ir žmogaus santykiams. Modernus viešbutis su 24/7 priežiūra, profesionalūs treneriai ir galimybė apjungti dresūrą su poilsiu viešbutyje. Įkūrėja - veterinarijos gydytoja su ilgamete patirtimi.",
+    "specialization": [
+      "Socializacija",
+      "Impulsų kontrolė",
+      "Vedžiojimo technika",
+      "Elgesio korekcija",
+      "Ilgalaikis mokymas",
+      "Gyvūnų viešbutis + dresūra",
+      "Pozityvi motyvacija",
+      "Profesionali priežiūra"
+    ],
+    "longTermTraining": {
+      "description": "Elgesio problemos išsprendžiamos ne per vieną dieną",
+      "recommendation": "Paslaugos siūlomos šunims, paliekamiems viešbutyje ilgesniam laikui",
+      "benefit": "Reguliarūs mokymai su profesionaliais treneriais"
+    },
+    "catServices": {
+      "available": true,
+      "description": "Erdvūs 8 kv.m. kambarėliai su laipynėmis katėms 3-iame aukšte",
+      "note": "Ramybė, nevaikšto šuniukai, glostomi 3x/dieną"
+    }
+  }

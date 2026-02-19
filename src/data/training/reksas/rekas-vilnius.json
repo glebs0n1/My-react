@@ -1,0 +1,141 @@
+{
+    "branch": "Reksas Vilnius",
+    "contact": {
+      "phone": "+37064864442",
+      "email": "registracija@reksas.lt"
+    },
+    "services": {
+      "beginnersCourse": {
+        "title": "PRADINUKO KURSAS",
+        "ageGroup": "3-6 mėn.",
+        "schedule": [
+          "Trečiadienis 19:00",
+          "Ketvirtadienis 19:00"
+        ],
+        "description": "Pradinių įgūdžių treniruotės draugiškiems šunims iki 6 mėn. amžiaus. Mokoma pagrindinių komandų, socializacijos ir tinkamo elgesio kasdienėse situacijose.",
+        "commands": [
+          "greta",
+          "pas mane",
+          "lauk",
+          "palik",
+          "duok",
+          "sėdėt",
+          "gulėt"
+        ],
+        "behaviorSkills": [
+          "Netempti pavadžio",
+          "Nerinkti nuo žemės",
+          "Nešokinėti ant žmonių",
+          "Neloti prašant maisto",
+          "Reaguoti į vardą",
+          "Nebėgti pas kitus šunis"
+        ],
+        "prices": {
+          "firstTraining": 15,
+          "monthly1x": 90,
+          "monthly1xLoyal": 85,
+          "monthly2x": 100,
+          "monthly2xLoyal": 95,
+          "single": 25
+        },
+        "benefits": [
+          "Nemokama nosework asmeninė pamoka",
+          "Nemokama fitneso pamoka",
+          "Asmeninė konsultacija – 35€",
+          "7% nuolaida Rekso el. parduotuvėje"
+        ]
+      },
+      "vipLessons": {
+        "title": "VIP pamokos",
+        "ageGroup": "Nuo 2 mėn.",
+        "description": "Intensyvus 4 asmeninių treniruočių paketas su nuotoline pagalba.",
+        "includes": [
+          "4 asmeninės treniruotės namuose arba parke",
+          "Nuotolinė pagalba (WhatsApp, Messenger) I–V 10:00–17:00"
+        ],
+        "price": 300
+      },
+      "class2": {
+        "title": "2 KLASĖ",
+        "ageGroup": "6-24 mėn.",
+        "description": "Įgūdžių lavinimo treniruotės paaugliams šunims realiose situacijose.",
+        "types": {
+          "cityObedience": {
+            "schedule": "Pirmadienis 19:00"
+          },
+          "tricksAgility": {
+            "schedule": [
+              "Pirmadienis 19:00",
+              "Trečiadienis 20:00"
+            ]
+          },
+          "outdoorObedience": {
+            "schedule": "Šeštadienis 10:00"
+          }
+        },
+        "prices": {
+          "monthly1x": 85,
+          "monthly2x": 95,
+          "single": 25,
+          "personalForMembers": 35
+        },
+        "discounts": {
+          "2months": "10%",
+          "3monthsPlus": "15%"
+        }
+      },
+      "individualTraining": {
+        "title": "Asmeninės treniruotės",
+        "duration": "60 min.",
+        "location": "Rekso salė",
+        "prices": {
+          "single": 40,
+          "firstOver6Months": 50,
+          "package4": 150,
+          "members": 35
+        },
+        "homeVisit": {
+          "extraFee": "20-30€",
+          "city": "Vilnius",
+          "parkingPaidByClient": true
+        }
+      },
+      "behaviorConsultations": {
+        "title": "Elgsenos konsultacijos",
+        "ageGroup": "Virš 6 mėn. arba jautrūs šunys",
+        "duration": "60 min.",
+        "location": "Rekso salė arba kliento namai",
+        "problems": [
+          "Agresija šunims ar žmonėms",
+          "Lojimas į durų skambutį ar kaimynus",
+          "Šlapinimasis ar destrukcija likus vienam",
+          "Baimės (garsai, žmonės, šunys)",
+          "Nerimas, inkštimas",
+          "Resursų saugojimas",
+          "Šokinėjimas, kandžiojimas",
+          "Paniška baimė aplinkai"
+        ],
+        "prices": {
+          "single": 50,
+          "package4WithSupport": 300
+        },
+        "homeVisit": {
+          "extraFee": "20-30€",
+          "city": "Vilnius",
+          "parkingPaidByClient": true
+        }
+      },
+      "expressPackage": {
+        "title": "Express paketas",
+        "duration": "1 mėnuo",
+        "description": "Asmeninių ir grupinių treniruočių paketas motyvuotiems šunims.",
+        "includes": [
+          "4 asmeninės treniruotės",
+          "1 mėn. grupinių treniruočių abonementas (1x/sav.)",
+          "Vebinaras „Šuns auklėjimo ABC“"
+        ],
+        "price": 200,
+        "suitableFor": "Šunims virš 6 mėn. su gera motyvacija"
+      }
+    }
+  }

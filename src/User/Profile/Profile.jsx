@@ -1,10 +1,7 @@
-// src/components/User/Profile/Profile.tsx
 import React, { useState, useEffect } from 'react';
 
 const Profile = () => {
-  const [user, setUser] = useState(null); // Состояние для данных пользователя
-
-  // Получаем данные пользователя из localStorage (или API)
+  const [user, setUser] = useState(null);
   useEffect(() => {
     const userData = JSON.parse(localStorage.getItem('user') || '{}');
     if (userData) {

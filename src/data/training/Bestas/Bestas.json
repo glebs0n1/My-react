@@ -1,0 +1,28 @@
+{
+    "school": "Šunų dresūros mokykla „Bestas“",
+    "city": "Panevėžys",
+    "website": "https://bestas-dresura.weebly.com",
+    "contact": {
+      "phone": "+37060452800"
+    },
+    "trainer": {
+      "name": "Sandra Pabrėžienė",
+      "qualification": "LKD šunų elgsenos specialistė – trenerė",
+      "specializations": [
+        "Bendras paklusnumas",
+        "Elgesenos korekcija",
+        "Ankstyvoji socializacija",
+        "Neurologinė stimuliacija",
+        "Ruošimas parodoms"
+      ]
+    },
+    "services": [
+      "Bendras paklusnumas",
+      "Aktyvi socializacija mieste",
+      "Elgesio problemų sprendimas",
+      "Veisėjų konsultavimas",
+      "Agility",
+      "Ringo dresūra"
+    ],
+    "partner": "Šuo Gurmanas"
+  }

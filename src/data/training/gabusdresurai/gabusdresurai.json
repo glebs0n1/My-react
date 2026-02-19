@@ -1,0 +1,362 @@
+{
+  "school": "Gabus Dresurai",
+  "website": "https://gabusdresurai.lt/",
+  "contact": {
+    "email": "gabusdresurai@gmail.com",
+    "facebook": "https://www.facebook.com/gabusdresurai"
+  },
+  "about": {
+    "description": "Kiekvienas šuo yra gabus. Šunų dresūros mokykla veikianti 3 Lietuvos miestuose - Šiauliuose, Marijampolėje/Gižuose ir Vilniuje. Dirbame mažose grupėse, kad kiekvienam užtektų dėmesio ir užtikrintume kiekvieno saugumą. Pamokos vyksta įvairiose miesto erdvėse - parkuose, kavinėse, prekybos centruose, dresūros salėse."
+  },
+  "locations": [
+    {
+      "city": "Šiauliai",
+      "contact": {
+        "phone": "+37065781634",
+        "trainerName": "Ligita",
+        "address": "Turgaus a. 12 (salė)"
+      },
+      "prices": {
+        "individual": {
+          "description": "Individuali pamoka",
+          "price": 25,
+          "duration": "45-60 min."
+        },
+        "online": {
+          "description": "Pamoka internetu",
+          "price": 25,
+          "duration": "Iki 60 min."
+        },
+        "groupCourse": {
+          "description": "Bendro paklusnumo kursas",
+          "price": 130,
+          "duration": "8 pamokos"
+        },
+        "beginnersCourse": {
+          "description": "Pradedančiųjų grupės kursas",
+          "price": 130,
+          "duration": "8 pamokos"
+        },
+        "cityGroup": {
+          "description": "Miesto grupės pamoka",
+          "price": 10,
+          "duration": "1 pamoka"
+        }
+      }
+    },
+    {
+      "city": "Marijampolė",
+      "district": "Gižai",
+      "contact": {
+        "phone": "+37067630780",
+        "trainerName": "Renata",
+        "address": "Draugystės g. (salė)"
+      },
+      "prices": {
+        "individual": {
+          "description": "Individuali pamoka",
+          "priceMin": 25,
+          "priceMax": 40,
+          "duration": "45-60 min."
+        },
+        "online": {
+          "description": "Pamoka internetu",
+          "priceMin": 20,
+          "priceMax": 40,
+          "duration": "Iki 60 min."
+        },
+        "groupCourse": {
+          "description": "Bendro paklusnumo kursas",
+          "price": 130,
+          "duration": "8 pamokos"
+        },
+        "beginnersCourse": {
+          "description": "Pradedančiųjų grupės kursas",
+          "price": 130,
+          "duration": "8 pamokos"
+        },
+        "advancedCourse": {
+          "description": "Pažengusiųjų kursas",
+          "price": 130,
+          "duration": "8 pamokos"
+        },
+        "cityGroup": {
+          "description": "Miesto grupės pamoka",
+          "priceMin": 10,
+          "priceMax": 15,
+          "duration": "1 pamoka"
+        },
+        "singleGroup": {
+          "description": "Viena grupės pamoka (jei yra vietų)",
+          "price": 20,
+          "duration": "1 pamoka"
+        }
+      }
+    },
+    {
+      "city": "Vilnius",
+      "contact": {
+        "phone": "+37068798800",
+        "trainerName": "Monika",
+        "address": "Vilnius"
+      },
+      "prices": {
+        "individual": {
+          "description": "Individuali pamoka",
+          "priceMin": 50,
+          "priceMax": 70,
+          "duration": "50-60 min.",
+          "note": "+ papildomai prireikus atvykti į namus"
+        },
+        "online": {
+          "description": "Pamoka internetu",
+          "priceMin": 30,
+          "priceMax": 60,
+          "duration": "Iki 60 min."
+        },
+        "beginnersCourse": {
+          "description": "Pradedančiųjų kursas",
+          "price": 140,
+          "duration": "7 pamokos (online + 6 gyvi)"
+        },
+        "tricksCourse": {
+          "description": "Triukų kursas",
+          "price": 120,
+          "duration": "Kursas"
+        },
+        "cityGroup": {
+          "description": "Miesto grupės pamoka",
+          "priceMin": 15,
+          "priceMax": 20,
+          "duration": "1 pamoka"
+        },
+        "withPuppyCourse": {
+          "description": "Pradedančiųjų + šuniukų kursas",
+          "price": 165,
+          "duration": "Kombinuotas"
+        },
+        "groupPackage": {
+          "description": "Grupės pamokų paketas",
+          "priceMin": 120,
+          "priceMax": 140,
+          "duration": "6-8 pamokos"
+        }
+      }
+    }
+  ],
+  "generalServices": {
+    "consultation": {
+      "description": "Konsultacija telefonu ar internetu",
+      "priceMin": 30,
+      "priceMax": 40,
+      "duration": "Iki 60 min.",
+      "platforms": "Skype, Zoom, WhatsApp, Viber"
+    },
+    "individualHome": {
+      "description": "Individuali pamoka namuose",
+      "priceMin": 30,
+      "priceMax": 60,
+      "duration": "45-60 min.",
+      "note": "+ atvykimo mokestis"
+    },
+    "groupLesson": {
+      "description": "Grupės pamoka",
+      "priceMin": 10,
+      "priceMax": 15,
+      "duration": "1 pamoka",
+      "note": "3-8 šunų grupėse"
+    },
+    "showCourse": {
+      "description": "Parodų kursas (online)",
+      "price": 50,
+      "duration": "50 dienų prisijungimas",
+      "lessons": "32 pamokos, 2h vaizdo turinio"
+    },
+    "puppyCourse": {
+      "description": "Šuniukų kursas (online)",
+      "priceRegular": 50,
+      "priceDiscount": 25,
+      "duration": "50 dienų prisijungimas",
+      "note": "50% nuolaida pamokų dalyviams"
+    }
+  },
+  "team": [
+    {
+      "name": "Ligita",
+      "role": "Trenerė Šiauliuose",
+      "phone": "+37065781634",
+      "specialties": [
+        "Pradedančiųjų kursai",
+        "Miesto grupės",
+        "Grupinės pamokos"
+      ]
+    },
+    {
+      "name": "Renata",
+      "role": "Trenerė Marijampolėje",
+      "phone": "+37067630780",
+      "specialties": [
+        "Pradedančiųjų kursai",
+        "Pažengusiųjų kursai",
+        "Grupinės pamokos"
+      ]
+    },
+    {
+      "name": "Monika",
+      "role": "Trenerė Vilniuje",
+      "phone": "+37068798800",
+      "specialties": [
+        "Pradedančiųjų kursai",
+        "Triukų kursai",
+        "Individualios pamokos"
+      ]
+    },
+    {
+      "name": "Gabija",
+      "role": "LKD dresuotoja Vilniuje",
+      "specialties": [
+        "Miesto grupės",
+        "Grupinės pamokos"
+      ]
+    },
+    {
+      "name": "Dovydas",
+      "role": "Dresuotojo asistentas",
+      "phone": "+37065369615",
+      "specialties": [
+        "Pažengusiųjų grupės",
+        "Asistento pamokos"
+      ]
+    }
+  ],
+  "services": [
+    "Konsultacijos telefonu/internetu",
+    "Individualios pamokos",
+    "Individualios pamokos namuose",
+    "Pradedančiųjų grupiniai kursai",
+    "Pažengusiųjų grupiniai kursai",
+    "Miesto grupės pamokos",
+    "Triukų kursai",
+    "Parodų kursas (online)",
+    "Šuniukų kursas (online)",
+    "Dresūra įvairiose miesto erdvėse"
+  ],
+  "features": [
+    "3 miestai: Šiauliai, Marijampolė, Vilnius",
+    "Mažos grupės (3-8 šunys)",
+    "Pamokos įvairiose miesto vietose",
+    "Parkuose, kavinėse, prekybos centruose",
+    "Online teorijos pamokos",
+    "Online kursai (Parodų, Šuniukų)",
+    "Diplomai po egzaminų",
+    "50% nuolaida online kursui dalyviams",
+    "Facebook grupės bendravimui",
+    "Lankstus tvarkaraštis",
+    "Namų darbai",
+    "Egzaminai su diplomais ir dovanėlėmis"
+  ],
+  "courseDetails": {
+    "beginners": {
+      "title": "Pradedančiųjų kursas",
+      "duration": "7-8 pamokos",
+      "includes": [
+        "1 online paskaita",
+        "6-7 praktinės pamokos",
+        "Namų darbai",
+        "Egzaminas su diplomais ir dovanėlėmis"
+      ],
+      "learns": [
+        "Pagrindinės komandos (sėdėt, gulėt, vieta, pas mane)",
+        "Tvarkingo vaikščiojimo su pavadėliu",
+        "Ramios reakcijos į kitus šunis",
+        "Ramios reakcijos į garsus ir dirgiklius",
+        "Teisingo žaidimo",
+        "Šuns kūno kalbos",
+        "Tinkamos įrangos pasirinkimo",
+        "Problemų sprendimo"
+      ],
+      "groupSize": "3-7 šunys",
+      "notFor": "Agresyviems, nuolat lojantiems ar bailiems šunims"
+    },
+    "advanced": {
+      "title": "Pažengusiųjų kursas",
+      "duration": "8 pamokos",
+      "includes": [
+        "Įtvirtinamos pagrindinės komandos ir variacijos",
+        "Pratimų mokantis susikaupti, nusiraminti, mąstyti",
+        "Uoslės lavinimo užduočių",
+        "Skirtingų markerių panaudojimas",
+        "Triukų ir fitneso pagrindai"
+      ],
+      "groupSize": "3-5 šunys"
+    },
+    "cityGroup": {
+      "title": "Miesto grupė",
+      "schedule": "1-2 kartus per savaitę vakarais (apie 18:30-19:00)",
+      "locations": "Parkai, kavinės, PC, salės, centras, Senamiestis, Šnipiškės, Naujamiestis, Antakalnis",
+      "notACourse": "Tai bendros pamokos, ne kursas. Bendraminčių susitikimai."
+    },
+    "individual": {
+      "title": "Individualios pamokos",
+      "duration": "45-60 min.",
+      "includes": [
+        "Teorija",
+        "Praktiniai pratimai",
+        "Dalyvauja visi šeimos nariai",
+        "Vieta ir laikas derinami individualiai"
+      ],
+      "recommendation": "Rekomenduojame pradėti nuo 1-2 individualių, po to prisijungti prie grupės"
+    },
+    "onlineShowCourse": {
+      "title": "Parodų kursas",
+      "price": 50,
+      "duration": "50 dienų prisijungimas",
+      "content": "32 pamokos, 2 valandos vaizdo turinio",
+      "topics": [
+        "Stovėsena",
+        "Dantys ir sąkandis",
+        "Judesys",
+        "Įranga ir aksesuarai",
+        "Kailio paruošimas"
+      ],
+      "url": "https://gabus.thinkific.com"
+    },
+    "onlinePuppyCourse": {
+      "title": "Šuniukų kursas",
+      "priceRegular": 50,
+      "priceForStudents": 25,
+      "duration": "50 dienų prisijungimas",
+      "forAge": "2-4 mėn. šuniukams, bet tinka ir vyresniems",
+      "topics": [
+        "Daiktų sąrašas",
+        "Socializacijos atmintinė",
+        "Narvas ir pratinimas",
+        "Elgsenos problemos",
+        "Mityba",
+        "Dienotvarkė"
+      ],
+      "discount": "50% nuolaida pamokų dalyviams ir veislynams",
+      "url": "https://gabus.thinkific.com/courses/suniuku-kursas"
+    }
+  },
+  "additionalInfo": {
+    "extraFees": "Už atvykimą į namus, pamokas prieš 10:00 arba po 17:00, savaitgaliais ar ilgesnę konsultaciją gali būti papildomas mokestis",
+    "cancellation": "Atšaukti dalyvavimą galima likus ne mažiau nei 24h iki pradžios. Pinigai negrąžinami.",
+    "registration": "Būtinai sulaukite patvirtinimo el. paštu",
+    "refundPolicy": "Nusprendus nebelankyti Vilniaus kursų, pasiliekamas 50€ registracijos ir administravimo mokestis",
+    "onlineCourses": "Online kursai: gabus.thinkific.com",
+    "discount": "50% nuolaida online kursui pamokų dalyviams",
+    "payment": "Grupės pamokų mokėjimas išankstinis",
+    "newGroups": "Apie naujas grupes informuojame Facebook paskyroje ir naujienlaiškiu"
+  },
+  "specialization": [
+    "Bendras paklusnumas",
+    "Miesto šuo",
+    "Socializacija",
+    "Problemų sprendimas",
+    "Triukai",
+    "Šuniukų auklėjimas",
+    "Pasiruošimas parodoms",
+    "Online kursai"
+  ]
+}

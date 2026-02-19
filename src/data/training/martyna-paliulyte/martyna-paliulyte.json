@@ -1,0 +1,12 @@
+{
+    "school": "Martyna Paliulytė",
+    "specialization": "Hendlingas (ringo dresūra)",
+    "city": "Vilnius",
+    "experienceYears": 22,
+    "services": [
+      { "name": "Grupinė ringo treniruotė", "priceFrom": 15 },
+      { "name": "Individuali ringo treniruotė", "priceFrom": 40 },
+      { "name": "Išstatymas parodoje", "priceFrom": 30 },
+      { "name": "Jaunųjų vedlių treniruotės", "priceFrom": 10 }
+    ]
+  }

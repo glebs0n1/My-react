@@ -1,50 +1,153 @@
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
-import LoginForm from './components/Forms/LoginForm';
-import RegistrationForm from './components/Forms/RegistrationForm';
-import Profile from './components/User/Profile/Profile'; 
-import Header from "./Components/Header/Header";  
-import Footer from "./Components/Footer/Footer";    
-import Home from "./Components/Pages/Home/Home";   
-import PetShelterForm from "./Components/Pages/LoginedUser/LoginedUser";   
-import Shelter from "./Components/Pages/Shelter/Shelter";  
-import Medications from "./Components/Pages/Medications/Medications";  
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+
+// Context
+import { AuthProvider } from "./context/AuthContext";
+import { ToastProvider, useToast } from "./context/ToastContext";
+import { LikesProvider } from "./Components/Like/LikesContext";
+import { LanguageProvider } from "./context/languageContext";
+
+// Components
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import DonateModal from "./Components/Donation/DonateModal";
+import ScrollToTop from "./Components/ScrollToTop";
+import ToastContainer from "./Components/Toast/ToastContainer";
+
+// Pages
+import Home from "./Components/Pages/Home/Home";
+import Shelter from "./Components/Pages/Shelter/Shelter";
+import Medications from "./Components/Pages/Medications/Medications";
+import CategoryPage from "./Components/Pages/Medications/CategoryPage";
+import PetShelterForm from "./Components/Pages/LoginedUser/LoginedUser";
 import PetDetail from "./Components/PetDetail/PetDetail";
+import LoginForm from "./Login/LoginForm"; 
+import RegistrationForm from "./Registration/RegistrationForm";
 import Profile from "./User/Profile/Profile";
+import ProfileEdit from "./User/Profile/ProfileEdit";
+import Training from "./Components/Pages/Training/Training";
+import Veterinarian from "./Components/Pages/Veterinarian/Veterinarian";
+import Grooming from "./Components/Pages/Grooming/Grooming";
+import Walking from "./Components/Pages/DogWalking/Walking";
+import Dogs from "./Components/Animals/Dogs";
+import Cats from "./Components/Animals/Cats";
+import OtherAnimals from "./Components/Animals/OtherAnimals";
+import FavoritesPage from "./Components/Pages/Favorites/FavoritesPage";
+import SettingsPage from "./Components/Pages/Settings/Settings";
 
-const App = () => {
-  const [filteredPets, setFilteredPets] = useState([
-    { id: 1, name: 'Buddy', image: '/path/to/buddy.jpg' },
-    { id: 2, name: 'Bella', image: '/path/to/bella.jpg' },
-    { id: 3, name: 'Charlie', image: '/path/to/charlie.jpg' },
-    { id: 4, name: 'Max', image: '/path/to/max.jpg' },
-    { id: 5, name: 'Lucy', image: '/path/to/lucy.jpg' }
-  ]);
+// Wrapper component to use Toast inside ToastProvider
+const AppContent = () => {
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  const [isRegisterModalOpen, setIsRegisterModalOpen] = useState(false);
+  const { showLoginPrompt } = useToast();
 
-  const handleLike = (id) => {
-    console.log('Liked pet with ID:', id);
-  };
+  // Klausymasis showLoginToast event
+  useEffect(() => {
+    const handleShowLoginToast = () => {
+      showLoginPrompt(
+        () => setIsLoginModalOpen(true),
+        () => setIsRegisterModalOpen(true)
+      );
+    };
+
+    window.addEventListener('showLoginToast', handleShowLoginToast);
+    return () => window.removeEventListener('showLoginToast', handleShowLoginToast);
+  }, [showLoginPrompt]);
 
   return (
-    <div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shelter" element={<Shelter filteredPets={filteredPets} handleLike={handleLike} />} />
-        <Route path="/medications" element={<Medications handleLike={handleLike} />} />
-        <Route path="/PetShelterForm" element={<PetShelterForm />} />
-        <Route path="/pet/:id" element={<PetDetail pets={filteredPets} />}/>
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/register" element={<RegistrationForm />} />
-        <Route path="/profile" element={<Profile />} /> {}
-      </Routes>   
-      <Footer />
-    </div>
+    <LikesProvider>
+      <LanguageProvider>
+        <Router>
+          <ScrollToTop />
+          <Header />
+          
+          {/* Toast Container */}
+          <ToastContainer />
+
+          <Routes>       
+            {/* Shelter */}
+            <Route path="/" element={<Home />} />
+            <Route path="/shelter" element={<Shelter />} />
+            <Route path="/prieglaudos" element={<Shelter />} />
+            
+            {/* Medications */}
+            <Route path="/medications" element={<Medications />} />
+            <Route path="/vaistai" element={<Medications />} />
+            <Route path="/medications/:slug" element={<CategoryPage />} />
+            <Route path="/vaistai/:slug" element={<CategoryPage />} />
+            <Route path="/lekarstva/:slug" element={<CategoryPage />} />
+            
+            {/* Training */}
+            <Route path="/training" element={<Training />} />
+            <Route path="/dresura" element={<Training />} />
+            
+            {/* Veterinarian */}
+            <Route path="/veterinarian" element={<Veterinarian />} />
+            <Route path="/veterinaras" element={<Veterinarian />} />
+            
+            {/* Grooming */}
+            <Route path="/grooming" element={<Grooming />} />
+            <Route path="/kirpimas" element={<Grooming />} />
+            
+            <Route path="/petshelterform" element={<PetShelterForm />} />
+            <Route path="/pet/:slug" element={<PetDetail />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/profile/edit" element={<ProfileEdit />} />
+            <Route path="/walking" element={<Walking />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/donate" element={<DonateModal />} />
+            <Route path="/settings" element={<SettingsPage />} />
+
+            {/* Animals Categories */}
+            <Route path="/dogs" element={<Dogs />} />
+            <Route path="/cats" element={<Cats />} />
+            <Route path="/other-animals" element={<OtherAnimals />} />
+
+            {/* Auth Pages */}
+            <Route path="/login" element={<LoginForm />} />
+            <Route path="/register" element={<RegistrationForm />} />
+          </Routes>
+
+          {/* Auth Modals */}
+          {isLoginModalOpen && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+              <LoginForm
+                onClose={() => setIsLoginModalOpen(false)}
+                switchToRegister={() => {
+                  setIsLoginModalOpen(false);
+                  setIsRegisterModalOpen(true);
+                }}
+              />
+            </div>
+          )}
+
+          {isRegisterModalOpen && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+              <RegistrationForm
+                onClose={() => setIsRegisterModalOpen(false)}
+                switchToLogin={() => {
+                  setIsRegisterModalOpen(false);
+                  setIsLoginModalOpen(true);
+                }}
+              />
+            </div>
+          )}
+
+          <Footer />
+        </Router>
+      </LanguageProvider>
+    </LikesProvider>
+  );
+};
+
+const App = () => {
+  return (
+    <AuthProvider>
+      <ToastProvider>
+        <AppContent />
+      </ToastProvider>
+    </AuthProvider>
   );
 };
 
 export default App;
-
-
-
-

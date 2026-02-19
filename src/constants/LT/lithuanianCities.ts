@@ -1,0 +1,17 @@
+export const LITHUANIAN_CITIES = [
+    "Vilnius",
+    "Kaunas",
+    "Klaipėda",
+    "Šiauliai",
+    "Panevėžys",
+    "Alytus",
+    "Marijampolė",
+    "Mažeikiai",
+    "Jonava",
+    "Utena",
+    "Kėdainiai",
+    "Telšiai",
+    "Tauragė",
+    "Ukmergė",
+    "Plungė",
+  ];

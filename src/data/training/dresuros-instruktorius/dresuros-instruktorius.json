@@ -1,0 +1,14 @@
+{
+    "school": "Dresūros instruktorius, kinologas",
+    "city": "Vilnius",
+    "experienceYears": 24,
+    "rating": 1.0,
+    "services": [
+      { "name": "Individuali dresūra", "priceFrom": 45 },
+      { "name": "Elgesio korekcija", "priceFrom": 45 },
+      { "name": "Dingusių gyvūnų paieška", "priceFrom": 150 },
+      { "name": "Objektų apsauga su šunimi", "priceFrom": 250 },
+      { "name": "Gyvūnų priežiūra namuose", "priceFrom": 50 }
+    ]
+  }
+  

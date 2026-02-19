@@ -1,0 +1,148 @@
+{
+    "branch": "Reksas Kaunas",
+    "contact": {
+      "phone": "+37068792207",
+      "email": "mokykla@reksas.lt"
+    },
+    "services": {
+      "canisterapyGroup": {
+        "title": "Kaniterapijos grupė",
+        "trainer": "Egidijus Brazys",
+        "trainerQualification": "Atestuotas kaniterapinių šunų ruošimo treneris",
+        "description": "Mokymai šunims ir šeimininkams, besiruošiantiems kaniterapijos testui pagal Slovakijos kaniterapijos asociacijos reikalavimus.",
+        "schedule": "Laikas derinamas asmeniškai",
+        "price": {
+          "single": 40
+        }
+      },
+      "individualTraining": {
+        "title": "Individualios dresūros ir elgesio keitimo treniruotės",
+        "duration": "60 min.",
+        "locations": [
+          "Rekso mokykla",
+          "Viešos erdvės (parkai, miesto aplinka)",
+          "Kliento namai"
+        ],
+        "importantNote": "Elgesio problemos sprendžiamos tik praktinių užsiėmimų metu.",
+        "prices": {
+          "school": 40,
+          "publicPlaces": 50,
+          "homeKaunasCity": 70,
+          "homeKaunasDistrict": "nuo 70"
+        }
+      },
+      "calmDogProgram": {
+        "title": "Elgesio keitimo programa „Ramus šuo, ramūs namai“",
+        "description": "5 pamokų struktūruota elgesio keitimo programa su ilgalaikiu palaikymu.",
+        "includes": [
+          "5 individualios pamokos (namuose ir lauke)",
+          "Asmeninis elgesio keitimo planas",
+          "Namų darbai ir aiškūs etapai",
+          "Darbas su realiais trigeriais",
+          "Palaikymas tarp užsiėmimų",
+          "Nemokamos konsultacijos po programos"
+        ],
+        "prices": {
+          "singleHomeSession": 70,
+          "fullProgram": 300
+        },
+        "sessionPriceIfProgram": 60
+      },
+      "youngDogsGroup": {
+        "title": "Jaunų šuniukų grupė (didelių veislių iki 6 mėn.)",
+        "schedule": {
+          "monday": "20:00 – dresūra",
+          "wednesday": "20:00 – socializacija"
+        },
+        "duration": "60 min.",
+        "includes": [
+          "Socializacija saugioje aplinkoje",
+          "Pagrindinės komandos ir triukai",
+          "Pasiruošimas Rekso egzaminui A arba B lygiu",
+          "Fizinio parengimo programa"
+        ],
+        "prices": {
+          "single": 15,
+          "monthly": 80,
+          "threeMonths": 190
+        }
+      },
+      "smallBreedsGroup": {
+        "title": "Mažų veislių grupė",
+        "schedule": {
+          "tuesday": "19:00 – dresūra",
+          "thursday": "19:00 – socializacija"
+        },
+        "duration": "60 min.",
+        "features": [
+          "Tik mažų veislių šunys",
+          "Žiemą treniruotės vyksta šildomose patalpose"
+        ],
+        "prices": {
+          "single": 15,
+          "monthly": 80,
+          "threeMonths": 190
+        }
+      },
+      "olderDogsGroup": {
+        "title": "Vyresnių šunų grupė",
+        "schedule": {
+          "monday": "19:00 – dresūra",
+          "wednesday": "19:00 – socializacija"
+        },
+        "duration": "60 min.",
+        "description": "Pažengusių šunų įgūdžių tobulinimas aikštelėje, viešose vietose ir žygiuose.",
+        "prices": {
+          "single": 15,
+          "monthly": 80,
+          "threeMonths": 190
+        }
+      },
+      "weekendGroup": {
+        "title": "Savaitgalio grupė",
+        "schedule": {
+          "sunday": [
+            "17:00 – bendras paklusnumas",
+            "18:00 – sportinė treniruotė"
+          ]
+        },
+        "duration": "60 min.",
+        "prices": {
+          "single": 15,
+          "monthly": 80
+        }
+      },
+      "behaviorCorrection": {
+        "title": "Elgesio keitimas",
+        "description": "Pagalba sprendžiant agresiją, baimę, lojimą, šlapinimąsi ir kitas problemas.",
+        "duration": "60 min.",
+        "locations": [
+          "Rekso dresūros mokykla",
+          "Kliento namai"
+        ],
+        "prices": {
+          "school": 40,
+          "homeKaunasCity": 70,
+          "homeKaunasDistrict": "nuo 70"
+        }
+      },
+      "showPreparation": {
+        "title": "Ringo (ruošimo parodoms) dresūra",
+        "trainer": "Viktorija Černova",
+        "description": "Paruošimas šunų parodoms – pastatymas, demonstravimas, vedlio mokymas.",
+        "schedule": {
+          "tuesday": "20:00"
+        },
+        "duration": "60 min.",
+        "prices": {
+          "group": 15,
+          "individual": 40,
+          "showHandling": "sutartinė"
+        }
+      },
+      "events": {
+        "title": "Renginiai ir pasirodymai mokyklose",
+        "description": "Rekso mokyklos auklėtinių programa renginiams."
+      }
+    }
+  }

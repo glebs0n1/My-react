@@ -1,0 +1,28 @@
+{
+    "school": "Lidijos Hendlingo ir Dresūros Mokykla",
+    "city": "Šiauliai",
+    "address": "Pramonės g. 15-309, Šiauliai, Lithuania, 78137",
+    "contact": {
+      "phone": "+37061122303",
+      "email": "nykstukusala@gmail.com"
+    },
+    "social": {
+      "followers": 2400,
+      "rating": 5,
+      "reviews": 19,
+      "recommendation": "100%"
+    },
+    "services": [
+      "Ringo dresūra",
+      "Hendlingas",
+      "Bendras paklusnumas",
+      "Socializacija",
+      "Jaunųjų vedlių apmokymas",
+      "Edukacijos"
+    ],
+    "features": [
+      "Šilta atmosfera",
+      "Teigiami atsiliepimai",
+      "Ilgametė patirtis"
+    ]
+  }

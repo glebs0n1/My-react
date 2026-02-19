@@ -1,0 +1,202 @@
+{
+    "school": "Svajonių Šuo - Vida Radzevičienė",
+    "website": "https://treniruoksuni.lt/",
+    "contact": {
+      "name": "Vida Radzevičienė",
+      "phone": "+370 655 63006",
+      "email": "vida@svajoniusuo.lt",
+      "address": "Visa Lietuva"
+    },
+    "about": {
+      "description": "Šunų treniravimas ir elgesio korekcija naudojant švelnų metodą. Video pamokos ir individuali konsultacija. Specializuojuosi 25+ elgesio problemų sprendime be smurto, skanukų ar griežtų antkaklių."
+    },
+    "company": {
+      "name": "IV 'Svajonių šuo'",
+      "type": "Individuali veikla"
+    },
+    "services": [
+      "Video pamokos mažiems šuniukams",
+      "Video pamokos suaugusiems šunims",
+      "Telefono konsultacijos",
+      "Elgesio problemų sprendimas",
+      "Lyderystės mokymai",
+      "Švelnūs dresūros metodai"
+    ],
+    "prices": {
+      "videoPuppies": {
+        "description": "Video pamokos auginantiems mažą šuniuką (iki 6 mėn.)",
+        "price": 25,
+        "duration": "3 mėn. prieiga",
+        "includes": [
+          "Virš 30 filmukų",
+          "Lyderystės pamokos",
+          "Gamtinių reikalų mokymas",
+          "Kandžiojimosi sustabdymas",
+          "Kaip palikti vieną namuose",
+          "Pavadėlio tempimo sprendimas",
+          "Nuraminimo būdai",
+          "Žaidimai",
+          "Pagrindinės komandos"
+        ]
+      },
+      "videoAdult": {
+        "description": "Video pamokos auginantiems suaugusį šunį (virš 6 mėn.)",
+        "price": 35,
+        "duration": "3 mėn. prieiga",
+        "includes": [
+          "Virš 30 filmukų",
+          "Lyderystės pamokos",
+          "25+ elgesio problemų sprendimai",
+          "Pavadėlio tempimas",
+          "Lojimas",
+          "Kandžiojimasis",
+          "Stresavimas kai paliekate vieną",
+          "Nuraminimo būdai",
+          "Žaidimai",
+          "Pagrindinės komandos"
+        ]
+      },
+      "fullPackage": {
+        "description": "Viskas įskaičiuota + konsultacija telefonu",
+        "price": 45,
+        "duration": "6 mėn. prieiga",
+        "includes": [
+          "Video pamokos mažiems šuniukams",
+          "Video pamokos suaugusiems šunims",
+          "30 min. konsultacija telefonu"
+        ]
+      }
+    },
+    "location": {
+      "city": "Visa Lietuva",
+      "coverage": "Nuotolinės paslaugos visoje Lietuvoje",
+      "note": "Video pamokos prieinamos iš bet kur"
+    },
+    "features": [
+      "25+ elgesio problemų sprendimai",
+      "Švelnūs metodai be smurto",
+      "Lyderystės metodika",
+      "Video pamokos 24/7 prieiga",
+      "Telefono konsultacijos",
+      "Be skanukų ir klikerių",
+      "Be griežtų antkaklių",
+      "Tinka visų veislių šunims",
+      "Prieglaudų šunims draugiška",
+      "Ilgalaikiai rezultatai"
+    ],
+    "behaviorProblems": [
+      "Šokinėjimas ant žmonių",
+      "Šokinėjimas ant baldų",
+      "Pavadžio tempimas",
+      "Neatėjimas pakvietus",
+      "Neklausymas komandų",
+      "Kasimo problemos",
+      "Graužimo problemos",
+      "Išsiskyrimo nerimas",
+      "Tuštinimasis ne vietoje",
+      "Šlapinimosi problemos",
+      "Kramtymas ir kandimas",
+      "Agresija kitiems šunims",
+      "Agresija nepažįstamiems",
+      "Agresija šeimininkui",
+      "Pabėgimai",
+      "Agresija objektams (dviračiams)",
+      "Agresija gyvūnams",
+      "Lojimas prie durų",
+      "Lojimas pasivaikščiojimų metu",
+      "Lojimas automobilyje",
+      "Lojimas teritorijoje",
+      "Lojimas kai vienas",
+      "Šuniukų mokymas reikalus atlikti lauke",
+      "Hyperaktyvumas",
+      "Garsių garsų baimė",
+      "Perdėtas laižymas/graužimas",
+      "Dėmesio reikalavimas",
+      "Uodegos gaudymas",
+      "Baimė objektams",
+      "Baimė žmonėms/šunims"
+    ],
+    "methods": {
+      "approach": "Švelnus metodas veikiantis su šuns prigimtimi",
+      "philosophy": "Lyderystė be smurto ir bausmių",
+      "techniques": [
+        "5 žingsnių lyderystė",
+        "Nuraminimo būdai",
+        "Prigimtinis supratimas",
+        "Ryšio kūrimas",
+        "Impulsų kontrolė"
+      ],
+      "noMethods": [
+        "Be skanukų",
+        "Be klikerių",
+        "Be griežtų antkaklių",
+        "Be smurto",
+        "Be rėkimo",
+        "Be bauginimo",
+        "Praktiškai be komandų"
+      ]
+    },
+    "testimonials": [
+      {
+        "author": "Živilė",
+        "dog": "Žorikas (6 mėn., špicas)",
+        "text": "Kas atrodė neįmanoma, tapo įmanoma. Šuniukas protingas ir džiugina."
+      },
+      {
+        "author": "Lora",
+        "dog": "Luna (prieglaudos kalė)",
+        "text": "Situacija stipriai pasikeitė. Tikrai metodika be galo veiksminga ir be šuns kankinimų. Išsilaisvinimas iš beviltiškų problemų."
+      },
+      {
+        "author": "Rita",
+        "dog": "Fama ir Eldorado (podhalės aviganiai)",
+        "text": "Atrodo paprasta, bet labai veiksminga."
+      },
+      {
+        "author": "Birutė",
+        "dog": "Lota (1 m. bišonė)",
+        "text": "Šuns šlapinimasis į guolį išsisprendė. Dėkoju už idėjas."
+      },
+      {
+        "author": "Meda",
+        "dog": "Hera (1 m. pudelė)",
+        "text": "Jūsų dėka turime labai išauklėtą šunį."
+      },
+      {
+        "author": "Rasa",
+        "dog": "Todo (7 m.)",
+        "text": "Po trijų dienų atrodo, lyg kas šunį būtų pakeitęs! Tai būtent tai, ko reikia mano šuniui ir ko niekas nėra sakęs anksčiau."
+      },
+      {
+        "author": "Marija ir Irena",
+        "dog": "Smilga",
+        "text": "Tai veikia!!!! Pirmiausia reikia 'nulaužt' save, kad turėtum laimingą augintinį."
+      },
+      {
+        "author": "Eglė",
+        "dog": "Belgų aviganis iš prieglaudos",
+        "text": "Susitarti su belgu padeda Jūsų lyderystės pamokos. Dauguma dresūros mokyklų pataria maisto ribojimą ir smaugtuką - mums tai netiko."
+      }
+    ],
+    "whyUs": "Video pamokos padeda išspręsti 25+ šunų elgesio problemas naudojant švelnų metodą, kuris veikia su šuns prigimtimi. Šuo pats norės klausyti, nes supras, kad jį gerai suprantate. Be smurto, be skanukų, be klikerių - tik nuoširdi lyderystė. Rezultatai matomi jau po kelių dienų. Tinka visų veislių šunims, įskaitant sudėtingus prieglaudų gyvūnus.",
+    "specialization": [
+      "Elgesio problemų sprendimas",
+      "Prieglaudų šunys",
+      "Sudėtingi charakteriai",
+      "Išsiskyrimo nerimas",
+      "Agresijos korekcija",
+      "Hyperaktyvūs šunys",
+      "Baimių terapija",
+      "Jaunų šuniukų auklėjimas",
+      "Lyderystės mokymai",
+      "Švelni metodika"
+    ],
+    "additionalInfo": {
+      "videoAccess": "24/7 prieiga prie video pamokų",
+      "support": "Telefono konsultacija įtraukta į pilną paketą",
+      "resultsTime": "Pirmi rezultatai jau po kelių dienų",
+      "suitableFor": "Visiems šunims - nuo šuniukų iki 7+ metų",
+      "onlineOnly": "Visos paslaugos nuotolinės - prieinamos visoje Lietuvoje",
+      "paymentNote": "Sutinku su naudojimosi taisyklėmis"
+    }
+  }

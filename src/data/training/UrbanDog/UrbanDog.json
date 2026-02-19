@@ -1,0 +1,129 @@
+{
+    "school": "Šunų dresūros mokykla „Urban Dog“",
+    "website": "https://urbandog.lt",
+    "contact": {
+      "name": "Urban Dog",
+      "phone": "+37064068803",
+      "address": "Ozo g. 37 / T. Ševčenkos 16i, Vilnius"
+    },
+    "about": {
+      "description": "Urban Dog – moderni šunų dresūros mokykla Vilniuje, orientuota į sąmoningą šuns ir šeimininko bendradarbiavimą. Dirbama naudojant aiškią struktūrą, motyvacinį mokymą ir ilgalaikius elgsenos sprendimus. Mokykla siūlo individualias, grupines ir elgsenos korekcijos programas."
+    },
+    "services": [
+      "Puppy treniruotės (2–6 mėn.)",
+      "Adult treniruotės (6+ mėn.)",
+      "Grupinės dresūros pamokos",
+      "Elgsenos korekcija",
+      "RESET elgsenos programa",
+      "Fitnesas",
+      "Mentorystės programos"
+    ],
+    "prices": {
+      "puppySingle": {
+        "description": "1 asmeninė treniruotė (gyvai Urban Dog)",
+        "price": 50,
+        "duration": "60 min."
+      },
+      "puppyHome": {
+        "description": "1 asmeninė treniruotė namuose",
+        "price": 60,
+        "duration": "60 min."
+      },
+      "puppyOnline": {
+        "description": "1 online konsultacija",
+        "price": 45,
+        "duration": "60 min."
+      },
+      "puppyMentor": {
+        "description": "1 mėn. Puppy Mentor programa",
+        "price": 300,
+        "duration": "1 mėnuo"
+      },
+      "adultMentor": {
+        "description": "1 mėn. Adult Mentor programa",
+        "price": 400,
+        "duration": "1 mėnuo"
+      },
+      "skillsGroup": {
+        "description": "Grupinė Skills treniruotė",
+        "price": 20,
+        "schedule": "Antradieniais 19:00"
+      },
+      "puppyExpress": {
+        "description": "2 savaičių grupinis kursas (2x per savaitę)",
+        "price": 100,
+        "duration": "2 savaitės"
+      },
+      "fitnessBlock": {
+        "description": "8 treniruočių fitneso blokas",
+        "price": 300,
+        "sessions": 8
+      },
+      "behaviorSingle": {
+        "description": "1 elgsenos korekcijos treniruotė",
+        "price": 75,
+        "duration": "60 min."
+      },
+      "behaviorReset": {
+        "description": "RESET elgsenos korekcijos programa",
+        "price": 560,
+        "duration": "3 mėn."
+      }
+    },
+    "location": {
+      "city": "Vilnius",
+      "region": "Vilniaus apskritis"
+    },
+    "whyUs": "Urban Dog orientuojasi į ilgalaikius rezultatus ir struktūrizuotą mokymą. Vietoje greitų sprendimų siūlomos sisteminės programos, leidžiančios šeimininkui suprasti šuns elgesio priežastis. RESET programa skirta kompleksinėms problemoms spręsti, o mentorystės modelis leidžia nuosekliai auginti šuniuką nuo pirmųjų dienų.",
+    "serviceDetails": {
+      "puppy": {
+        "title": "Puppy treniruotės (2–6 mėn.)",
+        "description": "Skirtos jauniems šuniukams ir jų šeimininkams. Mokoma namų taisyklių, pavadžio kontrolės, socializacijos, komunikacijos pagrindų.",
+        "benefits": [
+          "Aiškios namų taisyklės",
+          "Tinkama ankstyvoji socializacija",
+          "Prevencinis elgesio problemų sprendimas",
+          "Tvirtas ryšys su šeimininku"
+        ]
+      },
+      "adult": {
+        "title": "Adult treniruotės (6+ mėn.)",
+        "description": "Skirta vyresniems šunims, kuriems reikalingas paklusnumo stiprinimas ar elgesio korekcija.",
+        "benefits": [
+          "Paklusnumas realiose situacijose",
+          "Dėmesio koncentracija",
+          "Pavadžio kontrolė",
+          "Stabilus elgesys mieste"
+        ]
+      },
+      "skills": {
+        "title": "Skills grupė",
+        "description": "Grupinės treniruotės šunims, jau turintiems pagrindus. Lavinami pažangūs įgūdžiai ir komandinė dinamika."
+      },
+      "behavior": {
+        "title": "Elgsenos korekcija",
+        "description": "Individualios arba RESET programos treniruotės skirtos agresijai, lojimui, išsiskyrimo nerimui, hiperaktyvumui, resursų saugojimui ir kitoms kompleksinėms problemoms spręsti."
+      },
+      "fitness": {
+        "title": "Fitnesas",
+        "description": "Propriocepcijos, balanso ir jėgos treniruotės. Skirta bendram fiziniam pasirengimui, ne reabilitacijai."
+      }
+    },
+    "features": [
+      "Individualios ir grupinės treniruotės",
+      "RESET kompleksinė elgsenos sistema",
+      "Gyvos ir online konsultacijos",
+      "Mentorystės modelis",
+      "Struktūruota mokymo metodika",
+      "Fitneso treniruotės",
+      "Lankstus formatas (salė, namai, online)"
+    ],
+    "specialization": [
+      "Ankstyvoji šuniukų socializacija",
+      "Kompleksinė elgsenos korekcija",
+      "Paklusnumas mieste",
+      "Išsiskyrimo nerimo sprendimas",
+      "Hiperaktyvumo kontrolė",
+      "Šuns ir šeimininko ryšio stiprinimas"
+    ]
+  }

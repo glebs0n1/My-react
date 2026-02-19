@@ -1,0 +1,162 @@
+{
+    "school": "Olga P - Šunų Vedžiojimas ir Dresūra",
+    "website": null,
+    "contact": {
+      "name": "Olga P",
+      "phone": null,
+      "email": null,
+      "address": "Klaipėdos r."
+    },
+    "about": {
+      "experience": "11 metų",
+      "description": "Daugelį metų užsiimu įvairių veislių šunų dresūra. Savanoriavau gyvūnų prieglaudose 8 metus, gelbėjau ir padėjau benamiams gyvūnams. Turiu savo Amstaffo veislės šunį, kuris yra interneto žvaigždė, Ukrainos čempionas šunų traukimo rungtyje, atstovauja Ukrainai nacionalinėje komandoje ir žino apie 100 triukų."
+    },
+    "team": [
+      {
+        "name": "Olga (Olja)",
+        "role": "Dresuotoja ir šunų vedžiotoja",
+        "experience": "11 metų",
+        "specialties": [
+          "Vedžiojimas",
+          "Klikerio dresūra",
+          "Laisvojo stiliaus žaidimai",
+          "Klasikinė paklusnumo dresūra",
+          "Triukų dresūra",
+          "Prieglaudų savanorystė"
+        ],
+        "languages": ["Anglų", "Rusų"],
+        "dogs": [
+          {
+            "breed": "Amstafas",
+            "achievements": [
+              "Interneto žvaigždė",
+              "Ukrainos čempionas šunų traukimo rungtyje",
+              "Atstovauja Ukrainai nacionalinėje komandoje",
+              "Žino apie 100 triukų"
+            ]
+          }
+        ]
+      }
+    ],
+    "services": [
+      "Šunų vedžiojimas",
+      "Klikerio dresūra",
+      "Laisvojo stiliaus žaidimai",
+      "Klasikinė paklusnumo dresūra",
+      "Triukų dresūra",
+      "Ilgi pasivaikščiojimai",
+      "Šunų priežiūra darbo metu",
+      "Skubi šunų priežiūra",
+      "Pasivaikščiojimai be dresūros"
+    ],
+    "prices": {
+      "hourlyRate": {
+        "description": "Valandinis įkainis",
+        "priceMin": 12,
+        "duration": "1 valanda",
+        "note": "Tikslią kainą derinti individualiai"
+      },
+      "walking": {
+        "description": "Šunų vedžiojimas",
+        "priceMin": 12,
+        "duration": "Pagal susitarimą",
+        "note": "Ilgi pasivaikščiojimai be dresūros"
+      },
+      "clickerTraining": {
+        "description": "Klikerio dresūra",
+        "priceMin": 12,
+        "duration": "Per pasivaikščiojimą",
+        "note": "Su teigiamu pastipri nimu"
+      },
+      "obedienceTraining": {
+        "description": "Klasikinė paklusnumo dresūra",
+        "priceMin": 12,
+        "duration": "Per pasivaikščiojimą"
+      },
+      "tricksTraining": {
+        "description": "Triukų dresūra",
+        "priceMin": 12,
+        "duration": "Per pasivaikščiojimą"
+      },
+      "playTime": {
+        "description": "Laisvojo stiliaus žaidimai",
+        "priceMin": 12,
+        "duration": "Su žaislais ir daiktais"
+      },
+      "workCare": {
+        "description": "Priežiūra darbo metu",
+        "priceMin": 12,
+        "note": "Kai esate darbe ar komandiruotėje"
+      }
+    },
+    "location": {
+      "city": "Klaipėda",
+      "district": "Klaipėdos rajonas",
+      "coverage": "+30 km aplink Klaipėdą"
+    },
+    "experience": [
+      {
+        "area": "Vedžiojimas",
+        "description": "Ilgametė patirtis vedžiojant didelius šunis"
+      },
+      {
+        "area": "Savanorystė",
+        "years": 8,
+        "description": "Savanoriavo gyvūnų prieglaudose, gelbėjo ir padėjo benamiams gyvūnams"
+      },
+      {
+        "area": "Veislės",
+        "description": "Įvairaus dydžio, amžiaus ir veislių šunys: amstafai, kankorsai, bulmastifai, taksai, spanieliai ir kt. Gyvenu su jais nuo pat gimimo"
+      },
+      {
+        "area": "Temperamentai",
+        "description": "Suprantu bet kokio temperamento šunis – nuo flegmatiškiausių iki choleriškiausių"
+      }
+    ],
+    "features": [
+      "11 metų patirtis su šunimis",
+      "8 metai savanorystės prieglaudose",
+      "Savo šuo - Ukrainos čempionas",
+      "Darbas su dideliais šunimis",
+      "Tik teigiamas pastiprini mas",
+      "NENAUDOJA žiaurių metodų",
+      "Nebijo seilių, vilnos ir purvo",
+      "Įvairių veislių patirtis",
+      "Laisvojo stiliaus žaidimai",
+      "Klikerio dresūra",
+      "Triukų mokymas (apie 100 triukų)",
+      "Priežiūra darbo metu",
+      "Skubi pagalba komandiruotės atveju"
+    ],
+    "specialization": [
+      "Šunų vedžiojimas",
+      "Dideli šunys",
+      "Įvairūs temperamentai",
+      "Teigiamas pastiprini mas",
+      "Klikerio dresūra",
+      "Laisvojo stiliaus žaidimai",
+      "Klasikinė paklusnumo dresūra",
+      "Triukų mokymas",
+      "Prieglaudų šunys",
+      "Namų šunų priežiūra"
+    ],
+    "languages": ["Anglų", "Rusų"],
+    "methods": {
+      "approach": "Visos treniruotės ir vaikščiojimas atliekami tik su teigiamu pastipri nimu",
+      "noMethods": [
+        "Žiaurūs bendravimo metodai",
+        "Bausmės",
+        "Fizinis smurtas"
+      ]
+    },
+    "whyUs": "Turiu ilgametę patirtį vedžiojant didelius šunis, 8 metus savanoriavau gyvūnų prieglaudoje, gelbėjau ir padėjau benamiams gyvūnams. Suprantu bet kokio temperamento šunis – nuo flegmatiškiausių iki choleriškiausių. Mano šuo - Ukrainos čempionas, interneto žvaigždė, žinantis apie 100 triukų. Rasiu kuo užimti jūsų šunį pasivaikščiojimo metu. Siūlau ilgus pasivaikščiojimus be dresūros, klikerio dresūrą, laisvojo stiliaus žaidimus su žaislais ir daiktais, klasikinį paklusnumo dresūrą, triukų dresūrą, svarbius pokalbius su savo šunimi apie kitus šunis rajone ir neribotus apkabinimus, kai reikia.",
+    "additionalInfo": {
+      "temperament": "Nebiją seilių, vilnos ir purvo",
+      "availability": "Galiu padėti, kai reikia pavedžioti šunį, kol esate darbe ar skubiai išvykstate į komandiruotę",
+      "training": "Neriboti apkabinimai šuniui, kai reikia",
+      "communication": "KALBU TIK ANGLŲ IR RUSŲ KALBOMIS"
+    },
+    "notSuitable": {
+      "languages": "Nekalbu lietuviškai - tik anglų ir rusų kalbomis"
+    }
+  }

@@ -1,0 +1,431 @@
+{
+    "school": "Reksas Dresūros Mokykla",
+    "website": "https://www.reksas.lt/",
+    "contact": {
+      "email": "mokykla@reksas.lt",
+      "facebook": "https://www.facebook.com/reksas",
+      "youtube": "https://www.youtube.com/@dresura",
+      "instagram": "https://www.instagram.com/reksaslt"
+    },
+    "about": {
+      "description": "Viena didžiausių ir profesionaliausių šunų dresūros mokyklų Lietuvoje. Turime sales ir lauko aikšteles Kaune ir Vilniuje. Teikiame platų paslaugų spektrą - nuo pradinukų kursų iki profesionalaus ruošimo parodoms. Specializuojamės elgsenos konsultacijose, šunų fitnese ir nosework."
+    },
+    "locations": [
+      {
+        "city": "Kaunas",
+        "contact": {
+          "phone": "+370 687 92 207",
+          "email": "mokykla@reksas.lt",
+          "address": "Savanorių 451, Kaunas",
+          "mapLink": "https://goo.gl/maps/..."
+        },
+        "company": {
+          "name": "MB 'Kauno Reksas'",
+          "code": "305017939",
+          "bank": "LT097300010157836548, Swedbank"
+        },
+        "facilities": {
+          "indoor": "Treniruočių salė",
+          "outdoor": "Lauko aikštelė",
+          "parking": true
+        },
+        "prices": {
+          "beginnersCourse": {
+            "description": "Pradinukų kursas (3-6 mėn.)",
+            "priceFirst": 15,
+            "priceMonthly1x": 90,
+            "priceMonthly2x": 100,
+            "priceSingle": 25,
+            "duration": "1 mėnuo",
+            "note": "85€ lojalumas klientams 1x/sav, 95€ 2x/sav"
+          },
+          "class2": {
+            "description": "2 Klasė (6-24 mėn.)",
+            "priceMonthly1x": 85,
+            "priceMonthly2x": 95,
+            "priceSingle": 25,
+            "discount2months": "10%",
+            "discount3months": "15%",
+            "duration": "1 mėnuo"
+          },
+          "individual": {
+            "description": "Asmeninė treniruotė salėje",
+            "price": 40,
+            "duration": "60 min.",
+            "note": "Pirmoji virš 6 mėn. - elgsenos konsultacija 50€"
+          },
+          "individualPackage4": {
+            "description": "4 asmeninės treniruotės",
+            "price": 150,
+            "duration": "4 x 60 min."
+          },
+          "individualAbonement": {
+            "description": "Asmeninė treniruotė abonentams",
+            "price": 35,
+            "duration": "60 min.",
+            "note": "1, 2 KLASĖS ir GIMNAZIJOS klientams"
+          },
+          "behaviorConsultation": {
+            "description": "Elgsenos konsultacija",
+            "price": 50,
+            "duration": "60 min.",
+            "note": "Šunims virš 6 mėn."
+          },
+          "behaviorPackage": {
+            "description": "4 elgsenos konsultacijos + palaikymas",
+            "price": 300,
+            "duration": "4 x 60 min. + 4 sav."
+          },
+          "fitness": {
+            "description": "Šunų fitnesas (asmeninė)",
+            "price": 25,
+            "duration": "20-30 min."
+          },
+          "fitnessPackage": {
+            "description": "4 fitneso treniruotės",
+            "price": 90,
+            "duration": "4 x 20-30 min."
+          },
+          "fitnessGroup": {
+            "description": "Šunų fitnesas (grupinė)",
+            "price": 15,
+            "duration": "20-30 min."
+          },
+          "fitnessGroupPackage": {
+            "description": "4 grupinės fitneso treniruotės",
+            "price": 60,
+            "duration": "4 x 20-30 min."
+          },
+          "showPreparation": {
+            "description": "Ruošimas parodoms (asmeninė)",
+            "price": 40,
+            "duration": "60 min."
+          },
+          "showPreparationPackage": {
+            "description": "4 ruošimo parodoms treniruotės",
+            "price": 160,
+            "duration": "4 x 60 min."
+          }
+        }
+      },
+      {
+        "city": "Vilnius",
+        "contact": {
+          "phone": "+370 648 64442",
+          "email": "registracija@reksas.lt",
+          "emailAdmin": "jonas@reksas.lt",
+          "emailShop": "shop@reksas.lt",
+          "address": "Daugėliškio 32A, Vilnius (Šnipiškės)"
+        },
+        "company": {
+          "name": "MB 'Vilniaus Reksas'",
+          "code": "305007927",
+          "bank": "LT837300010157700386, Swedbank"
+        },
+        "workingHours": {
+          "monday": "10:00 – 20:00",
+          "tuesday": "10:00 – 20:00",
+          "wednesday": "10:00 – 20:00",
+          "thursday": "10:00 – 20:00",
+          "friday": "Nedirbame",
+          "saturday": "9:00 – 18:00"
+        },
+        "facilities": {
+          "indoor": "Treniruočių salė",
+          "outdoor": "Lauko aikštelė",
+          "parking": true
+        },
+        "prices": {
+          "beginnersCourse": {
+            "description": "Pradinukų kursas (3-6 mėn.)",
+            "priceFirst": 15,
+            "priceMonthly1x": 90,
+            "priceMonthly2x": 100,
+            "priceSingle": 25,
+            "duration": "1 mėnuo",
+            "schedule": "Trečiadieniais 19:00 ir/arba ketvirtadieniais 19:00",
+            "note": "Pirma treniruotė 15€. Lojalumas: 85€ (1x/sav), 95€ (2x/sav)"
+          },
+          "class2Obedience": {
+            "description": "2 Klasė - Paklusnumas/Miesto įgūdžiai",
+            "priceMonthly1x": 85,
+            "priceMonthly2x": 95,
+            "priceSingle": 25,
+            "schedule": "Pirmadieniais 19:00",
+            "duration": "1 mėnuo"
+          },
+          "class2Tricks": {
+            "description": "2 Klasė - Triukai/Vikrumas",
+            "priceMonthly1x": 85,
+            "priceMonthly2x": 95,
+            "priceSingle": 25,
+            "schedule": "Pirmadieniais 19:00, Trečiadieniais 20:00",
+            "duration": "1 mėnuo"
+          },
+          "class2Outdoor": {
+            "description": "2 Klasė - Paklusnumas/Lauko įgūdžiai",
+            "priceMonthly1x": 85,
+            "priceMonthly2x": 95,
+            "priceSingle": 25,
+            "schedule": "Šeštadieniais 10:00",
+            "duration": "1 mėnuo"
+          },
+          "vipPackage": {
+            "description": "VIP pamokos namuose",
+            "price": 300,
+            "duration": "4 asmeninės treniruotės + WhatsApp palaikymas",
+            "note": "Šunims nuo 2 mėn. I-V 10:00-17:00"
+          },
+          "expressPackage": {
+            "description": "Express paketas",
+            "price": 200,
+            "duration": "4 asmeninės + 1 mėn. grupinių (1x/sav)",
+            "note": "Su vebinaru 'Šuns auklėjimo ABC'"
+          },
+          "individual": {
+            "description": "Asmeninė treniruotė salėje",
+            "price": 40,
+            "duration": "60 min.",
+            "note": "Virš 6 mėn. pirmoji - elgsenos konsultacija 50€"
+          },
+          "individualPackage": {
+            "description": "4 asmeninės treniruotės",
+            "price": 150,
+            "duration": "4 x 60 min."
+          },
+          "individualAbonement": {
+            "description": "Asmeninė treniruotė abonentams",
+            "price": 35,
+            "duration": "60 min.",
+            "note": "1, 2 KLASĖS ir GIMNAZIJOS klientams"
+          },
+          "individualHome": {
+            "description": "Asmeninė treniruotė namuose",
+            "priceBase": 40,
+            "priceExtra": "20-30",
+            "duration": "60 min.",
+            "note": "+ 20-30€ atvykimas Vilniuje, parkingo išlaidos"
+          },
+          "behaviorConsultation": {
+            "description": "Elgsenos konsultacija",
+            "price": 50,
+            "duration": "60 min.",
+            "note": "Agresijai, baimėms, nerimui, lojimui"
+          },
+          "behaviorPackage": {
+            "description": "4 elgsenos konsultacijos + palaikymas",
+            "price": 300,
+            "duration": "4 x 60 min. + 4 sav."
+          },
+          "fitness": {
+            "description": "Šunų fitnesas (asmeninė)",
+            "price": 25,
+            "duration": "20-30 min.",
+            "note": "Nuo 3 mėn."
+          },
+          "fitnessPackage": {
+            "description": "4 fitneso treniruotės",
+            "price": 90,
+            "duration": "4 x 20-30 min."
+          },
+          "fitnessGroup": {
+            "description": "Šunų fitnesas (grupinė)",
+            "price": 15,
+            "duration": "20-30 min."
+          },
+          "fitnessGroupPackage": {
+            "description": "4 grupinės fitneso treniruotės",
+            "price": 60,
+            "duration": "4 x 20-30 min."
+          },
+          "nosework": {
+            "description": "Uoslės lavinimas (nosework)",
+            "note": "1:1 arba pusiau individualios grupės"
+          },
+          "calmHome": {
+            "description": "Ramus šuo, ramūs namai",
+            "note": "5 pamokų mokymai jūsų namuose"
+          },
+          "showPreparation": {
+            "description": "Ruošimas parodoms (asmeninė)",
+            "price": 40,
+            "duration": "60 min.",
+            "trainer": "Marina Vetrenko-Pužauskienė"
+          },
+          "showPreparationPackage": {
+            "description": "4 ruošimo parodoms treniruotės",
+            "price": 160,
+            "duration": "4 x 60 min."
+          }
+        }
+      }
+    ],
+    "generalServices": {
+      "beginnersCourse": {
+        "description": "Pradinukų kursas",
+        "forAge": "3-6 mėnesių šunims",
+        "includes": [
+          "Pagrindinių komandų mokymas",
+          "Socializacija grupėje",
+          "Namų tvarkos įgūdžiai",
+          "Pavadžio tempimo sprendimas",
+          "Rinkimo nuo žemės korekcija",
+          "Šokinėjimo ant žmonių prevencija"
+        ],
+        "duration": "1 mėnuo",
+        "schedule": "1-2 kartai per savaitę",
+        "benefits": [
+          "Nemokama nosework pamoka",
+          "Nemokama fitneso pamoka",
+          "Asmeninė konsultacija 35€",
+          "7% nuolaida el. parduotuvėje"
+        ]
+      },
+      "class2": {
+        "description": "2 Klasė",
+        "forAge": "6-24 mėnesių šunims",
+        "types": [
+          "Paklusnumas / Miesto įgūdžiai",
+          "Triukai / Vikrumas, fizinės veiklos",
+          "Paklusnumas / Lauko įgūdžiai"
+        ],
+        "includes": [
+          "Socializacija lauke",
+          "Gero elgesio etiketas mieste",
+          "Paklusnumas realiose situacijose",
+          "Triukai ir vikrumo užduotys",
+          "Koordinacijos lavinimas",
+          "Dėmesio koncentracija"
+        ],
+        "discounts": {
+          "2months": "10%",
+          "3monthsPlus": "15%"
+        }
+      },
+      "vipLessons": {
+        "description": "VIP pamokos",
+        "forAge": "Nuo 2 mėnesių",
+        "includes": [
+          "4 asmeninės treniruotės namuose/parke",
+          "Nuotolinė pagalba WhatsApp I-V 10:00-17:00",
+          "Individualizuota programa",
+          "Pagalba nuo pirmų dienų"
+        ],
+        "benefits": "Efektyviausias būdas 2-6 mėn. šuniukams"
+      },
+      "expressPackage": {
+        "description": "Express paketas",
+        "includes": [
+          "4 asmeninės treniruotės",
+          "1 mėn. grupinių treniruočių abonementas",
+          "Vebinaras 'Šuns auklėjimo ABC'"
+        ],
+        "suitable": "Šunims virš 6 mėn. su gera motyvacija",
+        "duration": "1 mėnuo"
+      },
+      "behaviorConsultation": {
+        "description": "Elgsenos konsultacijos",
+        "suitable": "Jautriems šunims ir virš 6 mėn.",
+        "problems": [
+          "Agresija šunims, žmonėms, gyvūnams",
+          "Lojimas durų skambučiui, domofonui",
+          "Šlapinimasis/tuštinimasis pasilikus vienam",
+          "Šlapinimasis/tuštinimasis namuose (virš 6 mėn.)",
+          "Žmonių, šunų, garsų baimės",
+          "Nuolatinis nerimas, inkštimas",
+          "Maisto, daiktų, vietos saugojimas",
+          "Probleminis elgesys su šeimos nariais",
+          "Paniška baimė aplinkui"
+        ]
+      },
+      "fitness": {
+        "description": "Šunų fitnesas",
+        "benefits": [
+          "Sumažina ligų tikimybę",
+          "Pagerina kaulų-raumenų sistemą",
+          "Gerina širdies-kraujagyslių veiklą",
+          "Pagerina raumenų tonusą",
+          "Padeda įgyti pasitikėjimo savimi",
+          "Sumažina aukščio baimę",
+          "Pagerina laikyseną parodose"
+        ],
+        "suitable": "Nuo 3 mėn., draugiškiems šunims",
+        "conditions": "Patalpose, bet kokiu oru"
+      },
+      "nosework": {
+        "description": "Uoslės lavinimas",
+        "benefits": [
+          "Ramus užsiėmimas",
+          "Koncentracijos stiprinimas",
+          "Pasitikėjimo savimi didinimas",
+          "Emocinės pusiausvyros stiprinimas"
+        ],
+        "format": "1:1 arba pusiau individualios grupės"
+      },
+      "showPreparation": {
+        "description": "Ruošimas parodoms",
+        "includes": [
+          "Pasiruošimas parodai",
+          "Eksterj ero demonstravimas",
+          "Judėjimo demonstravimas",
+          "Praktiniai patarimai vedliui"
+        ],
+        "trainer": "Patyrusi ringo trenerė Marina Vetrenko-Pužauskienė"
+      }
+    },
+    "team": [
+      {
+        "name": "Marina Vetrenko-Pužauskienė",
+        "role": "Ringo trenerė",
+        "specialties": [
+          "Ruošimas parodoms",
+          "Eksterj ero vertinimas",
+          "Ringo dresūra"
+        ]
+      }
+    ],
+    "features": [
+      "2 filialai: Kaunas ir Vilnius",
+      "Treniruočių salės ir lauko aikštelės",
+      "Profesionalūs LKD dresuotojai",
+      "Pradinukų kursai (3-6 mėn.)",
+      "2 Klasė paaugliams (6-24 mėn.)",
+      "VIP pamokos namuose",
+      "Express paketai",
+      "Elgsenos konsultacijos",
+      "Šunų fitnesas",
+      "Nosework (uoslės lavinimas)",
+      "Ruošimas parodoms",
+      "Parduotuvė dresūros inventoriui",
+      "Saugi aptverta aikštelė",
+      "Nemokama automobilių stovėjimo aikštelė",
+      "Nuolaidos lojalums klientams"
+    ],
+    "specialization": [
+      "Jaunų šuniukų auklėjimas",
+      "Paauglių šunų dresūra",
+      "Elgesio problemų sprendimas",
+      "Agresijos korekcija",
+      "Baimių terapija",
+      "Šunų fitnesas ir propriorecepcija",
+      "Nosework",
+      "Ruošimas parodoms",
+      "Miesto šuo",
+      "Triukai ir vikrumas"
+    ],
+    "discounts": {
+      "loyal": "Lojalumas klientams: 85€/95€ vietoj 90€/100€",
+      "2months": "10% sumokant už 2 mėn.",
+      "3months": "15% sumokant už 3 mėn. ir ilgiau",
+      "shop": "7% nuolaida Rekso el. parduotuvėje pradinukų kurso klientams"
+    },
+    "whyUs": "Kodėl verta pasirinkti 'Rekso' dresūros mokyklą: Treniruotės grupėse vyks saugioje aptvertoje šunų aikštelėje ir patalpose. Asmenines treniruotes galime pravesti Jūsų namuose ir bet kurioje Kauno ar Vilniaus miesto vietovėje. Rūpinsimės, kad Jūsų šuniui investuotas laikas atneštų užtikrintus rezultatus. Įgytas žinias užtvirtinsime ne tik dresūros aikštelėje, bet ir žygiuose, pasirodymuose renginiuose ir egzaminuose. Padėsime išspręsti žalingas šunų problemas. Mes padėsime Jums išugdyti paklusnų šunį nuo pat pirmosios jo atsiradimo dienos Jūsų namuose!",
+    "additionalInfo": {
+      "parking": "Nemokama automobilių stovėjimo aikštelė abiejose lokacijose",
+      "parking Cost": "Kliento namuose parkingo išlaidas apmoka klientas",
+      "extraFee": "Atvykimas į kliento vietą Vilniuje/Kaune: +20-30€",
+      "firstLesson": "Pirmoji pradinukų kurso treniruotė: 15€",
+      "ageGroups": "Pradinukai: 3-6 mėn., 2 Klasė: 6-24 mėn.",
+      "notSuitable": "Agresyviems, bailiems, lojantiems šunims - tik individualios treniruotės"
+    }
+  }
