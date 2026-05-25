@@ -1,0 +1,28 @@
+{
+  "citySlug": "raseiniu-raj",
+  "city": "Raseinių raj.",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.438Z",
+  "salons": [
+    {
+      "title": "Gyvūnų viešbutis Deikas",
+      "businessName": "Deikas",
+      "city": "Raseinių raj.",
+      "citySlug": "raseiniu-raj",
+      "serviceTypes": [
+        "Kaciu Viesbutis",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-48/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Gyvunu-viesbutis-Deikas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://deikas.lt/",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

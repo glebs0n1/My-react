@@ -1,0 +1,123 @@
+{
+  "citySlug": "siauliai",
+  "city": "Šiauliai",
+  "totalSalons": 6,
+  "scrapedAt": "2026-02-20T15:00:57.434Z",
+  "salons": [
+    {
+      "title": "EZA SPA Šunų Kirpykla",
+      "businessName": "EZA SPA",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-68/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-kirpykla-Eza-Spa.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Copyright © Pupsy, 2025. Visos teisės saugomos. Sprendimas: Bresmedia.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų kirpykla",
+      "businessName": "Petmania",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-67/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Gyvunu-kirpykla-siauliuose-Pet-mania.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "PETMANIA – tai jauki ir profesionali šuniukų kirpykla Šiauliuose, gimusi iš didelės meilės gyvūnams. Kirpyklos įkūrėja Toma atsakingai ruošėsi šiai veiklai, siekdama užtikrinti aukščiausią paslaugų kokybę ir gerą savijautą kiekvienam augintiniui.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Augintinių kirpykla",
+      "businessName": "Augintinių kirpykla",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-66/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Gyvunu-kirpykla-siauliuose.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Copyright © Pupsy, 2025. Visos teisės saugomos. Sprendimas: Bresmedia.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Naminių šuniukų kirpykla",
+      "businessName": "Naminių šuniukų kirpykla",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-50/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/naminiu-suniuku-kirpykla.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Kerpami naminiai šuniukai",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Laukinė Orchidėja",
+      "businessName": "Laukinė Orchidėja",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-34/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Laukine-Orchideja-dresura-viesbutis-veislynas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : www.sunsdresura.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūros ir sporto klubas”K9manija”",
+      "businessName": "K9manija",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-33/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/LOGO-MALINOUS.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "K9Manija Facebook : www.facebook.com",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

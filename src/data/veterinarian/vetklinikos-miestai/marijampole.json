@@ -1,0 +1,292 @@
+{
+  "city": "Marijampolė",
+  "citySlug": "marijampole",
+  "pageTitle": "Veterinarijos klinikos Marijampolėje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Marijampolėje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 3,
+  "scrapedAt": "2026-02-19T15:54:36.520Z",
+  "clinics": [
+    {
+      "name": "Wellvet Marijampolė",
+      "city": "Marijampolė",
+      "citySlug": "marijampole",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37067692252",
+      "url": "https://www.vetklinikos.lt/klinika/wellvet-marijampole",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "Wellvet Marijampolė",
+      "address": "V. Kudirkos g. 2",
+      "addressCity": "Marijampolė 68295",
+      "email": "marijampole@wellvet.lt",
+      "website": "https://wellvet.lt/marijampole?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 16:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Marijampolės Veterinarijos Centras",
+          "hours": "Marijampolė"
+        },
+        {
+          "day": "Lauveta",
+          "hours": "Marijampolė"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "ultragaras",
+        "rentgenas",
+        "laboratorija",
+        "mikroschema",
+        "odontologija",
+        "dermatologija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.5556844,23.3544372&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Marijampolės Veterinarijos Centras",
+      "city": "Marijampolė",
+      "citySlug": "marijampole",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37069350493",
+      "url": "https://www.vetklinikos.lt/klinika/marijampoles-veterinarijos-centras",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "Marijampolės Veterinarijos Centras",
+      "address": "Žemaitės g. 15",
+      "addressCity": "Marijampolė 68307",
+      "email": "mveterinarijoscentras@gmail.com",
+      "website": "https://www.mvetcentras.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Wellvet Marijampolė",
+          "hours": "Marijampolė"
+        },
+        {
+          "day": "Lauveta",
+          "hours": "Marijampolė"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "ultragaras",
+        "laboratorija",
+        "rentgenas"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.5588983,23.3567526&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Lauveta",
+      "city": "Marijampolė",
+      "citySlug": "marijampole",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37034251661",
+      "url": "https://www.vetklinikos.lt/klinika/lauveta",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Lauveta",
+      "address": "Sasnavos g. 70",
+      "addressCity": "Marijampolė 68110",
+      "email": "lauveta@gmail.com",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Marijampolės Veterinarijos Centras",
+          "hours": "Marijampolė"
+        },
+        {
+          "day": "Wellvet Marijampolė",
+          "hours": "Marijampolė"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "08:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Marijampolė mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.5623982,23.3698028&hl=lt&z=15&output=embed"
+    }
+  ]
+}

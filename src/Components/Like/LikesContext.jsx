@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from "react";
+import PropTypes from "prop-types";
 import { useAuth } from "../../context/AuthContext";
 
 const LikesContext = createContext(null);
@@ -8,11 +9,13 @@ export const LikesProvider = ({ children }) => {
   const email = user?.email;
 
   const [likedItems, setLikedItems] = useState([]);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   /* ================= LOAD FAVORITES ================= */
   useEffect(() => {
     if (!email) {
       setLikedItems([]);
+      setIsInitialized(false);
       return;
     }
 
@@ -23,20 +26,20 @@ export const LikesProvider = ({ children }) => {
       console.error("Error loading favorites:", error);
       setLikedItems([]);
     }
+    setIsInitialized(true);
   }, [email]);
 
   /* ================= SAVE FAVORITES ================= */
   useEffect(() => {
-    if (!email) return;
+    if (!email || !isInitialized) return;
     localStorage.setItem(`favorites_${email}`, JSON.stringify(likedItems));
     window.dispatchEvent(new Event('likesChanged'));
-  }, [likedItems, email]);
+  }, [likedItems, email, isInitialized]);
 
   /* ================= ACTIONS ================= */
-  const toggleLike = (item) => {
+  const toggleLike = useCallback((item) => {
     if (!email) {
-      // Dispatch event kad reikia rodyti login toast
-      window.dispatchEvent(new CustomEvent('showLoginToast'));
+      window.dispatchEvent(new CustomEvent("showLoginToast"));
       return;
     }
 
@@ -46,31 +49,41 @@ export const LikesProvider = ({ children }) => {
         ? prev.filter((liked) => liked.id !== item.id)
         : [...prev, item];
     });
-  };
+  }, [email]);
 
-  const isLiked = (id) => likedItems.some((item) => item.id === id);
+  const isLiked = useCallback(
+    (id) => likedItems.some((item) => item.id === id),
+    [likedItems]
+  );
 
-  const clearAllLikes = () => {
+  const clearAllLikes = useCallback(() => {
     setLikedItems([]);
     if (email) {
       localStorage.removeItem(`favorites_${email}`);
     }
-    window.dispatchEvent(new Event('likesChanged'));
-  };
+    window.dispatchEvent(new Event("likesChanged"));
+  }, [email]);
+
+  const contextValue = useMemo(
+    () => ({
+      likedItems,
+      toggleLike,
+      isLiked,
+      clearAllLikes,
+      isAuthenticated: !!email,
+    }),
+    [likedItems, toggleLike, isLiked, clearAllLikes, email]
+  );
 
   return (
-    <LikesContext.Provider
-      value={{
-        likedItems,
-        toggleLike,
-        isLiked,
-        clearAllLikes,
-        isAuthenticated: !!email,
-      }}
-    >
+    <LikesContext.Provider value={contextValue}>
       {children}
     </LikesContext.Provider>
   );
+};
+
+LikesProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export const useLikes = () => {

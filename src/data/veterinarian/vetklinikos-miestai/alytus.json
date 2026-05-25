@@ -1,0 +1,192 @@
+{
+  "city": "Alytus",
+  "citySlug": "alytus",
+  "pageTitle": "Veterinarijos klinikos Alytuje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Alytuje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 2,
+  "scrapedAt": "2026-02-19T15:54:31.430Z",
+  "clinics": [
+    {
+      "name": "Zoovisata",
+      "city": "Alytus",
+      "citySlug": "alytus",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37031521659",
+      "url": "https://www.vetklinikos.lt/klinika/zoovisata",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Zoovisata",
+      "address": "Jūratės g. 18, Likiškėlių k.",
+      "addressCity": "Alytus 64382",
+      "email": "zoovisata@gmail.com",
+      "website": "https://www.zoovisata.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 16:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 16:00"
+        },
+        {
+          "day": "Vetaminas",
+          "hours": "Alytus"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Alytus mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.392864,23.9922826&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Vetaminas",
+      "city": "Alytus",
+      "citySlug": "alytus",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37065601917",
+      "url": "https://www.vetklinikos.lt/klinika/vetaminas",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "Vetaminas",
+      "address": "Vilniaus g. 28",
+      "addressCity": "Alytus 62112",
+      "email": "uabvetaminas@gmail.com",
+      "website": "https://vetaminas.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Zoovisata",
+          "hours": "Alytus"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.400412,24.0516639&hl=lt&z=15&output=embed"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "citySlug": "plunge",
+  "city": "Plungė | Plungės raj.",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.439Z",
+  "salons": [
+    {
+      "title": "Dresūros mokykla, Veislynas.",
+      "businessName": "Auksinis Vilkas",
+      "city": "Plungė | Plungės raj.",
+      "citySlug": "plunge",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-16/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/12/auksinis-vilkas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Copyright © Pupsy, 2025. Visos teisės saugomos. Sprendimas: Bresmedia.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

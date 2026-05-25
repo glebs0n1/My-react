@@ -1,0 +1,27 @@
+{
+  "citySlug": "anyksciai",
+  "city": "Anykščiai | Panevėžys | Vilnius",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.439Z",
+  "salons": [
+    {
+      "title": "Dreūros mokykla Dog Punk",
+      "businessName": "Dog Punk",
+      "city": "Anykščiai | Panevėžys | Vilnius",
+      "citySlug": "anyksciai",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-29/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/dogpunk-logo.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "DogPunk tinklapis: https://mokyksuni.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

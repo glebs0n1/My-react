@@ -1,0 +1,27 @@
+{
+  "citySlug": "elektrenai",
+  "city": "Elektrėnai",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.435Z",
+  "salons": [
+    {
+      "title": "Šunų viešbutis „Burbonas” Elekrėnuose",
+      "businessName": "Burbonas",
+      "city": "Elektrėnai",
+      "citySlug": "elektrenai",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-62/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-viesbutis-Burbonas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://www.sunuviesbutisburbonas.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

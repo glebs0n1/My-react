@@ -1,0 +1,396 @@
+{
+    "name": "TOTO Veterinarijos Klinika",
+    "type": "Veterinarijos klinika",
+    "website": "https://toto.lt/",
+    "rating": 4.8,
+    "reviewCount": 250,
+    "experience": "26+ metų",
+    "contact": {
+      "phone": "+370 655 19991",
+      "email": "info@toto.lt",
+      "address": "I. Šimulionio g. 5, Vilnius",
+      "city": "Vilnius",
+      "district": "Karoliniškės",
+      "postalCode": "LT-04330"
+    },
+    "company": {
+      "name": "UAB Zooveterinarijos centras 'TOTO'",
+      "code": "225033960",
+      "vatCode": "LT250339610"
+    },
+    "hours": {
+      "monday": { "open": "09:00", "close": "20:00" },
+      "tuesday": { "open": "09:00", "close": "20:00" },
+      "wednesday": { "open": "09:00", "close": "20:00" },
+      "thursday": { "open": "09:00", "close": "20:00" },
+      "friday": { "open": "09:00", "close": "20:00" },
+      "saturday": { "open": "09:00", "close": "18:00" },
+      "sunday": { "open": "09:00", "close": "18:00" },
+      "description": "Dirbame visomis savaitės dienomis"
+    },
+    "about": {
+      "description": "TOTO veterinarijos klinika Vilniuje teikia profesionalias veterinarijos paslaugas šunims, katėms, smulkiems ir egzotiniams augintiniams. Mūsų patyrę veterinarijos specialistai rūpinasi diagnostika, gydymu ir profilaktika, užtikrindami individualų požiūrį bei aukštus gydymo standartus.",
+      "mission": "Ne tik gydyti, bet ir padėti šeimininkams priimti geriausius sprendimus savo augintinio sveikatai",
+      "commitment": "Savo darbą labai vertiname ir jaučiamės atsakingi už kiekvieną atėjusį pacientą. Gyvūnus mylime kaip savus."
+    },
+    "facilities": {
+      "size": "200 kv. m",
+      "rooms": "5 apžiūros kabinetai",
+      "features": [
+        "Erdvi stacionaro zona",
+        "Nemokamas parkingas",
+        "Zooprekių parduotuvė",
+        "Elektroninė savitarna",
+        "Moderni įranga",
+        "Patogus susisiekimas Karoliniškėse"
+      ]
+    },
+    "specialists": [
+      {
+        "specialty": "Dermatologija",
+        "description": "Odos ligų diagnostika ir gydymas"
+      },
+      {
+        "specialty": "Odontologija",
+        "description": "Dantų ir burnos ligų gydymas"
+      },
+      {
+        "specialty": "Bendros praktikos",
+        "description": "Kasdienė augintinių sveikatos priežiūra"
+      },
+      {
+        "specialty": "Vidaus ligos ir chirurgija",
+        "description": "Sudėtingos operacijos ir gimdymo priežiūra"
+      },
+      {
+        "specialty": "Egzotiniai gyvūnai",
+        "description": "Graužikų, šeškų ir paukščių veterinarė"
+      }
+    ],
+    "services": [
+      "Egzotinių gyvūnų konsultacijos ir gydymas",
+      "Veterinarinė pagalba gimdymo metu",
+      "Veterinarinė dermatologija",
+      "Kačių sterilizacija/kastracija",
+      "Veterinarinė odontologija",
+      "Kalių sterilizacija",
+      "Veterinariniai laboratoriniai tyrimai",
+      "Echoskopiniai/Ultragarso tyrimai",
+      "Rentgenas naminiams gyvūnams",
+      "Veterinarinė kardiologija",
+      "Šuns kastracija",
+      "Katino kastracija",
+      "Veterinarinė chirurgija",
+      "Veterinariniai genetiniai tyrimai",
+      "Veterinaras oftalmologas",
+      "Gyvūnų vakcinacija, skiepai",
+      "Šunų skiepai",
+      "Kačių skiepai",
+      "Šeškų gydymas",
+      "Graužikų gydymas",
+      "Veterinarinė endoskopija",
+      "Stacionaras",
+      "Skubi veterinarinė pagalba"
+    ],
+    "prices": {
+      "consultation": {
+        "primary": {
+          "description": "Pirminė apžiūra / vizitas",
+          "price": 49,
+          "currency": "EUR"
+        },
+        "followUp": {
+          "description": "Pakartotinė apžiūra",
+          "price": 35,
+          "currency": "EUR"
+        },
+        "online": {
+          "description": "Nuotolinė vaizdo konsultacija",
+          "price": 25,
+          "duration": "30 min.",
+          "note": "Registruojantis per E-savitarną",
+          "currency": "EUR"
+        }
+      },
+      "diagnostics": {
+        "xray": {
+          "description": "Rentgeno tyrimas (1 projekcija)",
+          "price": 42,
+          "currency": "EUR"
+        },
+        "xrayAdditional": {
+          "description": "Papildoma rentgeno projekcija",
+          "price": 21,
+          "currency": "EUR"
+        },
+        "ultrasound": {
+          "description": "Echoskopija",
+          "price": 50.40,
+          "currency": "EUR"
+        },
+        "bloodTest": {
+          "description": "Kraujo paėmimas",
+          "price": 22.01,
+          "currency": "EUR"
+        },
+        "urineTest": {
+          "description": "Šlapimo tyrimai",
+          "price": 30,
+          "currency": "EUR"
+        },
+        "bacteriological": {
+          "description": "Bakteriologinis tyrimas",
+          "price": 68.60,
+          "currency": "EUR"
+        }
+      },
+      "dentistry": {
+        "cleaningDog": {
+          "description": "Dantų apnašų valymas šuniui",
+          "price": 80,
+          "currency": "EUR"
+        },
+        "cleaningCat": {
+          "description": "Dantų apnašų valymas katei",
+          "price": 70,
+          "currency": "EUR"
+        },
+        "grindingRodent": {
+          "description": "Dantų šlifavimas graužikams",
+          "price": 40.60,
+          "currency": "EUR"
+        },
+        "dentalXray": {
+          "description": "Dantų rentgeno tyrimas",
+          "price": 18,
+          "currency": "EUR"
+        },
+        "toothExtraction": {
+          "description": "Vieno danties traukimas",
+          "price": 18,
+          "currency": "EUR"
+        }
+      },
+      "surgery": {
+        "operationShort": {
+          "description": "Operacija (iki 0,5 val.)",
+          "price": 186.20,
+          "currency": "EUR"
+        },
+        "assistance": {
+          "description": "Asistavimas operacijos metu",
+          "price": 35.99,
+          "currency": "EUR"
+        },
+        "anesthesia": {
+          "description": "Bendra nejautra (narkozė)",
+          "price": 82.60,
+          "currency": "EUR"
+        },
+        "inhalationAnesthesia": {
+          "description": "Inhaliacinė narkozė (0,5 val.)",
+          "price": 70,
+          "currency": "EUR"
+        }
+      },
+      "castration": {
+        "dogCastration": {
+          "description": "Šuns kastracija",
+          "price": 208,
+          "currency": "EUR"
+        },
+        "dogSterilization": {
+          "description": "Gimdos ir kiaušidžių šalinimas",
+          "price": 208.60,
+          "currency": "EUR"
+        },
+        "catFerret": {
+          "description": "Katino ar šeško kastracija",
+          "price": 98,
+          "currency": "EUR"
+        }
+      },
+      "vaccination": {
+        "complex": {
+          "description": "Kompleksinė vakcinacija",
+          "price": 35,
+          "note": "Pagrindinės virusinės ligos pagal rūšį",
+          "currency": "EUR"
+        },
+        "single": {
+          "description": "Nekompleksinė vakcinacija",
+          "price": 24,
+          "note": "Vienos ligos vakcina",
+          "currency": "EUR"
+        }
+      },
+      "hospital": {
+        "stationaryPerDay": {
+          "description": "Stacionaras (1 diena)",
+          "price": 42,
+          "currency": "EUR"
+        }
+      },
+      "prevention": {
+        "nailTrimming": {
+          "description": "Nagų kirpimas",
+          "price": 20,
+          "currency": "EUR"
+        },
+        "microchip": {
+          "description": "Mikroschemos (čipo) įvedimas",
+          "price": 21,
+          "currency": "EUR"
+        },
+        "travelDocuments": {
+          "description": "Kelionės dokumentų sutvarkymas ir klinikinė apžiūra",
+          "price": 42,
+          "currency": "EUR"
+        },
+        "garData": {
+          "description": "Duomenų suvedimas/keitimas GAR",
+          "price": 28,
+          "currency": "EUR"
+        }
+      },
+      "euthanasia": {
+        "totoPatient": {
+          "description": "Eutanazija pacientams gydytiems TOTO klinikoje",
+          "price": 68.60,
+          "currency": "EUR"
+        },
+        "otherClinic": {
+          "description": "Eutanazija pacientams gydytiems kitose VET. klinikose",
+          "price": 110.60,
+          "currency": "EUR"
+        }
+      },
+      "cremation": {
+        "upTo1kg": {
+          "description": "Augintinių kremavimas (0-1 kg)",
+          "price": 100,
+          "currency": "EUR"
+        },
+        "1to4kg": {
+          "description": "Augintinių kremavimas (1-4 kg)",
+          "price": 150,
+          "currency": "EUR"
+        },
+        "4to10kg": {
+          "description": "Augintinių kremavimas (4-10 kg)",
+          "price": 165,
+          "currency": "EUR"
+        },
+        "10to20kg": {
+          "description": "Augintinių kremavimas (10-20 kg)",
+          "price": 165,
+          "currency": "EUR"
+        },
+        "20to30kg": {
+          "description": "Augintinių kremavimas (20-30 kg)",
+          "price": 175,
+          "currency": "EUR"
+        },
+        "30to40kg": {
+          "description": "Augintinių kremavimas (30-40 kg)",
+          "price": 189.99,
+          "currency": "EUR"
+        },
+        "40to50kg": {
+          "description": "Augintinių kremavimas (40-50 kg)",
+          "price": 210,
+          "currency": "EUR"
+        },
+        "over50kg": {
+          "description": "Augintinių kremavimas (virš 50 kg)",
+          "price": 240,
+          "currency": "EUR"
+        }
+      }
+    },
+    "priceNotes": [
+      "Kiekvienas augintinis ir gydymo atvejis yra individualus",
+      "Priklausomai nuo būklės, gali būti skiriami papildomi vaistai, tyrimai ar procedūros",
+      "Apie visus papildomus sprendimus informuoja gydantis veterinarijos gydytojas",
+      "Jei nenurodyta kitaip, bendra nejautra (anestezija) į paslaugų kainą neįskaičiuota"
+    ],
+    "features": [
+      "26+ metų patirtis",
+      "5 specialistai",
+      "200 kv.m klinika",
+      "5 apžiūros kabinetai",
+      "Erdvi stacionaro zona",
+      "Nemokamas parkingas",
+      "Zooprekių parduotuvė",
+      "Elektroninė savitarna",
+      "Nuotolinės konsultacijos",
+      "Skubi pagalba be eilės",
+      "Individualus požiūris",
+      "Moderni diagnostika",
+      "Dirba 7 dienas per savaitę",
+      "Patogi vieta Karoliniškėse"
+    ],
+    "whyChooseUs": [
+      "Daugiau nei 26 metų veterinarinė patirtis",
+      "Patyrę veterinarijos gydytojai ir specialistai",
+      "Individualūs gydymo ir priežiūros sprendimai",
+      "Platus paslaugų spektras vienoje klinikoje",
+      "Patogi vieta Vilniuje, Karoliniškėse",
+      "Dirbame 7 dienas per savaitę"
+    ],
+    "emergencyInfo": {
+      "available": true,
+      "note": "Neatidėliotiną pagalbą reikalaujantys pacientai priimami be eilės",
+      "warning": "Tuo pačiu metu pagalba gali būti teikiama kitam gyvūnui - prašome supratingumo"
+    },
+    "onlineServices": {
+      "electronicRegistry": {
+        "available": true,
+        "description": "Elektroninė savitarna - valdykite vizitus ir augintinio duomenis",
+        "features": [
+          "Visi duomenys vienoje vietoje",
+          "Patogus registravimasis internetu",
+          "Priminimai apie vizitus ir gydymą",
+          "Tiesioginis ryšys su veterinarijos gydytoju",
+          "Lengva redaguoti duomenis"
+        ],
+        "newClients": "Susikurkite profilį ir įveskite augintinio duomenis",
+        "existingClients": "Prisijunkite su telefonu arba el. paštu"
+      },
+      "onlineConsultation": {
+        "available": true,
+        "price": 25,
+        "duration": "30 min.",
+        "note": "Vaizdo konsultacija per E-savitarną"
+      }
+    },
+    "petTypes": [
+      "Šunys",
+      "Katės",
+      "Graužikai",
+      "Šeškai",
+      "Paukščiai",
+      "Egzotiniai gyvūnai"
+    ],
+    "specializations": [
+      "Dermatologija",
+      "Odontologija",
+      "Chirurgija",
+      "Vidaus ligos",
+      "Kardiologija",
+      "Oftalmologija",
+      "Endoskopija",
+      "Gimdymo priežiūra",
+      "Egzotiniai gyvūnai"
+    ],
+    "additionalServices": [
+      "Zooprekių parduotuvė",
+      "Elektroninė registracija",
+      "Tiesioginis bendravimas su gydytoju",
+      "Vakcinacijų priminimai",
+      "Augintinio sveikatos istorija",
+      "Kelionės dokumentai",
+      "GAR registracija",
+      "Kremavimo paslaugos"
+    ]
+  }

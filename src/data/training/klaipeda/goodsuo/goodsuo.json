@@ -1,0 +1,36 @@
+{
+  "school": "Good Šuo – dresūros mokykla",
+  "website": "https://www.facebook.com/GoodSuo",
+  "contact": {
+    "name": "Deima Dargytė",
+    "phone": "+370 685 05383",
+    "email": "dargyte.deima@gmail.com",
+    "address": "Kampo g. 10, Grabupių km., Šilutės raj."
+  },
+  "about": {
+    "description": "Dresūros mokykloje taikome naujausius pozityvios dresūros metodus, kad šuo paklustu dėl stipraus ryšio su šeimininku. Dirbame su įvairiausiomis veisлėmis ir įvairaus amžiaus šunimis. Valdomas ir laimingas šuo – geras šuo – laimingi šeimininkai."
+  },
+  "services": [
+    "Pozityvi dresūra",
+    "Ryšio kūrimas su šeimininku",
+    "Paklusnumo mokymai",
+    "Darbas su įvairiomis veisлėmis",
+    "Jaunų šuniukų mokymai",
+    "Suaugusių šunų dresūra"
+  ],
+  "prices": [],
+  "location": {
+    "city": "Klaipėda",
+    "coverage": "Klaipėda | Šilutė | Tauragė"
+  },
+  "workingHours": "I-V 9:00-20:00, VI-VII 9:00-18:00",
+  "image": "https://pupsy.lt/wp-content/uploads/2026/01/Dresuros-mokykla-Good-suo.jpg",
+  "reviews": [
+    {
+      "author": "Atsiliepimas",
+      "rating": "5",
+      "date": null,
+      "content": null
+    }
+  ]
+}

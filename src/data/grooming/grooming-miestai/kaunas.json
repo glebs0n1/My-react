@@ -1,0 +1,150 @@
+{
+  "citySlug": "kaunas",
+  "city": "Kaunas",
+  "totalSalons": 8,
+  "scrapedAt": "2026-02-20T15:00:57.432Z",
+  "salons": [
+    {
+      "title": "Profesionali gyvūnų kirpykla",
+      "businessName": "Vanilos Salonas",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-3/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/20250228_173001-scaled.jpg",
+      "rating": 5,
+      "reviewCount": 1,
+      "price": "Nuo 25 €",
+      "description": "Vanilos salonas – profesionali gyvūnų kirpykla, įsikūrusi Kaune, aukštuosiuose šančiuose, teikianti aukščiausios kokybės paslaugas jūsų augintiniams. Paslaugos teikiamos šunims ir triušiams!",
+      "galleryImages": [],
+      "reviews": [
+        {
+          "author": "Rokas",
+          "rating": "5",
+          "date": "12 spalio, 2025",
+          "content": "Tikriai puikiai nukailino mano šuniuka. Darbuotoja labai maloni ir draugiška. Tikrai rekomenduoju!"
+        }
+      ],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Dresūros mokykla Kaune",
+      "businessName": "Charizma",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-7/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-mokykla-Charizma-dresura.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "ŠUNŲ RINGO DRESŪRA, BENDRAS PAKLUSNUMAS IR BASEINAS KAUNE Ringuvos g.51A, Kaunas",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūros ir sporto centras Kaune",
+      "businessName": "Nasrai",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-63/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Dresuros-ir-sporto-centras-nasrai.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : https://nasrai.com",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Dresūros mokykla, Vokiečių aviganių veislynas",
+      "businessName": "Plieninė Iltis",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Dresuros Mokykla"     
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-51/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Plienine-iltis-Vokieciu-aviganiu-veislynas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : https://plienineiltis.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šuns Judesys Dresūros ir sporto klubas",
+      "businessName": "Šuns Judesys",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-28/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Suns-Judesys-Dresuros-ir-sporto-klubas.avif",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Leiskite savo augintiniui tapti geriausia savo versija.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Dresūros mokykla, Reksas",
+      "businessName": "Reksas",
+      "city": "Kaunas | Vilnius",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-27/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresuros-mokykla-reksas-1.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Dresūra Kaune : +37068792207",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų ir Kačių viešbutis ir daugiau",
+      "businessName": "Pet House",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "serviceTypes": [
+        "Kaciu Viesbutis",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-26/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-ir-kaciu-viesbutis-Pet-House.webp",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Modernus ir šviesus „Pet House“ šunų ir kačių viešbutis Kaune siūlo Jūsų keturkojams draugams kokybišką ir pilnavertį apyvendinimą specialiai gyvūnų priežiūrai įkurtuose erdviuose ir šiltuose apartamentuose.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

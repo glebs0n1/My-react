@@ -1,0 +1,69 @@
+{
+  "citySlug": "kauno-raj",
+  "city": "Kauno raj.",
+  "totalSalons": 3,
+  "scrapedAt": "2026-02-20T15:00:57.433Z",
+  "salons": [
+    {
+      "title": "VŠĮ „Profesionali Kinologų ir šunų mokykla”",
+      "businessName": "Kinologų ir šunų mokykla",
+      "city": "Kauno raj.",
+      "citySlug": "kauno-raj",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-70/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Dresura.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "P.Puskunigio 7, Skriaudziai Prienų raj.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų viešbutis „Pepper home” Kaunas",
+      "businessName": "Pepper home",
+      "city": "Kauno raj.",
+      "citySlug": "kauno-raj",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://www.facebook.com/sunuviesbutiskaune/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-viesbutis-pepper-home.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Ruošiates atostogoms? Galvojate, kur saugiai palikti savo keturkojį draugą? Galite palikti jį man! 3 metų nuolatinės priežiūros patirtis leidžia susidraugauti su bet kuriuo augintiniu. Šuniukai būna erdviame name ir dūksta 30 arų aptvertoje pievoje :)",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": "+370 698 75776",
+      "address": "Zapyškis, Kaunas",
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Pet hotel – viskas jūsų augintiniui",
+      "businessName": "Pet Hotel",
+      "city": "Kauno raj.",
+      "citySlug": "kauno-raj",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Kaciu Viesbutis",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-59/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Pet-hotel.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://pethotel.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

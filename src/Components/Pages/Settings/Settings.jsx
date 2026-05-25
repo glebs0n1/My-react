@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useAuth } from "../../../context/AuthContext";
 import { useNavigate, Link } from "react-router-dom";
 import { Bell, Mail, Lock, Shield, Heart, Calendar, Trash2, ChevronRight } from "lucide-react";
-
 const SettingsPage = () => {
   const { user, isAuthenticated, logout } = useAuth();
   const navigate = useNavigate();

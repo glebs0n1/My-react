@@ -1,0 +1,48 @@
+{
+  "citySlug": "marijampole",
+  "city": "Marijampolė | Šiauliai | Vilnius",
+  "totalSalons": 2,
+  "scrapedAt": "2026-02-20T15:00:57.434Z",
+  "salons": [
+    {
+      "title": "Šunų dresūra ir hendlingas",
+      "businessName": "Gabus",
+      "city": "Marijampolė | Šiauliai | Vilnius",
+      "citySlug": "marijampole",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-65/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/sunu-dresura-ir-hendlibngas-Gabus.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Vilnius – +370 687 98800",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūros mokykla Komanda",
+      "businessName": "Komanda",
+      "city": "Marijampolė",
+      "citySlug": "marijampole",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-39/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresuros-mokykla-Komanda.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Copyright © Pupsy, 2025. Visos teisės saugomos. Sprendimas: Bresmedia.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

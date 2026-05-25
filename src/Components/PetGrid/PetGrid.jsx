@@ -39,11 +39,11 @@ const PetGrid: React.FC<PetGridProps> = ({
         <div className="mb-4 text-6xl">🐾</div>
 
         <h3 className="mb-2 text-xl font-semibold text-gray-800">
-          No pets found
+          Nerasta gyvūnų
         </h3>
 
         <p className="mb-6 max-w-sm text-gray-500">
-          Try adjusting your filters or search terms.
+        Pabandykite pakeisti filtrus arba paieškos žodžius.
         </p>
 
         {onResetFilters && (
@@ -51,7 +51,7 @@ const PetGrid: React.FC<PetGridProps> = ({
             onClick={onResetFilters}
             className="rounded-lg bg-purple-600 px-6 py-3 font-semibold text-white hover:bg-purple-700 transition"
           >
-            Reset filters
+            Išvalyti filtrus
           </button>
         )}
       </div>

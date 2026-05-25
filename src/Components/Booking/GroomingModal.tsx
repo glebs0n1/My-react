@@ -1,219 +1,375 @@
+// src/Components/Booking/GroomingModal.tsx
 import React from "react";
-import { X, MapPin, Phone, Mail, Clock, CheckCircle } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  X,
+  MapPin,
+  Phone,
+  Mail,
+  ExternalLink,
+  Star,
+  User,
+  Scissors,
+  Sparkles,
+  Droplets,
+  Heart,
+} from "lucide-react";
+import { GroomingSalon } from "../../data/grooming/groomingData";
 
-interface ServicePrice {
-  service: string;
-  priceFrom: number;
-}
+const FALLBACK_IMAGE =
+  "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80";
 
-interface GroomingSalon {
-  id: number;
-  name: string;
-  services: string[];
-  prices: ServicePrice[];
-  city: string;
-  address: string;
-  distanceKm: number;
-  priceFrom: number;
-  rating: number;
-  reviewCount?: number;
-  image: string;
-  phone?: string;
-  email?: string;
-  workingHours?: string;
-  description?: string;
-  whyUs?: string;
-}
+const getServiceIcon = (service: string) => {
+  const s = service.toLowerCase();
+  if (s.includes("kerp") || s.includes("kirp")) return Scissors;
+  if (s.includes("maud") || s.includes("vand") || s.includes("šampū"))
+    return Droplets;
+  if (s.includes("nag") || s.includes("dant") || s.includes("aus"))
+    return Sparkles;
+  return Heart;
+};
 
 interface GroomingModalProps {
   provider: GroomingSalon | null;
   isOpen: boolean;
   onClose: () => void;
-  onBook: (provider: GroomingSalon) => void;
 }
 
 const GroomingModal: React.FC<GroomingModalProps> = ({
   provider,
   isOpen,
   onClose,
-  onBook,
 }) => {
-  if (!isOpen || !provider) return null;
+  if (!provider) return null;
+
+  const name = provider.businessName || provider.title || "Kirpykla";
+  const image = provider.image || FALLBACK_IMAGE;
+
+  const cleanEmail = (() => {
+    const email = (provider as any).email;
+    if (!email) return null;
+    const raw = String(email).trim();
+    const noMailto = raw.startsWith("mailto:") ? raw.replace("mailto:", "") : raw;
+    return noMailto.split("?")[0];
+  })();
+
+  const emailSubject = encodeURIComponent(`Užklausa dėl ${name}`);
+  const emailHref = cleanEmail && `mailto:${cleanEmail}?subject=${emailSubject}`;
+
+  const cleanWebsite = (() => {
+    if (!provider.url) return null;
+    if (
+      provider.url.startsWith("http://") ||
+      provider.url.startsWith("https://")
+    ) {
+      return provider.url;
+    }
+    return `https://${provider.url}`;
+  })();
+
+  const mapsQuery = encodeURIComponent(
+    [name, provider.city].filter(Boolean).join(" ")
+  );
+  const mapsLink = `https://maps.google.com/?q=${mapsQuery}`;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto">
-      {/* Backdrop */}
-      <div
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm"
-        onClick={onClose}
-      />
+    <AnimatePresence>
+      {isOpen && (
+        <>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={onClose}
+            className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
+          />
 
-      {/* Modal */}
-      <div className="relative min-h-screen flex items-center justify-center p-4">
-        <div className="relative bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden">
-          
-          {/* Header with Image */}
-          <div className="relative h-64 overflow-hidden">
-            <img
-              src={provider.image}
-              alt={provider.name}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            
-            {/* Close Button */}
-            <button
-              onClick={onClose}
-              className="absolute top-3 right-3 p-2 rounded-full bg-white/20 backdrop-blur-sm text-white hover:bg-white/40 transition"
-              >
-            <svg className="w-4 h-4" fill="w-5 h-5 text-gray-700" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
+          <motion.div
+            initial={{ opacity: 0, y: 40, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 40, scale: 0.97 }}
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            className="fixed inset-0 z-50 flex items-start justify-center p-4 pt-8 overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="bg-white rounded-3xl shadow-2xl w-full max-w-4xl overflow-hidden mb-8">
 
-            {/* Title & Location on Image */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h2 className="text-3xl font-bold mb-2">{provider.name}</h2>
-              <div className="flex items-center gap-2 text-white/90 text-sm">
-              <MapPin className="w-4 h-4" />
-                <span className="text-sm">{provider.city}, {provider.address}</span>
-              </div>
-            </div>
-          </div>
+              {/* ── Hero image ──────────────────────────────────────────────── */}
+              <div className="relative h-64 md:h-80">
+                <img
+                  src={image}
+                  alt={name}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = FALLBACK_IMAGE;
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-          {/* Content - Scrollable */}
-          <div className="overflow-y-auto max-h-[calc(90vh-16rem)] p-6">
-            
-            {/* Contact Buttons */}
-            <div className="grid grid-cols-2 gap-3 mb-6">
-              {provider.phone && (
-                <a
-                  href={`tel:${provider.phone}`}
-                  className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition"
+                <button
+                  onClick={onClose}
+                  className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/40 backdrop-blur-sm text-white flex items-center justify-center hover:bg-black/60 transition"
                 >
-                  <div className="p-2 bg-[#6d0ef1] rounded-lg">
-                    <Phone className="w-5 h-5 text-white" />
-                  </div>
-                  <div className="text-left">
-                    <div className="text-xs text-gray-500 font-medium">Skambinti</div>
-                    <div className="font-bold text-gray-900 text-sm">{provider.phone}</div>
-                  </div>
-                </a>
-              )}
+                  <X className="w-5 h-5" />
+                </button>
 
-              {provider.email && (
-                <a
-                  href={`mailto:${provider.email}`}
-                  className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition"
-                  >
-                  <div className="p-2 bg-[#6d0ef1] rounded-lg">
-                    <Mail className="w-5 h-5 text-white" />
+                {provider.rating != null && (
+                  <div className="absolute top-4 left-4">
+                    <span className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full font-semibold bg-amber-400/95 text-amber-950 backdrop-blur-sm">
+                      <Star className="w-3 h-3 fill-amber-900 text-amber-900" />
+                      {provider.rating}
+                      {provider.reviewCount > 0 && ` · ${provider.reviewCount}`}
+                    </span>
                   </div>
-                  <div className="min-w-0">
-                    <div className="text-xs text-gray-500 font-medium">Rašyti</div>
-                    <div className="font-bold text-gray-900 text-sm truncate">{provider.email}</div>
-                  </div>
-                </a>
-              )}
-            </div>
+                )}
 
-            {/* About Section */}
-            {provider.description && (
-              <div className="mb-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Apie mus</h3>
-                <p className="text-gray-700 leading-relaxed text-sm">
-                  {provider.description}
-                </p>
-              </div>
-            )}
-
-            {/* Why Choose Us - Green Box */}
-            {provider.whyUs && (
-              <div className="p-4 bg-[#f2eef6] rounded-xl border border-[#6d0ef1]/20 mb-6">
-                <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 bg-[#6d0ef1] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <CheckCircle className="w-3.5 h-3.5 text-white" />
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <div className="flex flex-wrap items-center gap-2 mb-2">
+                    {provider.price && (
+                      <span className="text-xs px-2.5 py-1 rounded-full bg-white/20 text-white font-medium backdrop-blur-sm">
+                        {provider.price}
+                      </span>
+                    )}
+                    {provider.city && (
+                      <span className="text-xs px-2.5 py-1 rounded-full bg-white/20 text-white font-medium backdrop-blur-sm flex items-center gap-1">
+                        <MapPin className="w-3 h-3" />
+                        {provider.city}
+                      </span>
+                    )}
                   </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-2 text-sm">
-                      Kodėl rinktis mus?
-                    </h4>
-                    <p className="text-gray-700 leading-relaxed text-sm">
-                      {provider.whyUs}
-                    </p>
-                  </div>
+                  <h2 className="text-2xl md:text-3xl font-extrabold text-white leading-tight">
+                    {name}
+                  </h2>
                 </div>
               </div>
-            )}
 
-            {/* Specializacijos */}
-            <div className="mb-6">
-              <div className="flex items-center gap-2 mb-3">
-                <svg className="w-5 h-5 text-[#6d0ef1]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                </svg>
-                <h3 className="text-lg font-bold text-gray-900">Specializacijos</h3>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {provider.services.map((service, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1.5 bg-white border border-[#6d0ef1]/30 text-[#6d0ef1] text-xs font-semibold rounded-lg"
+              {/* ── Body ────────────────────────────────────────────────────── */}
+              <div className="p-6 md:p-8 space-y-8">
+
+                {/* ── Contact row ─────────────────────────────────────────── */}
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {provider.phone && (
+                    <a
+                      href={`tel:${provider.phone}`}
+                      className="flex items-center gap-4 p-4 rounded-xl bg-[#f3f3f6] hover:bg-gray-200 transition"
                     >
-                    {service}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Prices Section */}
-            <div className="mb-6">
-            <div className="flex items-center gap-2 mb-3">
-            <svg className="w-5 h-5 text-[#6d0ef1]" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
-                  </svg>
-                <h3 className="text-lg font-bold text-gray-900">Paslaugos ir kainos</h3>
-              </div>
-
-              <div className="space-y-3">
-                {provider.prices.map((price, idx) => (
-                  <div
-                    key={idx}
-                    className="p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-emerald-200 transition-all"
-                  >
-                    <div className="flex items-start justify-between gap-4">
-                      <div className="flex-1">
-                        <h4 className="font-bold text-gray-900 text-sm">
-                          {price.service}
-                        </h4>
-                        <div className="flex items-center gap-1.5 text-xs text-gray-500">
-                          <Clock className="w-3.5 h-3.5" />
-                          <span>45 min.</span>
-                        </div>
+                      <div className="p-2.5 rounded-lg bg-white text-[#6d0ef1]">
+                        <Phone className="w-5 h-5" />
                       </div>
-                      <div className="text-right">
-                        <div className="text-lg font-bold text-[#6d0ef1]">
-                          €{price.priceFrom}
-                        </div>
+                      <div>
+                        <p className="font-bold text-[#0d0c22]">
+                          {provider.phone}
+                        </p>
+                        <p className="text-xs text-gray-500">Telefonas</p>
+                      </div>
+                    </a>
+                  )}
+
+                  {cleanEmail && (
+                    <a
+                      href={emailHref!}
+                      className="flex items-center gap-4 p-4 rounded-xl bg-[#f3f3f6] hover:bg-gray-200 transition"
+                    >
+                      <div className="p-2.5 rounded-lg bg-white text-[#6d0ef1]">
+                        <Mail className="w-5 h-5" />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="font-bold text-[#0d0c22] truncate text-sm">
+                          {cleanEmail}
+                        </p>
+                        <p className="text-xs text-gray-500">El. paštas</p>
+                      </div>
+                    </a>
+                  )}
+
+                  {provider.city && (
+                    <div className="flex items-start gap-4 p-4 rounded-xl bg-[#f3f3f6] sm:col-span-2">
+                      <div className="p-2.5 rounded-lg bg-white text-[#6d0ef1] flex-shrink-0">
+                        <MapPin className="w-5 h-5" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="font-bold text-[#0d0c22]">{name}</p>
+                        <p className="text-sm text-gray-500">{provider.city}</p>
+                        <a
+                          href={mapsLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 mt-2 text-xs font-semibold text-[#6d0ef1] hover:underline"
+                        >
+                          <ExternalLink className="w-3 h-3" />
+                          Rasti žemėlapyje
+                        </a>
                       </div>
                     </div>
+                  )}
+
+                  {cleanWebsite && (
+                    <a
+                      href={cleanWebsite}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 p-4 rounded-xl bg-[#f3f3f6] hover:bg-gray-200 transition sm:col-span-2"
+                    >
+                      <div className="p-2.5 rounded-lg bg-white text-[#6d0ef1]">
+                        <ExternalLink className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <p className="font-bold text-[#0d0c22]">Svetainė</p>
+                        <p className="text-xs text-gray-500">
+                          Apsilankykite internete
+                        </p>
+                      </div>
+                    </a>
+                  )}
+                </div>
+
+                {/* ── Description ─────────────────────────────────────────── */}
+                {provider.description && (
+                  <div>
+                    <h3 className="text-xl font-extrabold text-[#0d0c22] mb-3">
+                      Apie mus
+                    </h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      {provider.description}
+                    </p>
                   </div>
-                ))}
+                )}
+
+                {/* ── Services (icon grid) ─────────────────────────────────── */}
+                {provider.serviceTypes?.length > 0 && (
+                  <div>
+                    <h3 className="text-xl font-extrabold text-[#0d0c22] mb-4">
+                      Teikiamos paslaugos
+                    </h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {provider.serviceTypes.map((service) => {
+                        const Icon = getServiceIcon(service);
+                        return (
+                          <div
+                            key={service}
+                            className="flex items-center gap-3 p-3.5 rounded-xl bg-[#f3f3f6]"
+                          >
+                            <div className="p-2 rounded-lg bg-white flex-shrink-0">
+                              <Icon className="w-4 h-4 text-[#0d0c22]" />
+                            </div>
+                            <span className="font-semibold text-[#0d0c22] text-sm capitalize">
+                              {service}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* ── Gallery ─────────────────────────────────────────────── */}
+                {provider.galleryImages?.length > 0 && (
+                  <div>
+                    <h3 className="text-xl font-extrabold text-[#0d0c22] mb-4">
+                      Darbų galerija
+                    </h3>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                      {provider.galleryImages.slice(0, 8).map((src, i) => (
+                        <a
+                          key={src}
+                          href={src}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block aspect-square rounded-xl overflow-hidden bg-[#f3f3f6] hover:opacity-90 transition"
+                        >
+                          <img
+                            src={src}
+                            alt={`${name} – darbas ${i + 1}`}
+                            loading="lazy"
+                            className="w-full h-full object-cover"
+                            onError={(e) =>
+                              ((e.target as HTMLImageElement).style.display =
+                                "none")
+                            }
+                          />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* ── Reviews ─────────────────────────────────────────────── */}
+                {provider.reviews?.length > 0 && (
+                  <div>
+                    <h3 className="text-xl font-extrabold text-[#0d0c22] mb-4">
+                      Atsiliepimai ({provider.reviews.length})
+                    </h3>
+                    <div className="space-y-3">
+                      {provider.reviews.map((review, i) => {
+                        const reviewKey = `${review.author ?? "anon"}-${review.date ?? i}`;
+                        const ratingValue = Number(review.rating);
+                        return (
+                        <div key={reviewKey} className="p-4 rounded-xl bg-[#f3f3f6]">
+                          <div className="flex justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                              <User className="w-4 h-4 text-[#6d0ef1]" />
+                              <span className="font-bold text-sm text-[#0d0c22]">
+                                {review.author || "Anonimas"}
+                              </span>
+                            </div>
+
+                            {review.rating && (
+                              <div className="flex">
+                                {["s1", "s2", "s3", "s4", "s5"].map((starId, s) => (
+                                  <Star
+                                    key={starId}
+                                    className={`w-3 h-3 ${
+                                      s < ratingValue
+                                        ? "fill-amber-400 text-amber-400"
+                                        : "text-gray-300"
+                                    }`}
+                                  />
+                                ))}
+                              </div>
+                            )}
+                          </div>
+
+                          {review.content && (
+                            <p className="text-sm text-gray-600 leading-relaxed">
+                              {review.content}
+                            </p>
+                          )}
+                        </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* ── CTA ─────────────────────────────────────────────────── */}
+                <div className="flex flex-col sm:flex-row gap-3 pt-2 border-t border-gray-100">
+                  {provider.phone && (
+                    <a
+                      href={`tel:${provider.phone}`}
+                      className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl border-2 border-[#6d0ef1] text-[#6d0ef1] font-bold hover:bg-purple-50 transition"
+                    >
+                      <Phone className="w-4 h-4" />
+                      Skambinti dabar
+                    </a>
+                  )}
+                  {cleanWebsite && (
+                    <a
+                      href={cleanWebsite}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#6d0ef1] text-white font-bold hover:bg-[#5a0bc9] transition shadow-md"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      Peržiūrėti puslapį
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
-
-            {/* CTA Button */}
-            <button
-              onClick={() => onBook(provider)}
-              className="w-full py-3.5 bg-gradient-to-r from-[#6d0ef1] to-[#5a0bc9] text-white rounded-xl font-bold hover:opacity-90 transition shadow-lg"
-              >
-              Gauti nuolaidos kodą
-              </button>
-          </div>
-        </div>
-      </div>
-    </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
   );
 };
 

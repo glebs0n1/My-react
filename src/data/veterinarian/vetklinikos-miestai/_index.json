@@ -1,0 +1,76 @@
+{
+  "totalCities": 14,
+  "scrapedAt": "2026-02-19T15:57:17.045Z",
+  "cities": [
+    {
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "totalClinics": 25
+    },
+    {
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "totalClinics": 12
+    },
+    {
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "totalClinics": 10
+    },
+    {
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "totalClinics": 5
+    },
+    {
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "totalClinics": 6
+    },
+    {
+      "city": "Alytus",
+      "citySlug": "alytus",
+      "totalClinics": 2
+    },
+    {
+      "city": "Marijampolė",
+      "citySlug": "marijampole",
+      "totalClinics": 3
+    },
+    {
+      "city": "Mažeikiai",
+      "citySlug": "mazeikiai",
+      "totalClinics": 2
+    },
+    {
+      "city": "Utena",
+      "citySlug": "utena",
+      "totalClinics": 3
+    },
+    {
+      "city": "Visaginas",
+      "citySlug": "visaginas",
+      "totalClinics": 2
+    },
+    {
+      "city": "Telšiai",
+      "citySlug": "telsiai",
+      "totalClinics": 2
+    },
+    {
+      "city": "Plungė",
+      "citySlug": "plunge",
+      "totalClinics": 2
+    },
+    {
+      "city": "Kretinga",
+      "citySlug": "kretinga",
+      "totalClinics": 93
+    },
+    {
+      "city": "Jonava",
+      "citySlug": "jonava",
+      "totalClinics": 3
+    }
+  ]
+}

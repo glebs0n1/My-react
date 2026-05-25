@@ -1,5 +1,5 @@
 // src/Components/Toast/ToastItem.tsx
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   X,
   CheckCircle,
@@ -18,6 +18,7 @@ interface ToastItemProps {
 const ToastItem: React.FC<ToastItemProps> = ({ toast }) => {
   const { removeToast } = useToast();
   const [isExiting, setIsExiting] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
 
   const handleClose = () => {
     setIsExiting(true);
@@ -28,6 +29,22 @@ const ToastItem: React.FC<ToastItemProps> = ({ toast }) => {
     action();
     handleClose();
   };
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        handleClose();
+      }
+    };
+    // Defer one tick so the click that opened the toast doesn't close it.
+    const timer = window.setTimeout(() => {
+      document.addEventListener("mousedown", handleClickOutside);
+    }, 0);
+    return () => {
+      window.clearTimeout(timer);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const styles = {
     success: {
@@ -69,6 +86,7 @@ const ToastItem: React.FC<ToastItemProps> = ({ toast }) => {
 
   return (
     <div
+      ref={ref}
       className={`
         pointer-events-auto border rounded-xl shadow-lg p-4
         transform transition-all duration-300
@@ -76,12 +94,14 @@ const ToastItem: React.FC<ToastItemProps> = ({ toast }) => {
         ${isExiting ? "-translate-y-6 opacity-0" : "opacity-100"}
       `}
     >
-      <div className="flex gap-3">
-        <div className={`${styles.iconBg} p-2 rounded-full`}>
+      <div className="flex items-start gap-3">
+        <div
+          className={`${styles.iconBg} w-10 h-10 rounded-full flex items-center justify-center shrink-0`}
+        >
           {styles.icon}
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <p className={`font-semibold text-sm ${styles.text}`}>
             {toast.message}
           </p>
@@ -116,7 +136,11 @@ const ToastItem: React.FC<ToastItemProps> = ({ toast }) => {
           )}
         </div>
 
-        <button onClick={handleClose}>
+        <button
+          onClick={handleClose}
+          aria-label="Uždaryti"
+          className="shrink-0 text-gray-500 hover:text-gray-700 transition-colors"
+        >
           <X size={18} />
         </button>
       </div>

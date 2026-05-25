@@ -1,0 +1,290 @@
+{
+  "city": "Jonava",
+  "citySlug": "jonava",
+  "pageTitle": "Veterinarijos klinikos Jonavoje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Jonavoje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 3,
+  "scrapedAt": "2026-02-19T15:57:16.997Z",
+  "clinics": [
+    {
+      "name": "VetPet",
+      "city": "Jonava",
+      "citySlug": "jonava",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37034960063",
+      "url": "https://www.vetklinikos.lt/klinika/vetpet",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "VetPet",
+      "address": "Sodų g. 19",
+      "addressCity": "Jonava 55167",
+      "email": "info@vetpet.lt",
+      "website": "https://www.vetpet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:30",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 19:30"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 19:30"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 19:30"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 19:30"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 19:30"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Kabarga",
+          "hours": "Jonava"
+        },
+        {
+          "day": "Sabveta",
+          "hours": "Jonava"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "ultragaras",
+        "laboratorija",
+        "09:00 - 19:30"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.0694014,24.2722261&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Sabveta",
+      "city": "Jonava",
+      "citySlug": "jonava",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37067154631",
+      "url": "https://www.vetklinikos.lt/klinika/sabveta",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Sabveta",
+      "address": "Chemikų g. 8",
+      "addressCity": "Jonava 55255",
+      "email": "info@sabveta.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Kabarga",
+          "hours": "Jonava"
+        },
+        {
+          "day": "VetPet",
+          "hours": "Jonava"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Jonava mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.07276479999999,24.257385&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Kabarga",
+      "city": "Jonava",
+      "citySlug": "jonava",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37034960789",
+      "url": "https://www.vetklinikos.lt/klinika/kabarga",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Kabarga",
+      "address": "J. Ralio g. 1A",
+      "addressCity": "Jonava 55182",
+      "email": "info@kabarga.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sabveta",
+          "hours": "Jonava"
+        },
+        {
+          "day": "VetPet",
+          "hours": "Jonava"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Jonava mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.0705491,24.2802144&hl=lt&z=15&output=embed"
+    }
+  ]
+}

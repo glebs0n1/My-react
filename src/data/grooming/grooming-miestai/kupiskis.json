@@ -1,0 +1,47 @@
+{
+  "citySlug": "kupiskis",
+  "city": "Kupiškis | Panevėžys | Šiauliai",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.427Z",
+  "salons": [
+    {
+      "title": "Grupinės bei asmeninės pamokos",
+      "businessName": "Mano Bestas",
+      "city": "Kupiškis | Panevėžys | Šiauliai",
+      "citySlug": "kupiskis",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-6/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/FB_IMG_1760339827927.jpg",
+      "rating": 5,
+      "reviewCount": 3,
+      "price": "Nuo 15 €",
+      "description": "„Mano Bestas“  pamokos integruotos į šuns kasdienybę: keičiasi aplinka, keičiasi žmonės, tačiau nesikeičia sąlyga- paklusnumas šeimininkui. Prie tos pačios salės ar aikštelės šuo pripranta, o išėjus į miestą viską pamiršta ir visos pamokos- šuniui ant uodegos .\nTęstiniai mokymai, kiekvienam pagal norimą rezultatą. Lengva prisitaikyt prie gyvenimo rutinos, neprivaloma eiti į visas pamokas iš eilės.\nMokomės skirtingose vietose, smagios įvairios veiklos, vis kita aplinka. Su tam paruoštais šuniukais einame į kavines, prekybos centrus. Seniai jau šunys mūsų gyvenimo dalis, ne prie būdos, gyvena. Todėl labai svarbu mokyti tinkamai elgtis visur kur norime būti kartu.\nMano tikslas, kad šuniukai mokytųsi vizgančiomis uodegytėmis ir pasivaikščiojimai šeimininkui su augintiniu teiktų tik smagias akimirkas drauge.\nPamokos Panevėžyje, Šiauliuose, Kupiškyje",
+      "galleryImages": [],
+      "reviews": [
+        {
+          "author": "Sandra",
+          "rating": "5",
+          "date": "24 spalio, 2025",
+          "content": "Dėkoju mokytojai Sandrai už:\n\n-suteiktas žinias apie šuns elgesį ir kaip įveikinėti baimes;\n\n-patarimus jam susirgus;\n\n-už pasitikėjimo tiek savimi, tiek augintiniu kūrimą bei stiprinimą;\n\n-už triukų, nosework, netempk pavadžio, šuo mieste pamokas;\n\n-už laiką kartu ir už tai, kad rūpi – aš ir mano Saiko daug išmokom"
+        },
+        {
+          "author": "Dovilė veislynas Mano Laimė",
+          "rating": "5",
+          "date": "13 spalio, 2025",
+          "content": "Didelis ačiū „Mano Bestas“ šunų mokyklai ir nuostabiai trenerei Sandrai už kantrybę, šilumą ir profesionalumą! Kiekvienas užsiėmimas – žingsnis pirmyn. Džiaugiamės galėdami mokytis ir jau ne vienas mūsų šuo užaugo būtent su šia mokykla."
+        },
+        {
+          "author": "Žygimantė",
+          "rating": "5",
+          "date": "13 spalio, 2025",
+          "content": "Panevėžyje ir visoje Aukštaitijoje dresūros mokykla nr. 1, įvairios ir smagios pamokos, puikiai pagelbėjo su reaktyviu augintiniu. Pradėjome lankyti dėl elgsenos problemų sprendimo, o dabar lankome dėl hobio / pramogos, dėl nuostabios kompanijos. 🤍"
+        }
+      ],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

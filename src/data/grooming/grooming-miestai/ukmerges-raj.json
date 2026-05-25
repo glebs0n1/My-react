@@ -1,0 +1,46 @@
+{
+  "citySlug": "ukmerges-raj",
+  "city": "Ukmergės raj.",
+  "totalSalons": 2,
+  "scrapedAt": "2026-02-20T15:00:57.437Z",
+  "salons": [
+    {
+      "title": "Šunų viešbutis Ukmergės raj.",
+      "businessName": "Šunų kaimas",
+      "city": "Ukmergės raj.",
+      "citySlug": "ukmerges-raj",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-55/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-viesbutis-sunu-kaimas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis – https://sunukaimas.lt/index.html",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Dog Camp Šunų stovykla",
+      "businessName": "Šunų Stovykla",
+      "city": "Ukmergės raj.",
+      "citySlug": "ukmerges-raj",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-22/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Untitled.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Ukmergės raj., Pivonijos sen., Parijos II vs.-5",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

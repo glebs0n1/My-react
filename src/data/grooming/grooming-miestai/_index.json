@@ -1,0 +1,131 @@
+{
+  "totalCities": 25,
+  "scrapedAt": "2026-02-20T15:00:57.440Z",
+  "cities": [
+    {
+      "citySlug": "kupiskis",
+      "city": "Kupiškis | Panevėžys | Šiauliai",
+      "count": 1
+    },
+    {
+      "citySlug": "mazeikiai",
+      "city": "Mažeikiai",
+      "count": 1
+    },
+    {
+      "citySlug": "kaunas",
+      "city": "Kaunas",
+      "count": 8
+    },
+    {
+      "citySlug": "klaipeda",
+      "city": "Klaipėda",
+      "count": 6
+    },
+    {
+      "citySlug": "vilnius",
+      "city": "Vilnius",
+      "count": 20
+    },
+    {
+      "citySlug": "kauno-raj",
+      "city": "Kauno raj.",
+      "count": 3
+    },
+    {
+      "citySlug": "siauliai",
+      "city": "Šiauliai",
+      "count": 6
+    },
+    {
+      "citySlug": "marijampole",
+      "city": "Marijampolė | Šiauliai | Vilnius",
+      "count": 2
+    },
+    {
+      "citySlug": "joniskio-raj",
+      "city": "Joniškio raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "palanga",
+      "city": "Palanga",
+      "count": 1
+    },
+    {
+      "citySlug": "elektrenai",
+      "city": "Elektrėnai",
+      "count": 1
+    },
+    {
+      "citySlug": "klaipedos-raj",
+      "city": "Klaipėdos raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "vilniaus-raj",
+      "city": "Vilniaus raj.",
+      "count": 5
+    },
+    {
+      "citySlug": "alytaus-raj",
+      "city": "Alytaus raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "ukmerges-raj",
+      "city": "Ukmergės raj.",
+      "count": 2
+    },
+    {
+      "citySlug": "kedainiu-raj",
+      "city": "Kėdainių raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "ukmerge",
+      "city": "Ukmergė",
+      "count": 1
+    },
+    {
+      "citySlug": "raseiniu-raj",
+      "city": "Raseinių raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "kaisiadoriu-raj",
+      "city": "Kaišiadorių raj.",
+      "count": 2
+    },
+    {
+      "citySlug": "panevezys",
+      "city": "Panevėžys",
+      "count": 1
+    },
+    {
+      "citySlug": "traku-raj",
+      "city": "Trakų raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "anyksciai",
+      "city": "Anykščiai | Panevėžys | Vilnius",
+      "count": 1
+    },
+    {
+      "citySlug": "alytus",
+      "city": "Alytus",
+      "count": 2
+    },
+    {
+      "citySlug": "plunge",
+      "city": "Plungė | Plungės raj.",
+      "count": 1
+    },
+    {
+      "citySlug": "panevezio-raj",
+      "city": "Panevėžio raj.",
+      "count": 2
+    }
+  ]
+}

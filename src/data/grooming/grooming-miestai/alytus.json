@@ -1,0 +1,46 @@
+{
+  "citySlug": "alytus",
+  "city": "Alytus",
+  "totalSalons": 2,
+  "scrapedAt": "2026-02-20T15:00:57.439Z",
+  "salons": [
+    {
+      "title": "Vilko Takais Veislynas",
+      "businessName": "Vilko Takais Veislynas",
+      "city": "Alytus",
+      "citySlug": "alytus",
+      "serviceTypes": [
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-19/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/12/Vilko-takais-veislynas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Veislyne „Vilko takais” veisiami vokiečių aviganiai ir senbernarai.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra Alytuje",
+      "businessName": "Vilko Takais",
+      "city": "Alytus",
+      "citySlug": "alytus",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-18/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/12/Vilko-takais.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Oficialus Lietuvos ir tarptautinės kinologų draugijos šunų dresuotojas.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "citySlug": "klaipedos-raj",
+  "city": "Klaipėdos raj.",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.436Z",
+  "salons": [
+    {
+      "title": "Gyvūnų viešbutis Klaipėdos raj.",
+      "businessName": "Jaukus Namelis",
+      "city": "Klaipėdos raj.",
+      "citySlug": "klaipedos-raj",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Kaciu Viesbutis",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://jaukusnamelis.lt/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Jaukus-namelis-gyvunu-viesbutis.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "nuo 30 €",
+      "description": "Gyvūnų viešbutis „Jaukus Namelis“ – tai erdvė, kurioje galėsite palikti savo augintinių profesionalų priežŪrai. Įrengtos modernios grindų šildymo, vėdinimo ir oro valymo sistemos. Kiekvienas kambarys turi išėjimą į privaičią lauko terasą.",
+      "workingHours": "I-V 9:00-20:00, VI-VII 9:00-18:00",
+      "website": "https://jaukusnamelis.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://jaukusnamelis.lt/kontaktai/",
+      "groomingPrices": [
+        {
+          "category": "Mažų veislių šunys (iki 9 kg)",
+          "prices": [
+            {
+              "service": "Higiena",
+              "price": "nuo 30 €"
+            },
+            {
+              "service": "Pilnas kompleksas",
+              "price": "nuo 35 €"
+            }
+          ]
+        },
+        {
+          "category": "Vidutinių veislių šunys (iki 20 kg)",
+          "prices": [
+            {
+              "service": "Higiena",
+              "price": "nuo 35 €"
+            },
+            {
+              "service": "Pilnas kompleksas",
+              "price": "nuo 40 €"
+            }
+          ]
+        },
+        {
+          "category": "Didelių veislių šunys (nuo 20 kg)",
+          "prices": [
+            {
+              "service": "Higiena",
+              "price": "nuo 45 €"
+            },
+            {
+              "service": "Pilnas kompleksas",
+              "price": "nuo 50 €"
+            },
+            {
+              "service": "Ketės",
+              "price": "nuo 25 €"
+            }
+          ]
+        },
+        {
+          "category": "Papildomos paslaugos",
+          "prices": [
+            {
+              "service": "Nagų kirpimas",
+              "price": "5-10 €"
+            },
+            {
+              "service": "Ausų valymas",
+              "price": "10-15 €"
+            },
+            {
+              "service": "Šukavimas / sąvėlų šalinimas",
+              "price": "15 €/val"
+            }
+          ]
+        }
+      ],
+      "groomingServices": [
+        "Įprastas kirpimas (maudymas, kirpimas, pedikiŪras, ausų gydymas, akių priežŪra, kvepalai)",
+        "Kūrybingąs kirpimas ir profesionalus dažymas",
+        "Higiena (maudymas + ausų, akių, nagų priežŪra)",
+        "Trimingavimas (negyvų plaukų šalinimas šiurkščiaplaukiams)",
+        "Kačių priežŪra (maudymas, nagų trumpinimas, ausų ir akių valymas, šukavimas)"
+      ]
+    }
+  ]
+}

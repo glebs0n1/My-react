@@ -35,8 +35,8 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-4 text-base">Raskite gyvūną</h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link to="/dogs" className="text-purple-100 hover:text-white transition">
-                Šunys
+              <Link to="/dogs" className="text-purple-100 hover:text-white transition">
+              Šunys
                 </Link>
               </li>
               <li>

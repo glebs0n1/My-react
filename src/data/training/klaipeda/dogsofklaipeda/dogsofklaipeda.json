@@ -1,0 +1,25 @@
+{
+  "school": "Dogs Of Klaipėda",
+  "website": "https://www.dogsofklaipeda.lt",
+  "contact": {
+    "name": "Dogs Of Klaipėda",
+    "phone": null,
+    "email": null,
+    "address": "Klaipėda ir Klaipėdos raj."
+  },
+  "about": {
+    "description": "Šunų dresūros pamokos Klaipėdoje ir Klaipėdos rajone. Parduotuvė ir dresūra vienoje vietoje."
+  },
+  "services": [
+    "Šunų dresūra Klaipėdoje",
+    "Šunų dresūra Klaipėdos rajone",
+    "Paklusnumo mokymai",
+    "Individualios pamokos"
+  ],
+  "prices": [],
+  "location": {
+    "city": "Klaipėda",
+    "coverage": "Klaipėda ir Klaipėdos raj."
+  },
+  "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-Dogs-Of-Klaipeda-1.png"
+}

@@ -1,0 +1,27 @@
+{
+  "citySlug": "palanga",
+  "city": "Palanga",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.435Z",
+  "salons": [
+    {
+      "title": "Dresūra Palangoje, Klaipėdoje, Nemirseta",
+      "businessName": "Dresūros Centras",
+      "city": "Palanga",
+      "citySlug": "palanga",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-42/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/dresura-palangoje.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : https://dresuroscentras.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

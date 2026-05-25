@@ -1,0 +1,190 @@
+{
+  "city": "Visaginas",
+  "citySlug": "visaginas",
+  "pageTitle": "Veterinarijos klinikos Visagine",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Visagine. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 2,
+  "scrapedAt": "2026-02-19T15:54:48.959Z",
+  "clinics": [
+    {
+      "name": "I. Voitechovskajos Veterinarijos Įmonė",
+      "city": "Visaginas",
+      "citySlug": "visaginas",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37038678901",
+      "url": "https://www.vetklinikos.lt/klinika/i-voitechovskajos-veterinarijos-imone",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "I. Voitechovskajos Veterinarijos Įmonė",
+      "address": "Parko g. 7B-3",
+      "addressCity": "Visaginas 31118",
+      "email": "info@vetvisaginas.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Veterinarijos Klinika Visaginas",
+          "hours": "Visaginas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Visaginas mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Rusų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.597616,26.424865&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Veterinarijos Klinika Visaginas",
+      "city": "Visaginas",
+      "citySlug": "visaginas",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37038690123",
+      "url": "https://www.vetklinikos.lt/klinika/veterinarijos-klinika-visaginas",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "Veterinarijos Klinika Visaginas",
+      "address": "Taikos pr. 25",
+      "addressCity": "Visaginas 31001",
+      "email": "info@vetvisaginas2.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "I. Voitechovskajos Veterinarijos Įmonė",
+          "hours": "Visaginas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Visaginas mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Rusų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.5935616,26.4581519&hl=lt&z=15&output=embed"
+    }
+  ]
+}

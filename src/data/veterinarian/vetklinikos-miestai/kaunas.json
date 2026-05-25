@@ -1,0 +1,1469 @@
+{
+  "city": "Kaunas",
+  "citySlug": "kaunas",
+  "pageTitle": "Veterinarijos klinikos Kaune",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Kaune. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 12,
+  "scrapedAt": "2026-02-19T15:53:54.759Z",
+  "clinics": [
+    {
+      "name": "Šnauceris Technikos",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37065555818",
+      "url": "https://www.vetklinikos.lt/klinika/snauceris-technikos",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Šnauceris Technikos",
+      "address": "Technikos g. 39",
+      "addressCity": "Kaunas",
+      "email": "info@snaucerisvet.lt",
+      "website": "https://www.snaucerisvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "endoskopija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Ropliai",
+        "Kiti"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.89941169999999,24.0043313&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Šnauceris Pramonės",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37065555818",
+      "url": "https://www.vetklinikos.lt/klinika/snauceris-pramones",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Šnauceris Pramonės",
+      "address": "Pramonės pr. 36A",
+      "addressCity": "Kaunas",
+      "email": "info@snaucerisvet.lt",
+      "website": "https://www.snaucerisvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "endoskopija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Ropliai",
+        "Kiti"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.92565639999999,23.9776875&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "RuminaVet Partizanų",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061946265",
+      "url": "https://www.vetklinikos.lt/klinika/ruminavet-partizanu",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "RuminaVet Partizanų",
+      "address": "Partizanų g. 85A",
+      "addressCity": "Kaunas",
+      "email": "info@ruminavet.lt",
+      "website": "https://www.ruminavet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kaivana",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "dermatologija",
+        "endoskopija",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.9282225,23.9992248&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "RuminaVet Baltijos",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061946265",
+      "url": "https://www.vetklinikos.lt/klinika/ruminavet-baltijos",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "RuminaVet Baltijos",
+      "address": "Baltijos g. 26A",
+      "addressCity": "Kaunas",
+      "email": "info@ruminavet.lt",
+      "website": "https://www.ruminavet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kaivana",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "dermatologija",
+        "endoskopija",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.92302,23.8853704&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Pas Filą",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37037410638",
+      "url": "https://www.vetklinikos.lt/klinika/pas-fila",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "Pas Filą",
+      "address": "V. Krėvės pr. 8A",
+      "addressCity": "Kaunas 50418",
+      "email": "hello@vetklinikos.lt?subject=Perimti%20kliniką%3A%20Pas%20Fil%C4%85",
+      "website": "https://www.pasfila.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 13:00"
+        },
+        {
+          "day": "Dainavos Veterinarija",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Gyvūnų Edenas",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "sterilizacija",
+        "mikroschema",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.9150308,23.9618076&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37062078353",
+      "url": "https://www.vetklinikos.lt/klinika/lsmu-dr-l-kriauceliuno-smulkiuju-gyvunu-klinika",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+      "address": "Tilžės g. 18",
+      "addressCity": "Kaunas",
+      "email": "gyvunu.klinika@lsmuni.lt",
+      "website": "https://sgk.lsmuni.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Dainavos Veterinarija",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "mikroschema",
+        "endoskopija",
+        "00:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai",
+        "Smulkūs žinduoliai",
+        "Kiti"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.9095297,23.880465&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Kaivana",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37037337023",
+      "url": "https://www.vetklinikos.lt/klinika/kaivana",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "Kaivana",
+      "address": "Veiverių g. 71",
+      "addressCity": "Kaunas 46359",
+      "email": "gydykla@kaivana.lt",
+      "website": "https://kaivana.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "dermatologija",
+        "08:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.872637,23.8909042&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Gyvūnų Edenas",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060607007",
+      "url": "https://www.vetklinikos.lt/klinika/gyvunu-edenas",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Gyvūnų Edenas",
+      "address": "Kuršių g. 7",
+      "addressCity": "Kaunas 48109",
+      "email": "gyvunuedenas@hotmail.com",
+      "website": "http://veterinarijosklinikakaune.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 14:00"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Dainavos Veterinarija",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Pas Filą",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "sterilizacija",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.9367886,23.8899519&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Kauno Gyvūnų Ligoninė by DR.VET",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061482211",
+      "url": "https://www.vetklinikos.lt/klinika/kauno-gyvunu-ligonine-by-drvet",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Kauno Gyvūnų Ligoninė by DR.VET",
+      "address": "Ašigalio g. 1B",
+      "addressCity": "Kaunas 49160",
+      "email": "kaunoligonine@drvet.lt",
+      "website": "https://www.kgl.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 22:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "07:00 - 22:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "07:00 - 22:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "07:00 - 22:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "07:00 - 22:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "07:00 - 22:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kaivana",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Technikos",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "dermatologija",
+        "07:00 - 22:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.932511,23.9425691&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Divaura by DR.VET",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061255855",
+      "url": "https://www.vetklinikos.lt/klinika/divaura-by-drvet",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Divaura by DR.VET",
+      "address": "Partizanų g. 25",
+      "addressCity": "Kaunas",
+      "email": "divaura@drvet.lt",
+      "website": "https://divaura.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Dainavos Veterinarija",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kaivana",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "kardiologija",
+        "dermatologija",
+        "endoskopija",
+        "mikroschema",
+        "09:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai",
+        "Smulkūs žinduoliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.9197971,23.9577954&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Dainavos Veterinarija",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068382620",
+      "url": "https://www.vetklinikos.lt/klinika/dainavos-veterinarija",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "Dainavos Veterinarija",
+      "address": "Pašilės g. 118",
+      "addressCity": "Kaunas",
+      "email": "hello@vetklinikos.lt?subject=Perimti%20kliniką%3A%20Dainavos%20Veterinarija",
+      "website": "https://dainavosveterinarija.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Baltijos",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "RuminaVet Partizanų",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Pas Filą",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Šnauceris Pramonės",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "sterilizacija",
+        "mikroschema",
+        "endoskopija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.91052000000001,23.96527&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "BoNiVeta",
+      "city": "Kaunas",
+      "citySlug": "kaunas",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060574374",
+      "url": "https://www.vetklinikos.lt/klinika/boniveta",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "BoNiVeta",
+      "address": "Alsėdžių g. 14",
+      "addressCity": "Kaunas 44455",
+      "email": "info@boniveta.lt",
+      "website": "https://boniveta.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Dainavos Veterinarija",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "LSMU Dr. L. Kriaučeliūno Smulkiųjų Gyvūnų Klinika",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Pas Filą",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Gyvūnų Edenas",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Divaura by DR.VET",
+          "hours": "Kaunas"
+        },
+        {
+          "day": "Kauno Gyvūnų Ligoninė by DR.VET",
+          "hours": "Kaunas"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "sterilizacija",
+        "10:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.8897499,23.948838&hl=lt&z=15&output=embed"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "citySlug": "panevezio-raj",
+  "city": "Panevėžio raj.",
+  "totalSalons": 2,
+  "scrapedAt": "2026-02-20T15:00:57.439Z",
+  "salons": [
+    {
+      "title": "Australų aviganių veislynas Aksominė širdis",
+      "businessName": "Australų aviganių veislynas \"Aksominė širdis\"",
+      "city": "Panevėžio raj.",
+      "citySlug": "panevezio-raj",
+      "serviceTypes": [
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-9/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/received_662876811532028.jpeg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 1500 €",
+      "description": "Australų aviganių veislynas „Aksominė širdis “",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "FCI Dog Kennel Mano Laimė",
+      "businessName": "MANO LAIMĖ",
+      "city": "Panevėžio raj.",
+      "citySlug": "panevezio-raj",
+      "serviceTypes": [
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-8/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/8CE9CCF0-82E4-476C-8572-AA2BAD868A27.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 1200 €",
+      "description": "🇱🇹 FCI Dog Kennel „Mano Laimė“ – Ištikimybė, Jėga ir Kilnumas",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

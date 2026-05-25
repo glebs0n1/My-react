@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { HelmetProvider } from 'react-helmet-async';
 
 // Context
 import { AuthProvider } from "./context/AuthContext";
@@ -13,10 +14,16 @@ import Footer from "./Components/Footer/Footer";
 import DonateModal from "./Components/Donation/DonateModal";
 import ScrollToTop from "./Components/ScrollToTop";
 import ToastContainer from "./Components/Toast/ToastContainer";
+import Modal from "./Components/Modal/Modal";
 
 // Pages
 import Home from "./Components/Pages/Home/Home";
+import Contact from "./Components/Pages/Contact/Contact";
+import About from "./Components/Pages/About/About";
+import Careers from "./Components/Pages/Careers/Careers";
 import Shelter from "./Components/Pages/Shelter/Shelter";
+import FAQ from "./Components/Pages/FAQ/Faq";
+import Partnerships from "./Components/Pages/Partnerships/Partnerships";
 import Medications from "./Components/Pages/Medications/Medications";
 import CategoryPage from "./Components/Pages/Medications/CategoryPage";
 import PetShelterForm from "./Components/Pages/LoginedUser/LoginedUser";
@@ -67,15 +74,46 @@ const AppContent = () => {
           <Routes>       
             {/* Shelter */}
             <Route path="/" element={<Home />} />
+            
+            {/* Contact */}
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/kontaktai" element={<Contact />} />
+
+            {/* About */}
+            <Route path="/about" element={<About />} />
+            <Route path="/apie-mus" element={<About />} />
+
+            {/* Career */}
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/darbas" element={<Careers />} />
+
             <Route path="/shelter" element={<Shelter />} />
             <Route path="/prieglaudos" element={<Shelter />} />
             
+
+            {/* FAQ */}
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/dazniausiai-uzduodami-klausimai" element={<FAQ />} />
+
+            {/* Partnership */}
+            <Route path="/partnerships" element={<Partnerships />} />
+            <Route path="/partnerystės" element={<Partnerships />} />
+
             {/* Medications */}
             <Route path="/medications" element={<Medications />} />
             <Route path="/vaistai" element={<Medications />} />
             <Route path="/medications/:slug" element={<CategoryPage />} />
             <Route path="/vaistai/:slug" element={<CategoryPage />} />
             <Route path="/lekarstva/:slug" element={<CategoryPage />} />
+
+            {/* Article sections (SEO landing pages) */}
+            <Route path="/health/:slug" element={<CategoryPage />} />
+            <Route path="/nutrition/:slug" element={<CategoryPage />} />
+            <Route path="/adoption/:slug" element={<CategoryPage />} />
+            <Route path="/grooming/:slug" element={<CategoryPage />} />
+            <Route path="/training/:slug" element={<CategoryPage />} />
+            <Route path="/vets/:slug" element={<CategoryPage />} />
+            <Route path="/care/:slug" element={<CategoryPage />} />
             
             {/* Training */}
             <Route path="/training" element={<Training />} />
@@ -109,29 +147,25 @@ const AppContent = () => {
           </Routes>
 
           {/* Auth Modals */}
-          {isLoginModalOpen && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
-              <LoginForm
-                onClose={() => setIsLoginModalOpen(false)}
-                switchToRegister={() => {
-                  setIsLoginModalOpen(false);
-                  setIsRegisterModalOpen(true);
-                }}
-              />
-            </div>
-          )}
+          <Modal isOpen={isLoginModalOpen} onClose={() => setIsLoginModalOpen(false)}>
+            <LoginForm
+              onClose={() => setIsLoginModalOpen(false)}
+              switchToRegister={() => {
+                setIsLoginModalOpen(false);
+                setIsRegisterModalOpen(true);
+              }}
+            />
+          </Modal>
 
-          {isRegisterModalOpen && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
-              <RegistrationForm
-                onClose={() => setIsRegisterModalOpen(false)}
-                switchToLogin={() => {
-                  setIsRegisterModalOpen(false);
-                  setIsLoginModalOpen(true);
-                }}
-              />
-            </div>
-          )}
+          <Modal isOpen={isRegisterModalOpen} onClose={() => setIsRegisterModalOpen(false)}>
+            <RegistrationForm
+              onClose={() => setIsRegisterModalOpen(false)}
+              switchToLogin={() => {
+                setIsRegisterModalOpen(false);
+                setIsLoginModalOpen(true);
+              }}
+            />
+          </Modal>
 
           <Footer />
         </Router>
@@ -142,11 +176,13 @@ const AppContent = () => {
 
 const App = () => {
   return (
-    <AuthProvider>
-      <ToastProvider>
-        <AppContent />
-      </ToastProvider>
-    </AuthProvider>
+    <HelmetProvider>
+      <AuthProvider>
+        <ToastProvider>
+          <AppContent />
+        </ToastProvider>
+      </AuthProvider>
+    </HelmetProvider>
   );
 };
 

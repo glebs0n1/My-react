@@ -1,0 +1,537 @@
+{
+  "city": "Šiauliai",
+  "citySlug": "siauliai",
+  "pageTitle": "Veterinarijos klinikos Šiauliuose",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Šiauliuose. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 5,
+  "scrapedAt": "2026-02-19T15:54:18.208Z",
+  "clinics": [
+    {
+      "name": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068754419",
+      "url": "https://www.vetklinikos.lt/klinika/audriaus-krisciuno-veterinarijos-gydykla-uab-vetpaslaugos",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+      "address": "Serbentų g. 52",
+      "addressCity": "Šiauliai 76362",
+      "email": "veterinaropaslaugos@gmail.com",
+      "website": "https://www.veterinaropaslaugos.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šiaulių veterinarijos centras",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Pauliaus veterinarijos kabinetas",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "R. Rimgailos veterinarijos klinika",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "SaulėsVet",
+          "hours": "Šiauliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "sterilizacija",
+        "09:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9186889,23.3442908&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Šiaulių veterinarijos centras",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37061575519",
+      "url": "https://www.vetklinikos.lt/klinika/siauliu-veterinarijos-centras",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Šiaulių veterinarijos centras",
+      "address": "Vytauto g. 137",
+      "addressCity": "Šiauliai 77168",
+      "email": "siauliuveterinarija@gmail.com",
+      "website": "https://siauliuveterinarijoscentras.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Pauliaus veterinarijos kabinetas",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "R. Rimgailos veterinarijos klinika",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "SaulėsVet",
+          "hours": "Šiauliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "rentgenas",
+        "sterilizacija",
+        "00:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Kiti"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9316453,23.3054959&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "SaulėsVet",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37041524626",
+      "url": "https://www.vetklinikos.lt/klinika/saulesvet",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "SaulėsVet",
+      "address": "P. Lukšio g. 9H",
+      "addressCity": "Šiauliai 76001",
+      "email": "giedrius@vetkabinetas.lt",
+      "website": "https://www.saulesvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Pauliaus veterinarijos kabinetas",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "R. Rimgailos veterinarijos klinika",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Šiaulių veterinarijos centras",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+          "hours": "Šiauliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "sterilizacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9408341,23.3248188&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "R. Rimgailos veterinarijos klinika",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068210192",
+      "url": "https://www.vetklinikos.lt/klinika/r-rimgailos-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "R. Rimgailos veterinarijos klinika",
+      "address": "M. Valančiaus g. 17",
+      "addressCity": "Šiauliai 76285",
+      "email": "info@sveikasaugintinis.lt",
+      "website": "https://www.sveikasaugintinis.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Pauliaus veterinarijos kabinetas",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "SaulėsVet",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Šiaulių veterinarijos centras",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+          "hours": "Šiauliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "sterilizacija",
+        "08:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9371194,23.3007191&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Pauliaus veterinarijos kabinetas",
+      "city": "Šiauliai",
+      "citySlug": "siauliai",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068227523",
+      "url": "https://www.vetklinikos.lt/klinika/pauliaus-veterinarijos-kabinetas",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "Pauliaus veterinarijos kabinetas",
+      "address": "Tytuvėnų g. 4",
+      "addressCity": "Šiauliai 78146",
+      "email": "info@veterinaras.eu",
+      "website": "https://www.veterinaras.eu/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šiaulių veterinarijos centras",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "Audriaus Kriščiūno veterinarijos gydykla (UAB Vetpaslaugos)",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "R. Rimgailos veterinarijos klinika",
+          "hours": "Šiauliai"
+        },
+        {
+          "day": "SaulėsVet",
+          "hours": "Šiauliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "rentgenas",
+        "sterilizacija",
+        "09:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.92096780000001,23.2901344&hl=lt&z=15&output=embed"
+    }
+  ]
+}

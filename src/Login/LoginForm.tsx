@@ -21,7 +21,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onClose, onSuccess, switchToRegis
   /* ---------- VALIDATION ---------- */
   const validate = () => {
     const e: { email?: string; password?: string } = {};
-    if (!email) e.email = "Vardas yra privalomas";
+    if (!email) e.email = "Vartotojo vardas arba el. paštas yra privalomas";
     
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) e.email = "Neteisingas el. pašto adresas";
 

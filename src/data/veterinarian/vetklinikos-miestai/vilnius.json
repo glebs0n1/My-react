@@ -1,0 +1,2270 @@
+{
+  "city": "Vilnius",
+  "citySlug": "vilnius",
+  "pageTitle": "Veterinarijos klinikos Vilniuje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Vilniuje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 25,
+  "scrapedAt": "2026-02-19T15:53:36.418Z",
+  "clinics": [
+    {
+      "name": "Vilnius Vet Pašilaičiai",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37052755659",
+      "url": "https://www.vetklinikos.lt/klinika/vilnius-vet-pasilaiciai",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Vilnius Vet Pašilaičiai",
+      "address": "Pašilaičių g. 1D",
+      "addressCity": "Vilnius 06115",
+      "email": "klinika@vilniusvet.lt",
+      "website": "https://www.vilniusvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.73059,25.23544&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Vilnius Vet Kęstučio",
+      "city": "Vilnius, Žvėrynas",
+      "citySlug": "vilnius",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37052755035",
+      "url": "https://www.vetklinikos.lt/klinika/vilnius-vet-kestucio",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Vilnius Vet Kęstučio",
+      "address": "Kęstučio g. 54/1",
+      "addressCity": "Vilnius 08112",
+      "email": "klinika@vilniusvet.lt",
+      "website": "https://www.vilniusvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.69779680000001,25.2494383&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Vilnius Vet Filaretų",
+      "city": "Vilnius, Rasos",
+      "citySlug": "vilnius",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37052154202",
+      "url": "https://www.vetklinikos.lt/klinika/vilnius-vet-filaretu",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Vilnius Vet Filaretų",
+      "address": "Filaretų g. 35",
+      "addressCity": "Vilnius 01211",
+      "email": "klinika@vilniusvet.lt",
+      "website": "https://www.vilniusvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6849269,25.3116784&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Vilniaus veterinarijos klinikinė ligoninė",
+      "city": "Vilnius, Naujoji Vilnia",
+      "citySlug": "vilnius",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37052672594",
+      "url": "https://www.vetklinikos.lt/klinika/vilniaus-veterinarijos-klinikine-ligonine",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "Vilniaus veterinarijos klinikinė ligoninė",
+      "address": "A. Kojelavičiaus g. 150A",
+      "addressCity": "Vilnius",
+      "email": "hello@vetklinikos.lt?subject=Perimti%20kliniką%3A%20Vilniaus%20veterinarijos%20klinikin%C4%97%20ligonin%C4%97",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai",
+        "Kiti"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6954491,25.3984519&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "VET1 Veterinarijos Klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37067169828",
+      "url": "https://www.vetklinikos.lt/klinika/vet1-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "VET1 Veterinarijos Klinika",
+      "address": "Žemynos g. 30",
+      "addressCity": "Vilnius",
+      "email": "klinika@vet1.lt",
+      "website": "https://vet1.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7235844,25.2315918&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "TOTO Veterinarijos klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "odontologija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37065519991",
+      "url": "https://www.vetklinikos.lt/klinika/toto-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "TOTO Veterinarijos klinika",
+      "address": "I. Šimulionio g. 5",
+      "addressCity": "Vilnius",
+      "email": "registratura@vetklinika.lt",
+      "website": "https://www.toto.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 18:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "odontologija",
+        "rentgenas",
+        "laboratorija",
+        "ultragaras",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6944026,25.2261346&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Ritos Žilinskienės Veterinarijos Klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "sterilizacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37052387371",
+      "url": "https://www.vetklinikos.lt/klinika/ritos-zilinskienes-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Ritos Žilinskienės Veterinarijos Klinika",
+      "address": "Fabijoniškių g. 61",
+      "addressCity": "Vilnius 07110",
+      "email": "vetcentras@gmail.com",
+      "website": "https://www.vetcentras.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "sterilizacija",
+        "chirurgija",
+        "mikroschema",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.72559829999999,25.2455162&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "PetCity Klinika OZAS",
+      "city": "Vilnius, PC OZAS",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37066544551",
+      "url": "https://www.vetklinikos.lt/klinika/petcity-klinika-ozas",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "PetCity Klinika OZAS",
+      "address": "Ozo g. 18",
+      "addressCity": "Vilnius",
+      "email": "klinika@petcity.lt",
+      "website": "https://www.petcity.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 21:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "10:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7147899,25.2756627&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "PetCity Klinika NØRDIKA",
+      "city": "Vilnius, PC NØRDIKA",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37061060466",
+      "url": "https://www.vetklinikos.lt/klinika/petcity-klinika-nordika",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "PetCity Klinika NØRDIKA",
+      "address": "Vikingų g. 3",
+      "addressCity": "Vilnius",
+      "email": "klinika@petcity.lt",
+      "website": "https://www.petcity.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 21:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "10:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6527442,25.2768826&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "PetCity Klinika Domus Pro",
+      "city": "Vilnius, Domus Pro",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37061479498",
+      "url": "https://www.vetklinikos.lt/klinika/petcity-klinika-domus-pro",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "PetCity Klinika Domus Pro",
+      "address": "Ukmergės g. 308",
+      "addressCity": "Vilnius",
+      "email": "dpklinika@petcity.lt",
+      "website": "https://www.petcity.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 21:00"
+        }
+        
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "10:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7401475,25.2245932&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Naujosios Vilnios Veterinarijos Gydykla",
+      "city": "Vilnius, Naujoji Vilnia",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37052690922",
+      "url": "https://www.vetklinikos.lt/klinika/naujosios-vilnios-veterinarijos-gydykla",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Naujosios Vilnios Veterinarijos Gydykla",
+      "address": "Parko g. 52",
+      "addressCity": "Vilnius",
+      "email": "hello@vetklinikos.lt?subject=Perimti%20kliniką%3A%20Naujosios%20Vilnios%20Veterinarijos%20Gydykla",
+      "website": "https://www.vetpagalba.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "odontologija",
+        "mikroschema",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6859301,25.4279607&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "MiniVet Pilaitė",
+      "city": "Vilnius, Pilaitė",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37065550720",
+      "url": "https://www.vetklinikos.lt/klinika/minivet-pilaite",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "MiniVet Pilaitė",
+      "address": "M. Mažvydo g. 14",
+      "addressCity": "Vilnius",
+      "email": "info@minivet.lt",
+      "website": "https://minivet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "MiniVet Lazdynėliai",
+          "hours": "Vilnius, Lazdynėliai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "mikroschema",
+        "10:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7113356,25.1847832&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "MiniVet Lazdynėliai",
+      "city": "Vilnius, Lazdynėliai",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37065550720",
+      "url": "https://www.vetklinikos.lt/klinika/minivet-lazdyneliai",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "MiniVet Lazdynėliai",
+      "address": "Jonažolių g. 3",
+      "addressCity": "Vilnius",
+      "email": "info@minivet.lt",
+      "website": "https://minivet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "mikroschema",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.667153,25.2138209&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Jakovo veterinarijos centras",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37052132982",
+      "url": "https://www.vetklinikos.lt/klinika/jakovo-veterinarijos-centras",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "Jakovo veterinarijos centras",
+      "address": "Gerosios Vilties g. 1",
+      "addressCity": "Vilnius 03147",
+      "email": "info@vetmed.lt",
+      "website": "https://old.vetmed.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 22:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 22:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 21:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "09:00 - 22:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų",
+        "Rusų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6721216,25.2416365&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Grybo VET klinika",
+      "city": "Vilnius, Antakalnis",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37061432059",
+      "url": "https://www.vetklinikos.lt/klinika/grybo-vet-klinika",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Grybo VET klinika",
+      "address": "V. Grybo g. 17-126",
+      "addressCity": "Vilnius",
+      "email": "hello@vetklinikos.lt?subject=Perimti%20kliniką%3A%20Grybo%20VET%20klinika",
+      "website": "https://www.grybovetklinika.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "12:00 - 16:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "12:00 - 16:00"
+        }
+       
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "10:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.70281319999999,25.3154676&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Greitoji Žirafa",
+      "city": "Vilnius, Pašilaičiai",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060698886",
+      "url": "https://www.vetklinikos.lt/klinika/greitoji-zirafa",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "Greitoji Žirafa",
+      "address": "Žemynos g. 2B",
+      "addressCity": "Vilnius",
+      "email": "info@greitojizirafa.lt",
+      "website": "https://www.greitojizirafa.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 21:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "09:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7253748,25.2256498&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Žalgirio klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "",
+        "raw": "€€"
+      },
+      "phone": "+37061141596",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-zalgirio-klinika",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "DR.VET Žalgirio klinika",
+      "address": "Žalgirio g. 135",
+      "addressCity": "Vilnius 08217",
+      "email": "zalgirio@drvet.lt",
+      "website": "https://drvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 22:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 22:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 22:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 22:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 22:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 22:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "08:00 - 19:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "08:00 - 22:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.705281,25.271607&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Šeškinės klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "",
+        "raw": "€€"
+      },
+      "phone": "+37061112854",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-seskines-klinika",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "DR.VET Šeškinės klinika",
+      "address": "Šeškinės g. 22",
+      "addressCity": "Vilnius 07156",
+      "email": "seskines@drvet.lt",
+      "website": "https://drvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 16:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "09:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.7149267,25.2499202&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Lazdynų gyvūnų ligoninė",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "",
+        "raw": "€€"
+      },
+      "phone": "+37067705503",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-lazdynu-gyvunu-ligonine",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "DR.VET Lazdynų gyvūnų ligoninė",
+      "address": "Bukčių g. 8",
+      "addressCity": "Vilnius 04127",
+      "email": "ligonine@drvet.lt",
+      "website": "https://drvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "00:00 - 23:59"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "00:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=54.664876,25.2129923&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Jeruzalės klinika",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37065251003",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-jeruzales-klinika",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "DR.VET Jeruzalės klinika",
+      "address": "Jeruzalės g. 9",
+      "addressCity": "Vilnius 08420",
+      "email": "vetgydykla@inbox.lt",
+      "website": "https://www.vetgydykla.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 18:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "mikroschema",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7422703,25.2774649&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Antakalnio veterinarijos gydykla",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "mikroschema"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37052344522",
+      "url": "https://www.vetklinikos.lt/klinika/antakalnio-veterinarijos-gydykla",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "Antakalnio veterinarijos gydykla",
+      "address": "Antakalnio g. 50",
+      "addressCity": "Vilnius 10304",
+      "email": "antakalniovetet@gmail.com",
+      "website": "https://vetpaslaugos.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "mikroschema",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7047409,25.3100867&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "8 Drambliai Pilaitė",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061288788",
+      "url": "https://www.vetklinikos.lt/klinika/8-drambliai-pilaite",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "8 Drambliai Pilaitė",
+      "address": "M. Mažvydo g. 16",
+      "addressCity": "Vilnius",
+      "email": "pilaite@8drambliai.lt",
+      "website": "https://www.8drambliai.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 21:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "08:00 - 21:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "08:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.711406,25.183675&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "8 Drambliai Pavilnys",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061288788",
+      "url": "https://www.vetklinikos.lt/klinika/8-drambliai-pavilnys",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "8 Drambliai Pavilnys",
+      "address": "Tolimoji g. 2B",
+      "addressCity": "Vilnius",
+      "email": "pavilnys@8drambliai.lt",
+      "website": "https://www.8drambliai.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "00:00 - 23:59"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "00:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6668375,25.3541892&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "8 Drambliai Naujamiestis",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061288788",
+      "url": "https://www.vetklinikos.lt/klinika/8-drambliai-naujamiestis",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "8 Drambliai Naujamiestis",
+      "address": "Naugarduko g. 59",
+      "addressCity": "Vilnius",
+      "email": "naujamiestis@8drambliai.lt",
+      "website": "https://www.8drambliai.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "07:00 - 23:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "07:00 - 23:00"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "07:00 - 23:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.6698277,25.2576706&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "8 Drambliai Antakalnis",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061288788",
+      "url": "https://www.vetklinikos.lt/klinika/8-drambliai-antakalnis",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "8 Drambliai Antakalnis",
+      "address": "Nemenčinės pl. 4c",
+      "addressCity": "Vilnius",
+      "email": "antakalnis@8drambliai.lt",
+      "website": "https://www.8drambliai.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "08:00 - 23:59"
+        },
+        {
+          "day": "8 Drambliai Naujamiestis",
+          "hours": "Vilnius"
+        },
+        {
+          "day": "8 Drambliai Pavilnys",
+          "hours": "Vilnius"
+        },
+        {
+          "day": "8 Drambliai Pilaitė",
+          "hours": "Vilnius"
+        },
+        {
+          "day": "Naujosios Vilnios Veterinarijos Gydykla",
+          "hours": "Vilnius, Naujoji Vilnia"
+        },
+        {
+          "day": "PetCity Klinika Domus Pro",
+          "hours": "Vilnius, Domus Pro"
+        },
+        {
+          "day": "PetCity Klinika NØRDIKA",
+          "hours": "Vilnius, PC NØRDIKA"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "08:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=54.7250107,25.3222994&hl=lt&z=15&output=embed"
+    }
+  ]
+}

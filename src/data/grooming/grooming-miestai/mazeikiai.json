@@ -1,0 +1,40 @@
+{
+  "citySlug": "mazeikiai",
+  "city": "Mažeikiai",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.431Z",
+  "salons": [
+    {
+      "title": "Veislynas Upės Slenis,Vokiečių aviganiai",
+      "businessName": "Veislynas Upės Slenis",
+      "city": "Mažeikiai",
+      "citySlug": "mazeikiai",
+      "serviceTypes": [
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-4/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/inbound3949758133867282361-scaled.jpg",
+      "rating": 5,
+      "reviewCount": 2,
+      "price": "Nuo 1 €",
+      "description": "VEISLYNAS užsiima show ir darbinių linijų vokiečių aviganių veislės šuniuku veisimu.Mūsų tikslas,sveiki, stiprūs ,subalansuoto charakterio šunys,tinkami ne tik parodom,šeimai, bet ir tarnybai.",
+      "galleryImages": [],
+      "reviews": [
+        {
+          "author": "Eglė",
+          "rating": "5",
+          "date": "12 spalio, 2025",
+          "content": "Nuostabūs šuniukai ir jų šeimininkai"
+        },
+        {
+          "author": "Arūnas",
+          "rating": "5",
+          "date": "12 spalio, 2025",
+          "content": "Gražūs,stabilios psichikos šuniukai."
+        }
+      ],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

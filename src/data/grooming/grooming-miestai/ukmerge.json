@@ -1,0 +1,28 @@
+{
+  "citySlug": "ukmerge",
+  "city": "Ukmergė",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.437Z",
+  "salons": [
+    {
+      "title": "Akeso viešbutis gyvūnams",
+      "businessName": "Akeso",
+      "city": "Ukmergė",
+      "citySlug": "ukmerge",
+      "serviceTypes": [
+        "Kaciu Viesbutis",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-49/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Gyvunu-viesbutis-Akeso.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://akesonamai.lt/",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

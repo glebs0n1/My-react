@@ -1,0 +1,29 @@
+{
+  "citySlug": "kedainiu-raj",
+  "city": "Kėdainių raj.",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.437Z",
+  "salons": [
+    {
+      "title": "Eufera – Viešbutis, dresūra,kirpykla",
+      "businessName": "Eufera",
+      "city": "Kėdainių raj.",
+      "citySlug": "kedainiu-raj",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-54/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Eufera.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis – https://eufera.weebly.com",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

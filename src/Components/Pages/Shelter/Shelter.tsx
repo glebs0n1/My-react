@@ -17,6 +17,7 @@ import shelterImage from "../../../assets/shelter.png";
 
 import PetGrid from "../../PetGrid/PetGrid";
 import Donation from "../../Donation/Donation";
+import { Seo, animalShelterSchema, breadcrumbSchema } from "../../SEO";
 
 /* ================= COMPONENT ================= */
 
@@ -113,13 +114,28 @@ const Shelter: React.FC = () => {
 
   return (
     <main className="min-h-screen bg-[#f7f7f7]">
+      <Seo
+        title="Gyvūnų prieglaudos Lietuvoje | Įvaikinti šunį, katę ar kitą augintinį | PetLietuva"
+        description={`Įvaikinkite šunį, katę ar kitą augintinį iš Lietuvos prieglaudų. ${pets.length}+ augintinių iš visos Lietuvos – Vilnius, Kaunas, Klaipėda. Patikimos prieglaudos vienoje vietoje.`}
+        path="/prieglaudos"
+        keywords="gyvūnų prieglauda, gyvūnų prieglaudos Lietuvoje, įvaikinti šunį, įvaikinti katę, šunys adoptavimui, katės adoptavimui, beglobiai gyvūnai, gyvūnų globa, prieglauda Vilnius, prieglauda Kaunas, prieglauda Klaipėda"
+        jsonLd={[
+          animalShelterSchema(),
+          breadcrumbSchema([
+            { name: "Pradžia", path: "/" },
+            { name: "Gyvūnų prieglaudos", path: "/prieglaudos" },
+          ]),
+        ]}
+      />
 
       {/* ================= HERO ================= */}
       <section className="relative h-[320px] flex items-center justify-center">
         <img
           src={bannerImage}
-          alt={t('heroTitle')}
+          alt="Gyvūnų prieglaudos Lietuvoje – įvaikinti augintinį"
           className="absolute inset-0 h-full w-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-black/60" />
 

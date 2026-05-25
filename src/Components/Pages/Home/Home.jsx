@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import petsRaw from "../../../data/shelters/lese/scraped_lese_vilnius.json";
@@ -7,7 +7,9 @@ import { loadScrapedPets } from "../../../utils/mapPet";
 
 import SearchBar from "../../Search/SearchBar";
 import Donation from "../../Donation/Donation";
-import donationImage from "../../../assets/dog.jpeg";
+import donationPetImage from "../../../assets/dog.jpeg";
+import donationImage from "../../../assets/donationImage.png";
+
 import PetCard from "../../PetCard/PetCard";
 
 import bannerImage from "../../../assets/hero-banner.jpeg";
@@ -15,9 +17,21 @@ import dogIcon from "../../../assets/dog.png";
 import catIcon from "../../../assets/cat.png";
 import animalsIcon from "../../../assets/animals.png";
 
-/* -----------------------------
-   Static config (scalable)
------------------------------- */
+import {
+  Heart,
+  ArrowRight,
+} from "lucide-react";
+
+
+import {
+  Seo,
+  organizationSchema,
+  websiteSchema,
+  breadcrumbSchema,
+  itemListSchema,
+} from "../../SEO";
+
+/* ================= STATIC CONFIG ================= */
 
 const PET_TYPES = [
   { label: "Šunys", icon: dogIcon, link: "/dogs" },
@@ -25,10 +39,77 @@ const PET_TYPES = [
   { label: "Kiti gyvūnai", icon: animalsIcon, link: "/other-animals" },
 ];
 
+const SERVICES = [
+  {
+    title: "Dresūra ir mokymai",
+    description: "Profesionalūs treneriai padės jūsų augintiniui tapti klusnesniam ir laimingesniam. Individualūs ir grupiniai užsiėmimai.",
+    link: "/training",
+    accent: "from-blue-500 to-cyan-500",
+    emoji: "🎓",
+    stats: [
+      { value: "200+", label: "Trenerių" },
+      { value: "95%", label: "Sėkmė" },
+      { value: "24/7", label: "Pagalba" },
+    ],
+  },
+  {
+    title: "Veterinarijos paslaugos",
+    description: "Patikrintos klinikos su modernia įranga. Reguliarūs patikrinimai, vakcinacijos ir skubios pagalbos paslauga.",
+    link: "/veterinarian",
+    accent: "from-emerald-500 to-teal-500",
+    emoji: "🏥",
+    stats: [
+      { value: "500+", label: "Klinikų" },
+      { value: "4.8★", label: "Įvertinimas" },
+      { value: "Emergency", label: "24/7" },
+    ],
+  },
+  {
+    title: "Priežiūra ir grooming",
+    description: "Pilna grooming paslauga: kirpimas, maudymas, nagų priežiūra. Jūsų augintinis atrodys ir jaušis puikiai!",
+    link: "/grooming",
+    accent: "from-pink-500 to-rose-500",
+    emoji: "✨",
+    stats: [
+      { value: "300+", label: "Salonų" },
+      { value: "98%", label: "Klientų" },
+      { value: "1h", label: "Vidutinė" },
+    ],
+  },
+  {
+    title: "Straipsniai ir patarimai",
+    description: "Ekspertų straipsniai apie augintinių priežiūrą, mitybą, sveikatą ir elgesį. Nuolat atnaujinamas turinys.",
+    link: "/articles",
+    accent: "from-amber-500 to-orange-500",
+    emoji: "📚",
+    stats: [
+      { value: "500+", label: "Straipsnių" },
+      { value: "Daily", label: "Nauji" },
+      { value: "Free", label: "Nemokama" },
+    ],
+  },
+  {
+    title: "Bendruomenė",
+    description: "Prisijunkite prie augintinių savininkų bendruomenės. Dalinkitės patirtimi, užduokite klausimus, raskite draugų.",
+    link: "/community",
+    accent: "from-purple-500 to-indigo-500",
+    emoji: "👥",
+    stats: [
+      { value: "15K+", label: "Narių" },
+      { value: "Active", label: "Kasdien" },
+      { value: "100+", label: "Events" },
+    ],
+  },
+];
+
+/* ================= MAIN COMPONENT ================= */
+
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [pets, setPets] = useState([]);
   const [loading, setLoading] = useState(true);
+  
+  const scrollerRef = useRef(null);
 
   const handleSearchSubmit = () => {
     if (!searchQuery.trim()) return;
@@ -41,40 +122,74 @@ const Home = () => {
     setLoading(false);
   }, []);
 
+  const scrollByCards = (direction) => {
+    if (!scrollerRef.current) return;
+    const cards = scrollerRef.current.querySelectorAll('[data-card]');
+    if (cards.length === 0) return;
+    const cardWidth = cards[0].offsetWidth;
+    const gap = 24;
+    const scrollAmount = (cardWidth + gap) * direction;
+    scrollerRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  };
+
+  const jsonLd = [
+    organizationSchema(),
+    websiteSchema(),
+    breadcrumbSchema([{ name: "Pradžia", path: "/" }]),
+    itemListSchema("PetLietuva pagrindinės paslaugos", [
+      { name: "Gyvūnų prieglaudos ir įvaikinimas", path: "/prieglaudos" },
+      { name: "Veterinarai Lietuvoje", path: "/veterinaras" },
+      { name: "Šunų dresūra", path: "/dresura" },
+      { name: "Gyvūnų kirpyklos", path: "/kirpimas" },
+      { name: "Vaistai augintiniams", path: "/vaistai" },
+    ]),
+  ];
+
   return (
-    <main className="pt-140">
+    <main className="pt-0">
+      <Seo
+        title="PetLietuva | Gyvūnų prieglaudos, veterinarai ir paslaugos Lietuvoje"
+        description="Surask veterinarą, gyvūnų prieglaudą, dresuotoją ar kirpyklą savo mieste. PetLietuva – Nr. 1 gyvūnų platforma Lietuvoje. 14 500+ prieglaudų ir patikrintų specialistų vienoje vietoje."
+        path="/"
+        keywords="gyvūnų prieglauda Lietuvoje, veterinaras Vilniuje, šunų dresūra Kaunas, gyvūnų kirpykla Klaipėda, įvaikinti šunį, įvaikinti katę, pamesti augintiniai, augintinių priežiūra, skubi veterinarinė pagalba"
+        jsonLd={jsonLd}
+      />
+
       {/* ================= HERO ================= */}
-      <section className="relative h-[700px] md:h-[750px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Background image with overlay */}
         <div className="absolute inset-0">
           <img
             src={bannerImage}
-            alt="Adopt a pet"
+            alt="Įvaikinti gyvūną Lietuvoje – PetLietuva platforma"
             className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
           />
-          {/* Dark overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
         </div>
 
         {/* Content Container */}
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
           {/* Purple badge */}
-          <div className="mb-6 inline-flex items-center justify-center">
-            <span className="px-5 py-2 bg-purple-600/90 backdrop-blur-sm rounded-full text-sm font-medium">
+          <div className="relative z-10 max-w-5xl px-6 text-white">
+          <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-2 text-sm font-semibold mb-8 shadow-lg">
               Didžiausia gyvūnų bendruomenė Lietuvoje
+
             </span>
           </div>
 
           {/* Main heading */}
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Raskite savo naują{" "}
-            <span className="text-4xl md:text-5xl font-bold mb-4">geriausią draugą</span>
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+            Raskite veterinarą, prieglaudą ir paslaugas{" "}
+            <span className="text-amber-300">savo augintiniui</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl mb-10 opacity-95 max-w-3xl mx-auto">
-            Naršykite gyvūnus iš mūsų tinklo – daugiau nei{" "}
-            <strong className="font-bold">14 500 prieglaudų</strong> ir gelbėtojų visoje Lietuvoje
+            PetLietuva jungia gyvūnų savininkus su patikimais{" "}
+            <strong className="font-bold">veterinarais, dresuotojais, kirpyklomis ir 14 500+ prieglaudomis</strong>{" "}
+            visoje Lietuvoje – Vilniuje, Kaune, Klaipėdoje ir kituose miestuose.
           </p>
 
           {/* Search Bar */}
@@ -85,6 +200,22 @@ const Home = () => {
               onSearchSubmit={handleSearchSubmit}
             />
           </div>
+
+          {/* Quick local-SEO CTAs */}
+          <nav aria-label="Pagrindinės paslaugos" className="mt-8 flex flex-wrap gap-3 justify-center">
+            <Link to="/veterinaras" className="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-sm border border-white/20 text-sm font-medium transition">
+              Rask veterinarą netoli jūsų
+            </Link>
+            <Link to="/prieglaudos" className="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-sm border border-white/20 text-sm font-medium transition">
+              Padėk gyvūnų prieglaudoms
+            </Link>
+            <Link to="/dresura" className="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-sm border border-white/20 text-sm font-medium transition">
+              Šunų dresūra
+            </Link>
+            <Link to="/kirpimas" className="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-sm border border-white/20 text-sm font-medium transition">
+              Gyvūnų kirpykla
+            </Link>
+          </nav>
         </div>
 
         {/* Bottom fade to white */}
@@ -92,7 +223,7 @@ const Home = () => {
       </section>
 
       {/* ================= PET TYPES ================= */}
-      <section className="relative z-10 -mt-10 pb-12">
+      <section className="relative z-10 -mt-24 pb-12">
         <div className="flex justify-center gap-4 sm:gap-6 px-4">
           {PET_TYPES.map(({ label, icon, link }) => (
             <Link
@@ -111,8 +242,9 @@ const Home = () => {
                   shadow-[0_8px_30px_rgba(0,0,0,0.08)]
                   border border-gray-100
                   transition-all duration-300
-                  group-hover:shadow-[0_1px_50px_rgba(98,0,238,0.2)]
+                  group-hover:shadow-[0_12px_50px_rgba(98,0,238,0.2)]
                   group-hover:border-[#6200EE]/40
+                  group-hover:-translate-y-1
                 "
               >
                 <img
@@ -193,7 +325,7 @@ const Home = () => {
 
       {/* ================= DONATION BANNER ================= */}
       <Donation
-        image={donationImage}
+        image={donationPetImage}
         title="Padėkite mums pakeisti gyvūnų likimus"
         text="Jūsų auka padeda rūpintis gyvūnais, kuriems reikia pagalbos – maistas, gydymas ir namai."
         cta="Paaukoti dabar"
@@ -201,7 +333,6 @@ const Home = () => {
 
       {/* ================= WHY PET OWNERS TRUST US ================= */}
       <section className="relative bg-gray-50 border-t border-gray-200 py-24 overflow-hidden">
-        {/* Decorative background */}
         <div className="absolute -top-24 right-0 w-72 h-72 bg-purple-100 rounded-full blur-3xl opacity-60" />
         <div className="absolute -bottom-24 left-0 w-72 h-72 bg-indigo-100 rounded-full blur-3xl opacity-60" />
 
@@ -287,7 +418,9 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1601758064226-0c3eecf79c8b"
               className="h-64 w-full object-cover"
-              alt="Dog adoption"
+              alt="Įvaikintas šuo Lietuvoje su naująja šeima"
+              loading="lazy"
+              decoding="async"
             />
 
             <div className="p-8">
@@ -319,7 +452,9 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1595433707802-6b2626ef1c91"
               className="h-64 w-full object-cover"
-              alt="Cat adoption"
+              alt="Įvaikinta katė ramiai ilsisi naujuose namuose"
+              loading="lazy"
+              decoding="async"
             />
 
             <div className="p-8">
@@ -336,10 +471,10 @@ const Home = () => {
               </ul>
 
               <div className="flex justify-between items-center">
-                <Link to="/articles/cats" className="font-semibold text-[#6200EE] hover:underline">
+                <Link to="/articles/cats" className="font-semibold text-[#9333ea] hover:underline">
                   Kačių priežiūros vadovai
                 </Link>
-                <Link to="/veterinarian" className="text-sm hover:text-[#6200EE]">
+                <Link to="/veterinarian" className="text-sm hover:text-[#9333ea]">
                   Rasti veterinarus →
                 </Link>
               </div>
@@ -348,79 +483,156 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ================= PLATFORM SERVICES ================= */}
-      <section className="max-w-7xl mx-auto px-4 py-28">
-        <header className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900">
-            Viskas, ko reikia jūsų augintiniui, vienoje vietoje
-          </h2>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto mt-4">
-            Nuo įvaikinimo iki kasdienės priežiūros – atraskite mūsų išsamią gyvūnų priežiūros paslaugų ekosistemą.
-          </p>
-        </header>
-
-        {/* Quick Service Icons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {[
-            { icon: "🏠", label: "Prieglaudos", link: "/shelter" },
-            { icon: "🐕‍🦺", label: "Dresavimas", link: "/training" },
-            { icon: "🩺", label: "Veterinarija", link: "/veterinarian" },
-            { icon: "💊", label: "Patarimai", link: "/medications" },
-            { icon: "✂️", label: "Grooming", link: "/grooming" },
-            { icon: "🚶", label: "Pasivaikščiojimai", link: "/walking" },
-            { icon: "🏨", label: "Augintinių prižiūrėtojai", link: "/sitting" },
-          ].map((service) => (
-            <Link
-              key={service.label}
-              to={service.link}
-              className="group flex flex-col items-center gap-2 p-4 w-24 sm:w-28 hover:bg-purple-50 rounded-xl transition-all"
-            >
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-purple-100 flex items-center justify-center text-2xl sm:text-3xl group-hover:bg-purple-200 group-hover:scale-110 transition-all">
-                {service.icon}
-              </div>
-              <span className="text-xs sm:text-sm font-medium text-gray-700 text-center group-hover:text-purple-600 transition-colors">
-                {service.label}
-              </span>
-            </Link>
-          ))}
+      {/* ================= PLATFORM SERVICES — EDITORIAL ================= */}
+      <section className="relative overflow-hidden bg-[#fffff]">
+        {/* Organic background shapes (deep forest + warm sand) */}
+        <div className="pointer-events-none absolute inset-0">
+          <div className="absolute -top-40 -right-40 h-[34rem] w-[34rem] rounded-full bg-[#9333ea]/50 blur-3xl" />
         </div>
 
-        {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            ["🏠", "Trusted Shelters", "Verified shelters committed to ethical adoption and animal welfare."],
-            ["🐕", "Training Programs", "Professional trainers experienced with rescued and adopted pets."],
-            ["💊", "Medications & Care", "Trusted products, prescriptions, and preventive care guidance."],
-            ["🩺", "Veterinary Network", "Licensed clinics with access to your pet's adoption history."],
-          ].map(([icon, title, text]) => (
-            <div
-              key={title}
-              className="bg-white rounded-2xl shadow-lg p-8 text-center hover:-translate-y-1 hover:shadow-xl transition-all border-2 border-transparent hover:border-purple-200"
-            >
-              <div className="text-4xl mb-4">{icon}</div>
-              <h3 className="font-bold text-lg mb-2">{title}</h3>
-              <p className="text-gray-600 text-sm">{text}</p>
+        <div className="relative max-w-7xl mx-auto px-6 py-32">
+          {/* Eyebrow + Heading */}
+          <div className="max-w-3xl mb-16">
+            <div className="flex items-center gap-4 mb-8">
+              <span className="block h-px w-12 bg-[#1e3a2f]/40" />
+              <span className="text-xs tracking-[0.32em] uppercase text-[#1e3a2f]/70 font-medium">
+                Mūsų ekosistema
+              </span>
             </div>
-          ))}
+
+            <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-stone-900 font-light">
+              <span className="block">Viskas, ko reikia</span>
+              <span className="block italic font-normal text-[#1e3a2f] mt-1">
+                jūsų augintiniui.
+              </span>
+            </h2>
+
+            <p className="mt-10 text-stone-600 text-lg md:text-xl max-w-xl leading-relaxed">
+              Nuo įvaikinimo iki kasdienės priežiūros — viskas, ko reikia
+              augintinio gerovei, sutelkta į vieną kruopščiai sudėliotą vietą.
+            </p>
+
+            {/* Quiet trust line */}
+            <div className="mt-10 flex flex-wrap items-baseline gap-x-10 gap-y-3 text-sm text-stone-500">
+              {[
+                { value: "15k+", label: "aktyvių šeimininkų" },
+                { value: "4.9★", label: "įvertinimas" },
+                { value: "120+", label: "patikrinti partneriai" },
+              ].map((item) => (
+                <div key={item.label} className="flex items-baseline gap-2">
+                  <span className="font-serif text-2xl text-stone-900">{item.value}</span>
+                  <span className="tracking-wide">{item.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Minimal controls */}
+          <div className="flex items-center justify-end gap-2 mb-8">
+            <button
+              onClick={() => scrollByCards(-1)}
+              className="group inline-flex h-11 w-11 items-center justify-center rounded-full border border-stone-300 bg-white/60 backdrop-blur-sm text-[#1e3a2f] hover:bg-[#1e3a2f] hover:text-[#f7f1e6] hover:border-[#1e3a2f] transition-all duration-300"
+              aria-label="Atgal"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button
+              onClick={() => scrollByCards(1)}
+              className="group inline-flex h-11 w-11 items-center justify-center rounded-full border border-stone-300 bg-white/60 backdrop-blur-sm text-[#1e3a2f] hover:bg-[#1e3a2f] hover:text-[#f7f1e6] hover:border-[#1e3a2f] transition-all duration-300"
+              aria-label="Pirmyn"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Editorial cards */}
+          <div
+            ref={scrollerRef}
+            className="relative -mx-6 px-6 flex gap-8 overflow-x-auto pb-6 snap-x snap-mandatory scroll-px-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          >
+            {SERVICES.map((s, idx) => (
+              <Link
+                key={s.title}
+                to={s.link}
+                data-card="true"
+                className="group snap-start min-w-[88%] sm:min-w-[58%] lg:min-w-[38%] relative bg-[#f6f3fd] border border-stone-200 overflow-hidden transition-all duration-500 hover:border-[#1e3a2f]/40 hover:-translate-y-1 hover:shadow-[0_25px_60px_-25px_rgba(30,58,47,0.35)]"
+                style={{ animationDelay: `${idx * 100}ms` }}
+              >
+                {/* Number + image plate */}
+                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-[#f9f3fd] via-[#ede4f5] to-[#ece1f0]">
+                  <div className="absolute inset-0 bg-[#1e3a2f]/5" />
+                  <span className="absolute top-6 left-6 font-serif text-xs tracking-[0.3em] uppercase text-[#754d8c]/80">
+                    {String(idx + 1).padStart(2, "0")} / {String(SERVICES.length).padStart(2, "0")}
+                  </span>
+
+                  {/* Sculptural emoji — large, off-center */}
+                  <div className="absolute inset-0 flex items-center justify-center text-[8rem] opacity-90 select-none group-hover:scale-[1.06] transition-transform duration-700">
+                    {s.emoji || "🐾"}
+                  </div>
+
+                  {/* Bottom thin rule */}
+                  <div className="absolute bottom-0 left-6 right-6 h-px bg-[#1e3a2f]/30" />
+                </div>
+
+                <div className="p-8">
+                  <h3 className="font-serif text-2xl md:text-3xl font-normal text-stone-900 leading-tight mb-4 group-hover:text-[#1e3a2f] transition-colors duration-300">
+                    {s.title}
+                  </h3>
+
+                  <p className="text-stone-600 leading-relaxed text-[15px] mb-8 min-h-[3.5rem]">
+                    {s.description}
+                  </p>
+
+                  {s.stats && (
+                    <div className="grid grid-cols-3 gap-4 mb-8 pb-8 border-b border-stone-200">
+                      {s.stats.map((stat, i) => (
+                        <div key={i}>
+                          <div className="font-serif text-xl text-[#1e3a2f]">{stat.value}</div>
+                          <div className="text-[11px] tracking-wider uppercase text-stone-500 mt-1">{stat.label}</div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs tracking-[0.25em] uppercase font-medium text-[#1e3a2f]">
+                      Sužinoti daugiau
+                    </span>
+                    <span className="inline-block w-12 h-px bg-[#1e3a2f] group-hover:w-20 transition-all duration-500" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
-
-      {/* ================= FINAL CTA ================= */}
-      <section className="bg-white py-28 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Pasirengę pakeisti gyvenimą?
-        </h2>
-
-        <p className="text-gray-600 text-lg max-w-xl mx-auto mb-10">
-          Tūkstančiai gyvūnėlių laukia mylinčių namų. Pradėkite savo įvaikinimo kelionę jau šiandien.
-        </p>
-
-        <Link
-          to="/shelter"
-          className="inline-flex items-center px-10 py-4 rounded-full bg-[#6200EE] text-white font-semibold text-lg hover:bg-[#5300d6] shadow-lg hover:shadow-xl transition-all"
-        >
-          Pradėkite taikyti jau šiandien
-        </Link>
+{/* DONATION */}
+<section className="max-w-7xl mx-auto px-6 py-12">
+        <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <div className="grid md:grid-cols-[45%,55%] gap-0">
+            <div className="relative h-96 md:h-auto overflow-hidden">
+              <img src={donationPetImage} alt="Support pets" className="w-full h-full object-cover rounded-l-3xl" />
+            </div>
+            <div className="p-12 md:p-16 flex flex-col justify-center bg-gray-50">
+              <div className="inline-flex items-center gap-2 self-start mb-6 px-4 py-2 bg-red-50 rounded-full">
+                <Heart className="w-4 h-4 text-red-500" />
+                <span className="text-sm font-bold text-red-600">Parama</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">Padėkite mums pakeisti gyvenimus</h2>
+              <p className="text-lg text-gray-600 mb-10 leading-relaxed">
+                Jūsų parama padeda prieglaudoms teikti gyvybę gelbstinčią priežiūrą gyvūnams, kuriems to labiausiai reikia.
+              </p>
+              <a href="/donate"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-[#f99e1f] text-white rounded-xl font-bold text-lg hover:bg-[#e88d0e] transition-all shadow-lg hover:shadow-xl">
+                Paaukoti dabar <ArrowRight className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );

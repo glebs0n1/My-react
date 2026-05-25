@@ -1,0 +1,27 @@
+{
+  "school": "Gudrutis – šunų dresūros mokykla",
+  "website": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-72/",
+  "contact": {
+    "name": "Gudrutis",
+    "phone": null,
+    "email": null,
+    "address": "Klaipėda"
+  },
+  "about": {
+    "description": "Grupinės ir individualios šunų treniruotės Klaipėdoje. Bendras paklusnumas, teisinga socializacija, elgsenos problemų sprendimas ir online konsultacijos."
+  },
+  "services": [
+    "Grupinės treniruotės",
+    "Individualios treniruotės",
+    "Bendras paklusnumas",
+    "Socializacija",
+    "Elgsenos problemų sprendimas",
+    "Online konsultacijos"
+  ],
+  "prices": [],
+  "location": {
+    "city": "Klaipėda",
+    "coverage": "Klaipėda"
+  },
+  "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-dresura-klaipedoje-Gudrutis.jpg"
+}

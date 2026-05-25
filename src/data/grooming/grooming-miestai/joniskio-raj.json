@@ -1,0 +1,27 @@
+{
+  "citySlug": "joniskio-raj",
+  "city": "Joniškio raj.",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.434Z",
+  "salons": [
+    {
+      "title": "Agility klubas šunims Rudiškiai",
+      "businessName": "Zaris",
+      "city": "Joniškio raj.",
+      "citySlug": "joniskio-raj",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-64/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Agiliti-klubas-sunims-rudiskes.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Joniškio raj., Rudiskiai.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "citySlug": "klaipeda",
+  "city": "Klaipėda",
+  "totalSalons": 6,
+  "scrapedAt": "2026-02-20T15:00:57.432Z",
+  "salons": [
+    {
+      "title": "Gudrutis – šunų dresūros mokykla Klaipėdoje",
+      "businessName": "Gudrutis",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-72/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-dresura-klaipedoje-Gudrutis.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Grupinės ir individualios šunų treniruotės:\nBendras paklusnumas\nTeisinga socializacija\nElgsenos problemų sprendimas\nOnline konsultacijos",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra Klaipėdoje",
+      "businessName": "Geras šuo",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-40/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-Geras-suo.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://www.facebook.com/gerassuo/?locale=lt_LT",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra Klaipėdoje",
+      "businessName": "Ema Dog Soul",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-38/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-dogsoul-.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "https://www.facebook.com/EmaDogSoul",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Parduotuvė ir šunų dresūra Klaipėdoje ir r.",
+      "businessName": "Dogs Of Klaipėda",
+      "city": "Klaipėda | Klaipėdos raj.",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-37/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-Dogs-Of-Klaipeda-1.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Šunų dresūros pamokos Klaipėdoje ir Klaipėdos rajone, tinklapis:  www.dogsofklaipeda.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Good Šuo dresūros mokykla",
+      "businessName": "Good Šuo",
+      "city": "Klaipėda | Šilutė | Tauragė",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://www.facebook.com/GoodSuo",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Dresuros-mokykla-Good-suo.jpg",
+      "rating": 0,
+      "reviewCount": 8,
+      "price": null,
+      "description": "Mūsų mokykloje taikome naujausius pozityvios dresūros metodus, kad šuo paklustų dėl stipraus ryšio su šeimininku. Dirbame su įvairiausiomis veislėmis ir įvairaus amžiaus šunimis. Valdomas ir laimingas šuo - geras šuo - laimingi šeimininkai.",
+      "workingHours": "I-V 9:00-20:00, VI-VII 9:00-18:00",
+      "website": "www.facebook.com/GoodSuo",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": "+370 685 05383",
+      "email": "dargyte.deima@gmail.com",
+      "email": "",
+      "address": "Kampo g. 10 Grabupių km. Šilutės raj. , Silute, Lithuania, 99152",
+      "contactUrl": "Facebook puslapis: www.facebook.com/GoodSuo"
+    },
+    {
+      "title": "Klaipėdos dresūros mokykla",
+      "businessName": "Asociacija Tavo lt",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-10/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/inbound5648206995678407626-scaled.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 15 €",
+      "description": "🎓 Šunų ir jų šeimininkų mokykla „Tavo“",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

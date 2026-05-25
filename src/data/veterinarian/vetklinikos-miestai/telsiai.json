@@ -1,0 +1,191 @@
+{
+  "city": "Telšiai",
+  "citySlug": "telsiai",
+  "pageTitle": "Veterinarijos klinikos Telšiuose",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Telšiuose. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 2,
+  "scrapedAt": "2026-02-19T15:54:52.485Z",
+  "clinics": [
+    {
+      "name": "Veterinarijos Klinika",
+      "city": "Telšiai",
+      "citySlug": "telsiai",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37044452345",
+      "url": "https://www.vetklinikos.lt/klinika/veterinarijos-klinika-1",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Veterinarijos Klinika",
+      "address": "Plungės g. 80",
+      "addressCity": "Telšiai 87122",
+      "email": "info@vetklinika-telsiai.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "K. Vasiliausko Veterinarijos Ambulatorija",
+          "hours": "Telšiai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Telšiai mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.980124,22.2015814&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "K. Vasiliausko Veterinarijos Ambulatorija",
+      "city": "Telšiai",
+      "citySlug": "telsiai",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "mikroschema"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37044451234",
+      "url": "https://www.vetklinikos.lt/klinika/k-vasiliausko-veterinarijos-ambulatorija",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "K. Vasiliausko Veterinarijos Ambulatorija",
+      "address": "J. Biliūno g. 40",
+      "addressCity": "Telšiai 87101",
+      "email": "vasiliauskas@vet.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "15:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "15:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "15:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "15:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "15:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Veterinarijos Klinika",
+          "hours": "Telšiai"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "mikroschema",
+        "15:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "3+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Telšiai mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9818423,22.2286243&hl=lt&z=15&output=embed"
+    }
+  ]
+}

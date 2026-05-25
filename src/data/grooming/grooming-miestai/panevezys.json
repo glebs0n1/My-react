@@ -1,0 +1,27 @@
+{
+  "citySlug": "panevezys",
+  "city": "Panevėžys",
+  "totalSalons": 1,
+  "scrapedAt": "2026-02-20T15:00:57.438Z",
+  "salons": [
+    {
+      "title": "Šunų viešbutis Panevėžyje",
+      "businessName": "Roksis",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-46/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-viesbutis-Roksis-Panevezyje.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Adresas: Vlado Rozmano 1b, Panevezys",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

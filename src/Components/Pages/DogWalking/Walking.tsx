@@ -131,12 +131,11 @@ const DogWalking: React.FC = () => {
         {filteredWalkers.length === 0 ? (
           <div className="flex flex-col items-center py-24 text-center">
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              No dog walkers found
-            </h3>
+            Deja, nerasta nė vieno šunų vedžiojimo paslaugų teikėjo                        </h3>
 
             <p className="text-gray-500 max-w-md">
-              Try another location to see available walkers.
-            </p>
+           Bandykite kitą vietovę, kad pamatytumėte laisvus vedlius.
+                        </p>
 
             <button
               onClick={() => setCityQuery("")}

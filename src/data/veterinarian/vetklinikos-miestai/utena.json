@@ -1,0 +1,294 @@
+{
+  "city": "Utena",
+  "citySlug": "utena",
+  "pageTitle": "Veterinarijos klinikos Utenoje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Utenoje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 3,
+  "scrapedAt": "2026-02-19T15:54:45.322Z",
+  "clinics": [
+    {
+      "name": "Vetukas",
+      "city": "Utena",
+      "citySlug": "utena",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060747424",
+      "url": "https://www.vetklinikos.lt/klinika/vetukas",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Vetukas",
+      "address": "J. Basanavičiaus g. 117A",
+      "addressCity": "Utena 28225",
+      "email": "info@vetukas.lt",
+      "website": "https://vetukas.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Utenos Veterinarijos Klinika",
+          "hours": "Utena"
+        },
+        {
+          "day": "Trivitas",
+          "hours": "Utena"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "mikroschema",
+        "odontologija",
+        "10:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=55.5019295,25.6167158&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Utenos Veterinarijos Klinika",
+      "city": "Utena",
+      "citySlug": "utena",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068678900",
+      "url": "https://www.vetklinikos.lt/klinika/utenos-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Utenos Veterinarijos Klinika",
+      "address": "K. Donelaičio g. 10",
+      "addressCity": "Utena 28141",
+      "email": "info@utenosvet.lt",
+      "website": "https://utenosvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "08:00 - 16:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Vetukas",
+          "hours": "Utena"
+        },
+        {
+          "day": "Trivitas",
+          "hours": "Utena"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "mikroschema",
+        "dermatologija",
+        "odontologija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.49825689999999,25.594985&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Trivitas",
+      "city": "Utena",
+      "citySlug": "utena",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37038961234",
+      "url": "https://www.vetklinikos.lt/klinika/trivitas",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "Trivitas",
+      "address": "J. Basanavičiaus g. 47",
+      "addressCity": "Utena 28216",
+      "email": "info@trivitas.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Utenos Veterinarijos Klinika",
+          "hours": "Utena"
+        },
+        {
+          "day": "Vetukas",
+          "hours": "Utena"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Utena mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [],
+      "mapSrc": "https://maps.google.com/maps?q=55.4969457,25.5954212&hl=lt&z=15&output=embed"
+    }
+  ]
+}

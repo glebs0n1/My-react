@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 
 import logo from "../../assets/logo.png";
@@ -17,8 +17,25 @@ const NAV_ITEMS = [
   { name: "Patarimai", path: "/medications", icon: medicationsIcon },
   { name: "Dresavimas", path: "/training", icon: trainingIcon },
   { name: "Veterinarijos", path: "/veterinarian", icon: vetIcon },
-  { name: "Kirpykla", path: "/Grooming", icon: vetIcon },
+  { name: "Kirpykla", path: "/grooming", icon: vetIcon },
 ];
+
+const TRANSPARENT_HERO_PATHS = new Set([
+  "/",
+  "/medications",
+  "/vaistai",
+  "/training",
+  "/dresura",
+  "/veterinarian",
+  "/veterinaras",
+  "/grooming",
+  "/kirpimas",
+  "/shelter",
+  "/prieglaudos",
+  "/about",
+  "/apie-mus",
+  "/walking",
+]);
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -27,7 +44,12 @@ const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const { user, isAuthenticated, logout } = useAuth();
-  
+  const location = useLocation();
+
+  // Normalize so capitalized URLs (e.g. /Grooming) still match the lowercase set.
+  const hasTransparentHero = TRANSPARENT_HERO_PATHS.has(location.pathname.toLowerCase());
+  const showSolidHeader = isScrolled || !hasTransparentHero;
+
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
@@ -103,11 +125,11 @@ const Header = () => {
 
   return (
     <>
-      <header 
+      <header
         className={`
           fixed top-0 w-full z-50 transition-all duration-300
-          ${isScrolled 
-            ? 'bg-[#5b2bc9] shadow-md' 
+          ${showSolidHeader
+            ? 'bg-[#5b2bc9] shadow-md'
             : 'bg-transparent'
           }
         `}

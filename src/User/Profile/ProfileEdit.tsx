@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import toast, { Toaster } from "react-hot-toast";
+import CityAutocomplete from "../../Components/Search/CityAutocomplete";
 
 /* ================= INPUT FIELD COMPONENT ================= */
 type InputFieldProps = {
@@ -237,12 +238,20 @@ const ProfileEditPage: React.FC = () => {
                 onChange={handleChange}
               />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                <InputField
-                  label="City"
-                  name="city"
-                  value={formData.city}
-                  onChange={handleChange}
-                />
+                <div>
+                  <label className="block text-sm font-semibold mb-2 text-gray-700">
+                    City
+                  </label>
+                  <CityAutocomplete
+                    name="city"
+                    value={formData.city}
+                    onChange={(v) =>
+                      setFormData((prev) => ({ ...prev, city: v }))
+                    }
+                    placeholder="Start typing… e.g. Vilnius"
+                    inputClassName="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+                  />
+                </div>
                 <InputField
                   label="Country"
                   name="country"

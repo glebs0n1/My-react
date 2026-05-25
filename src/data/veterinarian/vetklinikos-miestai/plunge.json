@@ -1,0 +1,193 @@
+{
+  "city": "Plungė",
+  "citySlug": "plunge",
+  "pageTitle": "Veterinarijos klinikos Plungėje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Plungėje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 2,
+  "scrapedAt": "2026-02-19T15:54:56.016Z",
+  "clinics": [
+    {
+      "name": "Plungės Veterinarijos Gydykla",
+      "city": "Plungė",
+      "citySlug": "plunge",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37044856789",
+      "url": "https://www.vetklinikos.lt/klinika/plunges-veterinarijos-gydykla",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Plungės Veterinarijos Gydykla",
+      "address": "Kalniškių kelio g. 7, Varkalių k.",
+      "addressCity": "Plungė 90105",
+      "email": "info@plungesvet.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "L. Gricienės Veterinarijos Paslaugų Įmonė",
+          "hours": "Plungė"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "ultragaras",
+        "laboratorija",
+        "mikroschema",
+        "dermatologija",
+        "kardiologija",
+        "odontologija",
+        "sterilizacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.8946415,21.8392135&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "L. Gricienės Veterinarijos Paslaugų Įmonė",
+      "city": "Plungė",
+      "citySlug": "plunge",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "price": {
+        "symbols": "€",
+        "label": "Pigiau",
+        "raw": "€ (Pigiau)"
+      },
+      "phone": "+37044867890",
+      "url": "https://www.vetklinikos.lt/klinika/l-gricienes-veterinarijos-paslaugu-imone",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "L. Gricienės Veterinarijos Paslaugų Įmonė",
+      "address": "Kalniškių g. 37",
+      "addressCity": "Plungė 90154",
+      "email": "l.griciene@vet.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Plungės Veterinarijos Gydykla",
+          "hours": "Plungė"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija"
+      ],
+      "whyUs": [
+        {
+          "title": "Patyrę veterinarai",
+          "description": "Profesionali komanda rūpinasi jūsų augintiniais"
+        },
+        {
+          "title": "Platus paslaugų spektras",
+          "description": "2+ veterinarijos paslaugų"
+        },
+        {
+          "title": "Patogi vieta",
+          "description": "Lengvai randama Plungė mieste"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.9004767,21.8452884&hl=lt&z=15&output=embed"
+    }
+  ]
+}

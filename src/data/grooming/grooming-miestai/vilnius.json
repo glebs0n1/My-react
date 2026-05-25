@@ -1,0 +1,397 @@
+{
+  "citySlug": "vilnius",
+  "city": "Vilnius",
+  "totalSalons": 20,
+  "scrapedAt": "2026-02-20T15:00:57.433Z",
+  "salons": [
+    {
+      "title": "Dresūros mokykla Vilniuje",
+      "businessName": "Dresuotas ŠUO",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-71/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Dresuotas-suo-dresuros-mokykla-logo.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Copyright © Pupsy, 2025. Visos teisės saugomos. Sprendimas: Bresmedia.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų viešbutis, dienos centras ir dresūra",
+      "businessName": "Geri namai",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-69/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Dresura-viesbutis-geri-namai-vilniuje.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Šunų viešbučio ir dienos centro adresas:\nBukčių g. 8, Vilnius",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Hendlingas, Dresūra ir Fitnesas",
+      "businessName": "Show Class",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-14/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Show-class-sunu-dresura.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Hendlingo ir ringo dresūros pamokos, šunu dresūra ir elgesio korekcija, salės nuoma",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Dresūros mokykla Vilniuje",
+      "businessName": "Great Pet",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-13/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Sunu-dresuros-mokykla-Great-Pet-Vilniuje.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Šunų dresūros mokykla Buivydiškių g. 10 Šeškinėje.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Retriverių veislynas „Basteta”",
+      "businessName": "Basteta",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Veisejas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-53/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/02/Basteta-retriveriu-veislynas.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis –https://www.retriveris.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūros mokykla Šarmas",
+      "businessName": "Šarmas",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-43/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresuros-mokykla-Sarmas.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : www.sarmas.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūros pamokos Vilniuje",
+      "businessName": "Dog Trainer",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-36/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/sunu-dresura-dogtrainer.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Šunų dresūra Vilniuje, Šeškinės g. 22",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra, Viešbutis",
+      "businessName": "Šunų Dresūra",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuotojas",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-35/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-viesbutis.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis : www.sunudresura.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Canis.lt Dresūros mokykla",
+      "businessName": "Canis.lt",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-31/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Dresuros-mokykla-canis.lt_.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https: https://www.canis.lt",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Smart Dog Profesionali šunų dresūra",
+      "businessName": "Smart Dog",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-30/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Smart_dog_logo_bw.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Tinklapis: https://smartdog.lt      Registracija galima atlikti puslapyje.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Mažaveislių šunų viešbutis",
+      "businessName": "Barking Star",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-25/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-viesbutis-Barking-star.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Barking Star – tai jaukus ir saugus šunų viešbutis pačiame Vilniaus mieste, sukurtas specialiai mažų veislių augintiniams.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Kirpykla, Viešbutis , Kursai",
+      "businessName": "Zoohotel",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Kaciu Viesbutis",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-23/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/zoohotel.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Gyvūnų kirpykla, viešbutis. Šunų kirpimo kursai.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Viešbutis, Kirpykla ir kitos paslaugos",
+      "businessName": "Dogiday",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-21/",
+      "image": "https://pupsy.lt/wp-content/uploads/2026/01/Dogy-day.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "Siekiame, kad viešnagė būtų kupina įspūdžių, tad šuniukai daug laiko praleidžia lauke – vaikštinėdami po mišką bei dalyvaudami grupiniuose arba individualiuose žaidimuose. Patogumui užtikrinti visi kambarėliai įrengti su šildomomis grindimis, patogiais guoliais bei minkštais apklotais ir yra tvarkomi kas dieną. Rekuperacinė vėdinimo sistema ir oro kondicionieriai užtikrina malonų poilsį net karščiausią vasaros dieną. Įprastai šuniukus maitiname šeimininkų atsivežtu maisteliu, tačiau pageidavus, už papildomą kainą, galime pasiūlyti BARKING HEADS Chop Lickin’ Lamb.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Vastori Dresūros Mokykla, Parduotuvė",
+      "businessName": "Vastori Dog Training",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-20/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/12/Vastori.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": null,
+      "description": "VASTORI Dog Training-šunų dresūros mokykla, teikianti profesionalias dresūros paslaugas ir šunų prekių parduotuvė.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Gyvūnų viešbutis, Šunų dresūra, Kirpykla",
+      "businessName": "Barkvilis",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla",
+        "Kaciu Viesbutis",
+        "Kirpykla",
+        "Sunu Viesbutis"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-15/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/11/barkvilio-logo.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 25 €",
+      "description": "Laiką taupantys šeimininkai savo šuniui užsako SPA dienos programą –  atveža ryte prieš darbą, o pasiima vakare po darbų ne tik švarų ir gražų, bet ir gerai praleidusį laiką dienos centre.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra Vilniuje",
+      "businessName": "Keturkojų GURU (4guru.lt)",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-12/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/Geriausias-scaled.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 15 €",
+      "description": "Siūlome visapusišką, šiuolaikišką ir subalansuotą šunų treniravimą, atitinkantį kiekvieno augintinio poreikius.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra ir elgsenos korekcija Vilniuje",
+      "businessName": "Agnė Bagdanskytė - Surgailė",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuotojas"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-11/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/IMG_20250102_214013.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 15 €",
+      "description": "Esu Agnė Bagdanskytė, šunų dresūros trenerė Keturkojų GURU mokykloje. Dresūra man – tai ne tik komandos ar paklusnumas, bet ir ryšys tarp šuns ir žmogaus, pagrįstas pasitikėjimu, supratimu bei kantrybe.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "www.tarnybinessunininkystesklubas.lt",
+      "businessName": "Všį Tarnybinės šunininkystės klubas",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-5/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/received_2348280022101121.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 40 €",
+      "description": "Tarnybinės šunininkystės klubas įkurtas 2009 metais. Jau daugiau nei 10 metų jam vadovauja aukščiausios kvalifikacijos specialistai kinologijos srityje.",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Gyvūnų kirpykla Kačių ir šunų",
+      "businessName": "Zoogroom.lt",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Kirpykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-2/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/IMG_20251012_191622.jpg",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 30eur €",
+      "description": "Gyvūnų kirpykla, dirbanti 6.3 metu. Kačių ir šunų kirpimas, isšukavimas.Kalvariju g 172A",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    },
+    {
+      "title": "Šunų dresūra Vilniuje, Balsiuose",
+      "businessName": "Fracco.lt",
+      "city": "Vilnius",
+      "citySlug": "vilnius",
+      "serviceTypes": [
+        "Dresuotojas",
+        "Dresuros Mokykla"
+      ],
+      "url": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis/",
+      "image": "https://pupsy.lt/wp-content/uploads/2025/10/webui-fracco_png.png",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Nuo 30 €",
+      "description": "Sveiki,",
+      "galleryImages": [],
+      "reviews": [],
+      "phone": null,
+      "contactUrl": "https://pupsy.lt/prisijungti/"
+    }
+  ]
+}

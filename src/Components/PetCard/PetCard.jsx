@@ -1,7 +1,6 @@
 import { mapAnimalSize } from "../../utils/sizeMapper";
 import React from "react";
 import { Link } from "react-router-dom";
-import LikeButton from "../Like/LikeButton";
 import { MapPin, Heart, Calendar, User, Ruler } from "lucide-react";
 import { Pet } from "../../types/Pet";
 
@@ -39,11 +38,6 @@ const PetCard: React.FC<{ pet: Pet }> = ({ pet }) => {
               </span>
             </div>
           )}
-
-          <LikeButton
-            item={pet}
-            className="absolute top-3 right-3 w-10 h-10 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg z-10 hover:scale-110 transition-all"
-          />
 
           <img
             src={image}

@@ -1,0 +1,24 @@
+{
+  "school": "Geras Šuo – šunų dresūra Klaipėdoje",
+  "website": "https://www.facebook.com/gerassuo/?locale=lt_LT",
+  "contact": {
+    "name": "Geras Šuo",
+    "phone": null,
+    "email": null,
+    "address": "Klaipėda"
+  },
+  "about": {
+    "description": "Šunų dresūros paslaugos Klaipėdoje. Susisiekti per Facebook."
+  },
+  "services": [
+    "Šunų dresūra",
+    "Paklusnumo mokymai",
+    "Elgesio korekcija"
+  ],
+  "prices": [],
+  "location": {
+    "city": "Klaipėda",
+    "coverage": "Klaipėda"
+  },
+  "image": "https://pupsy.lt/wp-content/uploads/2026/01/Sunu-dresura-Geras-suo.png"
+}

@@ -22,6 +22,7 @@ interface ToastContextType {
   toasts: Toast[];
   addToast: (toast: Omit<Toast, 'id'>) => void;
   removeToast: (id: string) => void;
+  clearAll: () => void;
   showSuccess: (message: string, duration?: number) => void;
   showError: (message: string, duration?: number) => void;
   showWarning: (message: string, duration?: number) => void;
@@ -36,6 +37,10 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const removeToast = useCallback((id: string) => {
     setToasts((prev) => prev.filter((toast) => toast.id !== id));
+  }, []);
+
+  const clearAll = useCallback(() => {
+    setToasts([]);
   }, []);
 
   const addToast = useCallback((toast: Omit<Toast, 'id'>) => {
@@ -72,7 +77,7 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     addToast({
       type: 'login-prompt',
       message: 'Norėdami išsaugoti mėgstamiausius',
-      duration: 0, // Don't auto-dismiss
+      duration: 10000,
       action: {
         label: 'Prisijungti',
         onClick: onLogin,
@@ -90,6 +95,7 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         toasts,
         addToast,
         removeToast,
+        clearAll,
         showSuccess,
         showError,
         showWarning,

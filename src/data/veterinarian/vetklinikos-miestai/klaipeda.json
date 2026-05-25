@@ -1,0 +1,1214 @@
+{
+  "city": "Klaipėda",
+  "citySlug": "klaipeda",
+  "pageTitle": "Veterinarijos klinikos Klaipėdoje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Klaipėdoje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 10,
+  "scrapedAt": "2026-02-19T15:54:10.159Z",
+  "clinics": [
+    {
+      "name": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "chirurgija",
+        "kardiologija",
+        "mikroschema"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37067102331",
+      "url": "https://www.vetklinikos.lt/klinika/mb-mambavet-paryziaus-komunos-g-2",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+      "address": "Paryžiaus Komunos g. 2, Klaipėda, 91149 Klaipėdos m. sav.",
+      "addressCity": "Klaipėda 91149",
+      "email": "mindaugas@mambavet.lt",
+      "website": "https://mambaveterinaras.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "8 Drambliai Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Dr. Markizas",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "chirurgija",
+        "kardiologija",
+        "mikroschema",
+        "sterilizacija",
+        "dermatologija",
+        "eutanazija",
+        "konsultacija",
+        "odontologija",
+        "ultragaras",
+        "laboratorija",
+        "vakcinacija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų",
+        "Rusų"
+      ],
+      "payment": [
+        "Grynais",
+        "Kortele"
+      ],
+      "amenities": [
+        "Privati aikštelė",
+        "Pritaikyta neįgaliesiems"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=0,0&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Vetema Klaipėda",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060434947",
+      "url": "https://www.vetklinikos.lt/klinika/vetema-klaipeda",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Vetema Klaipėda",
+      "address": "Žalioji g. 22, Ginduliai",
+      "addressCity": "Klaipėda",
+      "email": "vetema.klaipeda@gmail.com",
+      "website": "https://vetema.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Dr. Markizas",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "sterilizacija",
+        "09:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7342963,21.1924603&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "EMU by Vetema",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37067774776",
+      "url": "https://www.vetklinikos.lt/klinika/emu-by-vetema",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "EMU by Vetema",
+      "address": "Vingio g. 2",
+      "addressCity": "Klaipėda",
+      "email": "vetema.klaipeda@gmail.com",
+      "website": "https://vetema.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Dr. Markizas",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "sterilizacija",
+        "09:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.6745056,21.191501&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Varpų Veterinarijos Gydykla",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37065598996",
+      "url": "https://www.vetklinikos.lt/klinika/varpu-veterinarijos-gydykla",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "Varpų Veterinarijos Gydykla",
+      "address": "Varpų g. 19",
+      "addressCity": "Klaipėda",
+      "email": "info@varpuvet.lt",
+      "website": "https://varpuvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Dr. Markizas",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "kardiologija",
+        "sterilizacija",
+        "09:00 - 17:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.6643206,21.182081&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "PetCity Klaipėda",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37046473335",
+      "url": "https://www.vetklinikos.lt/klinika/petcity-klaipeda",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "PetCity Klaipėda",
+      "address": "Liepų g. 81",
+      "addressCity": "Klaipėda",
+      "email": "info@petcity.lt",
+      "website": "https://www.petcity.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "10:00 - 19:00"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "8 Drambliai Klaipėda",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "sterilizacija",
+        "10:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7224614,21.1542253&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Pelytės Palata",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37060466167",
+      "url": "https://www.vetklinikos.lt/klinika/pelytes-palata",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&q=80",
+      "fullName": "Pelytės Palata",
+      "address": "Baltijos pr. 111 C-2",
+      "addressCity": "Klaipėda",
+      "email": "pelytespalata@gmail.com",
+      "website": "https://pelytespalata.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "8 Drambliai Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Dr. Markizas",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Varpų Veterinarijos Gydykla",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "odontologija",
+        "mikroschema",
+        "eutanazija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.68430009999999,21.1565467&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Lino klinika",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37069937859",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-lino-klinika",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+      "fullName": "DR.VET Lino klinika",
+      "address": "Debreceno g. 5",
+      "addressCity": "Klaipėda",
+      "email": "linoklinika@drvet.lt",
+      "website": "https://drvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 21:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 21:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "8 Drambliai Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Varpų Veterinarijos Gydykla",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "endoskopija",
+        "kardiologija",
+        "09:00 - 21:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.6841015,21.1791305&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "DR.VET Aumura",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37067014169",
+      "url": "https://www.vetklinikos.lt/klinika/drvet-aumura",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "DR.VET Aumura",
+      "address": "Jūreivių g. 9",
+      "addressCity": "Klaipėda",
+      "email": "aumura@drvet.lt",
+      "website": "https://drvet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 19:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 19:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "8 Drambliai Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Pelytės Palata",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "08:00 - 19:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų",
+        "Rusų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.6753198,21.1643458&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Dr. Markizas",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "Nežinoma",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37069090094",
+      "url": "https://www.vetklinikos.lt/klinika/dr-markizas",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "Dr. Markizas",
+      "address": "Vyturio g. 21A",
+      "addressCity": "Klaipėda",
+      "email": "drmarkizas@gmail.com",
+      "website": "https://drmarkizas.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "konsultacija",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 17:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "EMU by Vetema",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "dermatologija",
+        "sterilizacija",
+        "eutanazija",
+        "09:00 - 17:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Parkavimas"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.667181,21.1941691&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "8 Drambliai Klaipėda",
+      "city": "Klaipėda",
+      "citySlug": "klaipeda",
+      "status": "24/7",
+      "isOpen": false,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€€",
+        "label": "Brangiau",
+        "raw": "€€€ (Brangiau)"
+      },
+      "phone": "+37061288788",
+      "url": "https://www.vetklinikos.lt/klinika/8-drambliai-klaipeda",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "8 Drambliai Klaipėda",
+      "address": "Liepų g. 73",
+      "addressCity": "Klaipėda",
+      "email": "klaipeda@8drambliai.lt",
+      "website": "https://www.8drambliai.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 23:59",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "00:00 - 23:59"
+        },
+        {
+          "day": "DR.VET Aumura",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "DR.VET Lino klinika",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "MB ,,MambaVET\" Paryžiaus komunos g. 2",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "PetCity Klaipėda",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Pelytės Palata",
+          "hours": "Klaipėda"
+        },
+        {
+          "day": "Vetema Klaipėda",
+          "hours": "Klaipėda"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "rentgenas",
+        "ultragaras",
+        "odontologija",
+        "mikroschema",
+        "kardiologija",
+        "dermatologija",
+        "00:00 - 23:59"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        },
+        {
+          "title": "Pagalba 24/7",
+          "description": "Skubi pagalba bet kuriuo paros metu"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės",
+        "Paukščiai",
+        "Ropliai",
+        "Smulkūs žinduoliai"
+      ],
+      "languages": [
+        "Lietuvių",
+        "Anglų"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7189389,21.1512091&hl=lt&z=15&output=embed"
+    }
+  ]
+}

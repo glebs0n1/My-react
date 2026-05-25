@@ -1,0 +1,652 @@
+{
+  "city": "Panevėžys",
+  "citySlug": "panevezys",
+  "pageTitle": "Veterinarijos klinikos Panevėžyje",
+  "pageDesc": "Raskite geriausias veterinarijos klinikas Panevėžyje. Palyginimui pateikiame visas registruotas klinikas su aktualiais kontaktais ir darbo laiku.",
+  "totalClinics": 6,
+  "scrapedAt": "2026-02-19T15:54:27.732Z",
+  "clinics": [
+    {
+      "name": "VetCentre",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37066044844",
+      "url": "https://www.vetklinikos.lt/klinika/vetcentre",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&q=80",
+      "fullName": "VetCentre",
+      "address": "Ukmergės g. 26, PC City Bumas",
+      "addressCity": "Panevėžys 35200",
+      "email": "info@vetcentre.lt",
+      "website": "https://vetcentre.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "08:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 15:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Rožyno veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "Kranto veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Jasiūno veterinarinė veikla",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Veikšo veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetBonita",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "rentgenas",
+        "sterilizacija",
+        "08:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7279719,24.369824&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "VetBonita",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37065815051",
+      "url": "https://www.vetklinikos.lt/klinika/vetbonita",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&q=80",
+      "fullName": "VetBonita",
+      "address": "J. Janonio g. 5",
+      "addressCity": "Panevėžys 35101",
+      "email": "info@vetbonita.lt",
+      "website": "https://www.vetbonita.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Kranto veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Jasiūno veterinarinė veikla",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Veikšo veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "Rožyno veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetCentre",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "sterilizacija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.741253,24.324387&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Rožyno veterinarijos klinika",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37045581912",
+      "url": "https://www.vetklinikos.lt/klinika/rozyno-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d4?w=800&q=80",
+      "fullName": "Rožyno veterinarijos klinika",
+      "address": "Rožių g. 39A",
+      "addressCity": "Panevėžys 37465",
+      "email": "info@rvk.lt",
+      "website": "https://www.rvk.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 20:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 20:00"
+        },
+        {
+          "day": "VetCentre",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "Kranto veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Jasiūno veterinarinė veikla",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Veikšo veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetBonita",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "rentgenas",
+        "sterilizacija",
+        "09:00 - 20:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.74972870000001,24.3609106&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "R. Veikšo veterinarijos klinika",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068000000",
+      "url": "https://www.vetklinikos.lt/klinika/r-veikso-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=800&q=80",
+      "fullName": "R. Veikšo veterinarijos klinika",
+      "address": "Pajuostės pl. 12",
+      "addressCity": "Panevėžys 36104",
+      "email": "info@veiksovet.lt",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "10:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Kranto veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Jasiūno veterinarinė veikla",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "Rožyno veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetBonita",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetCentre",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "sterilizacija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7284861,24.3843212&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "R. Jasiūno veterinarinė veikla",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37045442761",
+      "url": "https://www.vetklinikos.lt/klinika/r-jasiuno-veterinarine-veikla",
+      "image": "https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80",
+      "fullName": "R. Jasiūno veterinarinė veikla",
+      "address": "Savitiškio g. 21-1B",
+      "addressCity": "Panevėžys 37370",
+      "email": "robertasjjj@gmail.com",
+      "website": "https://krasauskas.com/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 14:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "Nedirbame"
+        },
+        {
+          "day": "Kranto veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "Rožyno veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetCentre",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Veikšo veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetBonita",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "sterilizacija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.7337046,24.3122768&hl=lt&z=15&output=embed"
+    },
+    {
+      "name": "Kranto veterinarijos klinika",
+      "city": "Panevėžys",
+      "citySlug": "panevezys",
+      "status": "Atidaryta",
+      "isOpen": true,
+      "tags": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija"
+      ],
+      "price": {
+        "symbols": "€€",
+        "label": "Vidutiniškai",
+        "raw": "€€ (Vidutiniškai)"
+      },
+      "phone": "+37068417332",
+      "url": "https://www.vetklinikos.lt/klinika/kranto-veterinarijos-klinika",
+      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80",
+      "fullName": "Kranto veterinarijos klinika",
+      "address": "Kranto g. 59",
+      "addressCity": "Panevėžys 35158",
+      "email": "info@krantovet.lt",
+      "website": "https://krantovet.lt/?ref=vetklinikos.lt",
+      "workingHoursLabel": "Atidaryta iki 18:00",
+      "workingHours": [
+        {
+          "day": "Pirmadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Antradienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Trečiadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Ketvirtadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Penktadienis",
+          "hours": "09:00 - 18:00"
+        },
+        {
+          "day": "Šeštadienis",
+          "hours": "09:00 - 12:00"
+        },
+        {
+          "day": "Sekmadienis",
+          "hours": "09:00 - 12:00"
+        },
+        {
+          "day": "Rožyno veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetCentre",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Jasiūno veterinarinė veikla",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "R. Veikšo veterinarijos klinika",
+          "hours": "Panevėžys"
+        },
+        {
+          "day": "VetBonita",
+          "hours": "Panevėžys"
+        }
+      ],
+      "services": [
+        "konsultacija",
+        "vakcinacija",
+        "chirurgija",
+        "laboratorija",
+        "ultragaras",
+        "sterilizacija",
+        "09:00 - 18:00"
+      ],
+      "whyUs": [
+        {
+          "title": "Laboratorija vietoje",
+          "description": "Kraujo tyrimai tą pačią dieną"
+        },
+        {
+          "title": "Saugios operacijos",
+          "description": "Sterili operacinė su šiuolaikine įranga"
+        },
+        {
+          "title": "Vaistinė vietoje",
+          "description": "Vaistai iš karto po konsultacijos"
+        }
+      ],
+      "animals": [
+        "Šunys",
+        "Katės"
+      ],
+      "languages": [
+        "Lietuvių"
+      ],
+      "payment": [],
+      "amenities": [
+        "Privati aikštelė"
+      ],
+      "mapSrc": "https://maps.google.com/maps?q=55.73651229999999,24.3585749&hl=lt&z=15&output=embed"
+    }
+  ]
+}

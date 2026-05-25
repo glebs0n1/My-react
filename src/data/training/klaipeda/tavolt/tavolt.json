@@ -1,0 +1,30 @@
+{
+  "school": "Asociacija Tavo – Klaipėdos dresūros mokykla",
+  "website": "https://pupsy.lt/paslaugos/mano-paslaugu-puslapis-10/",
+  "contact": {
+    "name": "Asociacija Tavo lt",
+    "phone": null,
+    "email": null,
+    "address": "Klaipėda"
+  },
+  "about": {
+    "description": "Šunų ir jų šeimininkų mokykla „Tavo“ Klaipėdoje. Paklusnumo mokymai ir socializacija. Turime 150 m² puikiai įrengtą salę su kilimine danga ir veidrodžiais, kurioje patogu mokytis tiek individualiai, tiek grupėse. Mokome įvairių veislių ir amžiaus šunis, taikydami šiuolaikinius metodus, atsižvelgdami į kiekvieno šuns veislės ypatumus arba individualumą."
+  },
+  "services": [
+    "Paklusnumo mokymai",
+    "Socializacija",
+    "Grupinės treniruotės",
+    "Individualios treniruotės"
+  ],
+  "prices": [
+    {
+      "service": "Dresūros pamokos",
+      "price": "nuo 15 €"
+    }
+  ],
+  "location": {
+    "city": "Klaipėda",
+    "coverage": "Klaipėda"
+  },
+  "image": "https://pupsy.lt/wp-content/uploads/2025/10/inbound5648206995678407626-scaled.jpg"
+}

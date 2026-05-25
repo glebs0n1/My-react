@@ -1,33 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ===== Home ===== -->
   <url>
-    <loc>https://petLietuva.lt/</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://petlietuva.lt/</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- ===== Service hubs (Lithuanian slugs are the canonical ones) ===== -->
   <url>
-    <loc>https://petLietuva.lt/prieglaudos</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://petlietuva.lt/prieglaudos</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/prieglaudos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/shelter"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/veterinaras</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/veterinaras"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/veterinarian"/>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://petLietuva.lt/veterinaras</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://petlietuva.lt/dresura</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/dresura"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/training"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/kirpimas</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/kirpimas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/grooming"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/vaistai</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ===== Information pages ===== -->
+  <url>
+    <loc>https://petlietuva.lt/apie-mus</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/apie-mus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/about"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/dazniausiai-uzduodami-klausimai</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/dazniausiai-uzduodami-klausimai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/faq"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/darbas</loc>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://petlietuva.lt/darbas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petlietuva.lt/careers"/>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/kontaktai</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/partnerystės</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ===== Animal categories ===== -->
+  <url>
+    <loc>https://petlietuva.lt/dogs</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://petLietuva.lt/dresura</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://petlietuva.lt/cats</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://petLietuva.lt/vaistai</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://petlietuva.lt/other-animals</loc>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ===== Article landing pages ===== -->
+  <url>
+    <loc>https://petlietuva.lt/health/skubus-atvejai</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/medications/allergies-itching</loc>
+    <lastmod>2025-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://petlietuva.lt/medications/anxiety-sedation</loc>
+    <lastmod>2025-04-08</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
